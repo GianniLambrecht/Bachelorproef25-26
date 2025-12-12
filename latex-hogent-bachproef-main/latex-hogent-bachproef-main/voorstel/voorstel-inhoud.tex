@@ -1,22 +1,13 @@
+%==============================================================================
+% voorstel-inhoud.tex
+% Inhoud voor het onderzoeksvoorstel van Gianni Lambrecht
+%==============================================================================
+
 %---------- Inleiding ---------------------------------------------------------
-
-% TODO: Is dit voorstel gebaseerd op een paper van Research Methods die je
-% vorig jaar hebt ingediend? Heb je daarbij eventueel samengewerkt met een
-% andere student?
-% Zo ja, haal dan de tekst hieronder uit commentaar en pas aan.
-
-%\paragraph{Opmerking}
-
-% Dit voorstel is gebaseerd op het onderzoeksvoorstel dat werd geschreven in het
-% kader van het vak Research Methods dat ik (vorig/dit) academiejaar heb
-% uitgewerkt (met medesturent VOORNAAM NAAM als mede-auteur).
-% 
-
-\section{Inleiding}%
+\section{Introductie}
 \label{sec:inleiding}
 
 Waarover zal je bachelorproef gaan? Introduceer het thema en zorg dat volgende zaken zeker duidelijk aanwezig zijn:
-
 \begin{itemize}
   \item kaderen thema
   \item de doelgroep
@@ -24,61 +15,92 @@ Waarover zal je bachelorproef gaan? Introduceer het thema en zorg dat volgende z
   \item de onderzoeksdoelstelling
 \end{itemize}
 
-Denk er aan: een typische bachelorproef is \textit{toegepast onderzoek}, wat betekent dat je start vanuit een concrete probleemsituatie in bedrijfscontext, een \textbf{casus}. Het is belangrijk om je onderwerp goed af te bakenen: je gaat voor die \textit{ene specifieke probleemsituatie} op zoek naar een goede oplossing, op basis van de huidige kennis in het vakgebied.
+Personen met ADHD (Attention Deficit Hyperactivity Disorder) ervaren vaak moeilijkheden met executieve functies zoals planning, organisatie, tijdsbeheer en taakvoltooiing. Veel bestaande planningsapps (bijv. Todoist, Notion, TickTick, Tiimo, Trello) richten zich op brede gebruikersgroepen en missen vaak specifieke aanpassingen die nodig zijn voor ADHD-gebruikers. Deze apps kunnen te complex zijn, onvoldoende structuur bieden, of notificaties gebruiken die extra stress veroorzaken in plaats van te helpen. Daardoor is er behoefte aan een toepassing die rekening houdt met beperkte werkgeheugencapaciteit, neiging tot uitstel en gevoeligheid voor prikkels.
 
-De doelgroep moet ook concreet en duidelijk zijn, dus geen algemene of vaag gedefinieerde groepen zoals \emph{bedrijven}, \emph{developers}, \emph{Vlamingen}, enz. Je richt je in elk geval op it-professionals, een bachelorproef is geen populariserende tekst. Eén specifiek bedrijf (die te maken hebben met een concrete probleemsituatie) is dus beter dan \emph{bedrijven} in het algemeen.
+\medskip
+\textbf{Doelgroep:} jongvolwassenen en volwassenen met ADHD die digitale hulpmiddelen gebruiken voor taakbeheer, studie of werk.
 
-Formuleer duidelijk de onderzoeksvraag! De begeleiders lezen nog steeds te veel voorstellen waarin we geen onderzoeksvraag terugvinden.
+\medskip
+\textbf{Casus en afbakening:} dit onderzoek richt zich op het ontwerpen, implementeren en evalueren van een prototype van een planningsapp die inspeelt op de noden van ADHD-gebruikers. De focus ligt op UX-ontwerp, automatische taakopsplitsing, rustige notificaties en motiverende, niet-overprikkelende feedbackmechanismen.
 
-Schrijf ook iets over de doelstelling. Wat zie je als het concrete eindresultaat van je onderzoek, naast de uitgeschreven scriptie? Is het een proof-of-concept, een rapport met aanbevelingen, \ldots Met welk eindresultaat kan je je bachelorproef als een succes beschouwen?
+\medskip
+\textbf{Probleemstelling:} hoewel er veel planningsapplicaties bestaan, blijken deze tools voor veel ADHD-gebruikers te complex en niet afgestemd op hun specifieke cognitieve en emotionele noden. Er is nood aan een wetenschappelijk onderbouwde analyse en een prototype van een tool die automatische taakverdeling, aangepaste UX en stressreductie combineert.
 
-%---------- Stand van zaken ---------------------------------------------------
+\medskip
+\textbf{Centrale onderzoeksvraag:}
+\begin{quote}
+Hoe kan een applicatie op maat van mensen met ADHD bijdragen aan beter taakbeheer en tijdsplanning, met minder stress en uitstelgedrag?
+\end{quote}
 
-\section{Literatuurstudie}%
+\medskip
+\textbf{Onderzoeksdoelstelling:} het ontwikkelen en evalueren van een proof-of-concept dat ontwerpprincipes en technische realisaties (front-end en eenvoudige backend) demonstreert, aangevuld met aanbevelingen voor opschaling en verdere validatie.
+
+%---------- State-of-the-art -------------------------------------------------
+\section{State-of-the-art}
 \label{sec:literatuurstudie}
 
-Hier beschrijf je de \emph{state-of-the-art} rondom je gekozen onderzoeksdomein, d.w.z.\ een inleidende, doorlopende tekst over het onderzoeksdomein van je bachelorproef. Je steunt daarbij heel sterk op de professionele \emph{vakliteratuur}, en niet zozeer op populariserende teksten voor een breed publiek. Wat is de huidige stand van zaken in dit domein, en wat zijn nog eventuele open vragen (die misschien de aanleiding waren tot je onderzoeksvraag!)?
+Hier beschrijf je de state-of-the-art rondom je gekozen onderzoeksdomein. Je steunt daarbij sterk op professionele vakliteratuur en recente studies.
 
-Je mag de titel van deze sectie ook aanpassen (literatuurstudie, stand van zaken, enz.). Zijn er al gelijkaardige onderzoeken gevoerd? Wat concluderen ze? Wat is het verschil met jouw onderzoek?
+ADHD beïnvloedt vooral executieve functies zoals werkgeheugen en planningcapaciteit; dit vertaalt zich in moeilijkheden bij het opdelen en volhouden van taken en in een afwijkende tijdsbeleving. Studies tonen dat visuele structuur, eenvoudige workflows en beperkte prikkelintensiteit kunnen helpen om taakvoltooiing te verbeteren. Daarnaast wijzen onderzoeken op de rol van beloningsmechanismen en aangepaste notificaties om motivatie te stimuleren zonder extra stress te veroorzaken.
 
-Verwijs bij elke introductie van een term of bewering over het domein naar de vakliteratuur, bijvoorbeeld~\autocite{Hykes2013}! Denk zeker goed na welke werken je refereert en waarom.
+Bestaande apps (bijv. Tiimo) bieden interessante voorbeelden van visuele routines, maar tonen beperkingen in flexibiliteit en automatisering voor complexe taken. Er is een lacune voor apps die:
+\begin{itemize}
+  \item automatische opsplitsing van taken in haalbare stappen bieden;
+  \item aanpasbare visuele beloningen tonen zonder overprikkeling;
+  \item rustige en contextbewuste notificaties hanteren;
+  \item eenvoudige, voorspelbare UI-flows hebben.
+\end{itemize}
 
-Draag zorg voor correcte literatuurverwijzingen! Een bronvermelding hoort thuis \emph{binnen} de zin waar je je op die bron baseert, dus niet er buiten! Maak meteen een verwijzing als je gebruik maakt van een bron. Doe dit dus \emph{niet} aan het einde van een lange paragraaf. Baseer nooit teveel aansluitende tekst op eenzelfde bron.
-
-Als je informatie over bronnen verzamelt in JabRef, zorg er dan voor dat alle nodige info aanwezig is om de bron terug te vinden (zoals uitvoerig besproken in de lessen Research Methods).
-
-% Voor literatuurverwijzingen zijn er twee belangrijke commando's:
-% \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
-%   geen onderdeel is van de zin.
-% \textcite{KEY} => Auteur (jaartal)  Gebruik dit als de auteursnaam wel een
-%   functie heeft in de zin (bv. ``Uit onderzoek door Doll & Hill (1954) bleek
-%   ...'')
-
-Je mag deze sectie nog verder onderverdelen in subsecties als dit de structuur van de tekst kan verduidelijken.
+In de literatuur zal ik werken met peer-reviewed bronnen over ADHD en executieve functies, HCI-onderzoek over cognitieve toegankelijkheid, en empirische evaluaties van bestaande apps en prototypes. Verwijzingen naar gebruikte bronnen vind je in de Referenties.
 
 %---------- Methodologie ------------------------------------------------------
-\section{Methodologie}%
+\section{Methodologie}
 \label{sec:methodologie}
 
-Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor literatuurstudie, interviews met belanghebbenden (bv.~voor requirements-analyse), experimenten, simulaties, vergelijkende studie, risico-analyse, PoC, \ldots?
+Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden?
 
-Valt je onderwerp onder één van de typische soorten bachelorproeven die besproken zijn in de lessen Research Methods (bv.\ vergelijkende studie of risico-analyse)? Zorg er dan ook voor dat we duidelijk de verschillende stappen terug vinden die we verwachten in dit soort onderzoek!
+De voorgestelde methodologie bestaat uit de volgende fasen:
 
-Vermijd onderzoekstechnieken die geen objectieve, meetbare resultaten kunnen opleveren. Enquêtes, bijvoorbeeld, zijn voor een bachelorproef informatica meestal \textbf{niet geschikt}. De antwoorden zijn eerder meningen dan feiten en in de praktijk blijkt het ook bijzonder moeilijk om voldoende respondenten te vinden. Studenten die een enquête willen voeren, hebben meestal ook geen goede definitie van de populatie, waardoor ook niet kan aangetoond worden dat eventuele resultaten representatief zijn.
+\begin{enumerate}
+  \item \textbf{Literatuurstudie}: systematische verkenning van wetenschappelijke publicaties en relevante gray literature omtrent ADHD, UX-ontwerp voor cognitieve toegankelijkheid en bestaande planningsapps.
+  \item \textbf{Behoefteanalyse (kwalitatief)}: semigestructureerde interviews en korte gebruikerstesten (5–10 deelnemers met ADHD) om concrete pijnpunten en wensen te identificeren. Deze fase genereert requirements en prioriteiten.
+  \item \textbf{Ontwerp}: opstellen van ontwerpprincipes, wireframes en interactieve mock-ups (Figma). Iteratieve feedbacksessies met 2–3 gebruikers.
+  \item \textbf{Implementatie (PoC)}: bouw van een eenvoudig maar functioneel prototype (React of React Native; backend met Firebase of Supabase) met nadruk op automatische taakopsplitsing, visuele feedback en contextbewuste notificaties.
+  \item \textbf{Evaluatie}: vergelijkende gebruikerstesten (within-subjects of matched) tussen prototype en bestaande app(s). Meetinstrumenten: SUS (usability), korte stress-vragenlijst (zelfgerapporteerd), taakvoltooiingspercentage en kwalitatieve feedback.
+  \item \textbf{Analyse en synthese}: kwantitatieve analyse van meetgegevens en thematische analyse van kwalitatieve data. Formuleren van aanbevelingen en discussie over beperkingen.
+\end{enumerate}
 
-Uit dit onderdeel moet duidelijk naar voor komen dat je bachelorproef ook technisch voldoen\-de diepgang zal bevatten. Het zou niet kloppen als een bachelorproef informatica ook door bv.\ een student marketing zou kunnen uitgevoerd worden.
+\medskip
+\textbf{Tools en technologieën:}
+\begin{itemize}
+  \item Ontwerp: Figma voor wireframes en prototyping.
+  \item Implementatie: React (web) of React Native (mobiel); backend: Firebase/Supabase.
+  \item Analyse: Python (pandas, scipy) of R voor eenvoudige statistische tests; NVivo/Atlas.ti of handmatige thematische codering voor kwalitatieve data.
+\end{itemize}
 
-Je beschrijft ook al welke tools (hardware, software, diensten, \ldots) je denkt hiervoor te gebruiken of te ontwikkelen.
+\medskip
+\textbf{Tijdsplanning en deliverables (globaal):}
+\begin{itemize}
+  \item Maand 1–2: literatuurstudie en opzet methodologie (deliverable: literatuurmatrix).
+  \item Maand 3: behoefteanalyse en requirements (deliverable: requirementsdoc).
+  \item Maand 4–5: ontwerp en prototypeontwikkeling (deliverable: Figma-mockups + PoC).
+  \item Maand 6: gebruikerstesten en gegevensverzameling (deliverable: testverslag).
+  \item Maand 7: analyse, schrijven en aanbevelingen (deliverable: scriptie + codebase).
+\end{itemize}
 
-Probeer ook een tijdschatting te maken. Hoe lang zal je met elke fase van je onderzoek bezig zijn en wat zijn de concrete \emph{deliverables} in elke fase?
-
-%---------- Verwachte resultaten ----------------------------------------------
-\section{Verwacht resultaat, conclusie}%
+%---------- Verwacht resultaat, conclusie ------------------------------------
+\section{Verwacht resultaat, conclusie}
 \label{sec:verwachte_resultaten}
 
-Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de onderdelen van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet welk soort data je moet verzamelen en hoe je die moet meten.
+Hier beschrijf je welke resultaten je verwacht.
 
-Wat heeft de doelgroep van je onderzoek aan het resultaat? Op welke manier zorgt jouw bachelorproef voor een meerwaarde?
+Verwacht wordt:
+\begin{itemize}
+  \item een overzicht van pijnpunten en requirements voor ADHD-vriendelijke planningstools;
+  \item een set ontwerpprincipes en richtlijnen voor cognitief toegankelijke planningsapps;
+  \item een werkend prototype dat aantoont hoe automatische taakopsplitsing en rustige notificaties in de praktijk kunnen werken;
+  \item empirische resultaten die aantonen of gebruikers het prototype als gebruiksvriendelijker en minder stressvol ervaren dan bestaande oplossingen.
+\end{itemize}
 
-Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
+De meerwaarde: praktische richtlijnen en een concrete technische demonstrator voor ontwikkelaars, coaches en hulpverleners die digitale hulpmiddelen willen inzetten voor mensen met ADHD.
 
