@@ -1,0 +1,603 @@
+PWD C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\bachproef
+INPUT C:\Users\giann\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
+INPUT LambrechtGianni.tex
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.log
+INPUT .\hogentreport.cls
+INPUT hogentreport.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\keyval.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\oberdiek\iflang.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\oberdiek\iflang.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\book.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\book.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\bk11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\bk11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\bk11.clo
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\xebabel.def
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\nl\babel-dutch.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\nl\babel-dutch.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\nl\babel-dutch.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\nl\babel-nl.ini
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\babel-dutch\dutch.ldf
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\babel-dutch\dutch.ldf
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\babel-dutch\dutch.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.dbx
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.dbx
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.dbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-unicode.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-unicode.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-unicode.def
+INPUT C:\Program Files\MiKTeX\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-natbib.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-natbib.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-natbib.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.bbx
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.bbx
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.cbx
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.cbx
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\footmisc\footmisc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\footmisc\footmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec-xetex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec-xetex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\unicode-math\unicode-math.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\unicode-math\unicode-math.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\unicode-math\unicode-math-xetex.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\unicode-math\unicode-math-xetex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fix-cm.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fix-cm.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\unicode-math\unicode-math-table.tex
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\unicode-math\unicode-math-table.tex
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\realscripts\realscripts.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\realscripts\realscripts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\dvipsnam.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\dvipsnam.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\dvipsnam.def
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-dvipdfmx.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfint.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\standalone\standalone.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\standalone\standalone.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\currfile\currfile.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\currfile\currfile.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\filehook\filehook.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\filehook\filehook.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\filehook\filehook-2020.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\filehook\filehook-2020.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\gincltex\gincltex.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\gincltex\gincltex.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\gincltex\gincltex.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\svn-prov\svn-prov.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\svn-prov\svn-prov.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\adjustbox\tc-xetex.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\adjustbox\tc-xetex.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\adjustbox\tc-xetex.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\appendix\appendix.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\appendix\appendix.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\makeidx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\makeidx.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pdfpages\ppxetex.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pdfpages\ppxetex.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pdfpages\ppxetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\rotating.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\rotating.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\environ\environ.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\environ\environ.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\titlesec\titletoc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\titlesec\titletoc.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\tocbibind\tocbibind.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\tocbibind\tocbibind.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\eurosym\eurosym.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\eurosym\eurosym.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype-xetex.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype-xetex.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype-xetex.def
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype.cfg
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype.cfg
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\microtype\microtype.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\montserrat\Montserrat.fontspec
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\..\graphics\logopart.eps
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\..\graphics\logopart.eps
+INPUT ..\graphics\logopart.eps
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\minted\minted.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\minted\minted.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\upquote\upquote.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\upquote\upquote.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\lineno\lineno.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\lineno\lineno.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\latex2pydata\latex2pydata.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\latex2pydata\latex2pydata.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pgfopts\pgfopts.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pgfopts\pgfopts.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.aux
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.aux
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.aux
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.aux
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\dutch-apa.lbx
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\dutch-apa.lbx
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\dutch-apa.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\dutch.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\dutch.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\dutch.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\dutch.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\dutch.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\dutch.lbx
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.bcf
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.bbl
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.bbl
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.bbl
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.bbl
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.bbl
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT C:\Users\giann\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\..\graphics\hogent_logo.eps
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\..\graphics\hogent_logo.eps
+INPUT ..\graphics\hogent_logo.eps
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.xdv
+INPUT .\voorwoord.tex
+INPUT .\voorwoord.tex
+INPUT .\voorwoord.tex
+INPUT .\voorwoord.tex
+INPUT voorwoord.tex
+INPUT .\samenvatting.tex
+INPUT .\samenvatting.tex
+INPUT .\samenvatting.tex
+INPUT .\samenvatting.tex
+INPUT samenvatting.tex
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.toc
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.toc
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.toc
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.toc
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lof
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lof
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lof
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lof
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lot
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lot
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lot
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lot
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lol
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lol
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lol
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lol
+INPUT .\inleiding.tex
+INPUT .\inleiding.tex
+INPUT .\inleiding.tex
+INPUT .\inleiding.tex
+INPUT inleiding.tex
+INPUT .\standvanzaken.tex
+INPUT .\standvanzaken.tex
+INPUT .\standvanzaken.tex
+INPUT .\standvanzaken.tex
+INPUT standvanzaken.tex
+INPUT .\methodologie.tex
+INPUT .\methodologie.tex
+INPUT .\methodologie.tex
+INPUT .\methodologie.tex
+INPUT methodologie.tex
+INPUT .\requirements.tex
+INPUT .\requirements.tex
+INPUT .\requirements.tex
+INPUT .\requirements.tex
+INPUT requirements.tex
+INPUT .\ontwerp.tex
+INPUT .\ontwerp.tex
+INPUT .\ontwerp.tex
+INPUT .\ontwerp.tex
+INPUT ontwerp.tex
+INPUT .\streaks.png
+INPUT .\streaks.png
+INPUT .\streaks.png
+INPUT .\implementatie.tex
+INPUT .\implementatie.tex
+INPUT .\implementatie.tex
+INPUT .\implementatie.tex
+INPUT implementatie.tex
+INPUT .\architectuur.png
+INPUT .\architectuur.png
+INPUT .\architectuur.png
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\_F4F902BB38B7AC23E6084D3F7A251C58.data.minted
+INPUT .\_F4F902BB38B7AC23E6084D3F7A251C58.config.minted
+INPUT .\_F4F902BB38B7AC23E6084D3F7A251C58.config.minted
+INPUT _F4F902BB38B7AC23E6084D3F7A251C58.config.minted
+INPUT .\_minted\_F4F902BB38B7AC23E6084D3F7A251C58.index.minted
+INPUT .\_minted\_F4F902BB38B7AC23E6084D3F7A251C58.index.minted
+INPUT .\_minted\solarized-light.style.minted
+INPUT .\_minted\solarized-light.style.minted
+INPUT _minted\solarized-light.style.minted
+INPUT .\_minted\D5109DA7E245B1E8C53BE5D5AC8219A0.highlight.minted
+INPUT .\_minted\D5109DA7E245B1E8C53BE5D5AC8219A0.highlight.minted
+INPUT _minted\D5109DA7E245B1E8C53BE5D5AC8219A0.highlight.minted
+INPUT .\functionaliteiten.tex
+INPUT .\functionaliteiten.tex
+INPUT .\functionaliteiten.tex
+INPUT .\functionaliteiten.tex
+INPUT functionaliteiten.tex
+INPUT .\tasks.png
+INPUT .\tasks.png
+INPUT .\tasks.png
+INPUT .\streaks.png
+INPUT .\streaks.png
+INPUT .\streaks.png
+INPUT .\profile.png
+INPUT .\profile.png
+INPUT .\profile.png
+INPUT .\settings.png
+INPUT .\settings.png
+INPUT .\settings.png
+INPUT .\evaluatie.tex
+INPUT .\evaluatie.tex
+INPUT .\evaluatie.tex
+INPUT .\evaluatie.tex
+INPUT evaluatie.tex
+INPUT .\conclusie.tex
+INPUT .\conclusie.tex
+INPUT .\conclusie.tex
+INPUT .\conclusie.tex
+INPUT conclusie.tex
+INPUT ..\voorstel\voorstel-inhoud.tex
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\..\voorstel\voorstel-inhoud.tex
+INPUT ..\voorstel\voorstel-inhoud.tex
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\..\voorstel\voorstel-inhoud.tex
+INPUT ..\voorstel\voorstel-inhoud.tex
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.aux
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out
+INPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.run.xml
+OUTPUT C:\Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.run.xml

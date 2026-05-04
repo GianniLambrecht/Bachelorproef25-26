@@ -1,0 +1,94 @@
+%%=============================================================================
+%% Requirementsanalyse
+%%=============================================================================
+
+\chapter{Analyse en requirements}%
+\label{ch:requirements}
+
+In dit hoofdstuk wordt beschreven welke noden en verwachtingen studenten met ADHD
+hebben met betrekking tot planning en taakbeheer. Op basis van de literatuurstudie
+uit Hoofdstuk~\ref{ch:stand-van-zaken} werden requirements opgesteld voor het
+prototype. Deze requirements vormen de basis voor het ontwerp en de implementatie
+van de mobiele applicatie.
+
+\section{Probleemanalyse binnen de doelgroep}
+
+Studenten met ADHD ervaren in een academische context vooral problemen bij
+het structureren van opdrachten, het inschatten van tijd en het behouden van
+overzicht. Taken die voor andere studenten relatief eenvoudig te plannen zijn,
+worden door studenten met ADHD vaak als overweldigend ervaren. Dit leidt tot
+uitstelgedrag, frustratie en verhoogde stress.
+
+Daarnaast spelen ook motivatie en beloning een belangrijke rol. Door de typische
+werking van het dopaminesysteem bij ADHD wordt onmiddellijke feedback vaak als
+motiverender ervaren dan uitgestelde beloningen zoals een goede score op een examen.
+Hierdoor kunnen gamification-elementen zoals punten of streaks een relevante bijdrage
+leveren.
+
+\section{Functionele requirements}
+
+De functionele requirements beschrijven welke functionaliteiten het prototype moet
+bevatten om het vooropgestelde doel te bereiken.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|p{3cm}|p{10cm}|p{2cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement} & \textbf{Prioriteit} \\
+\hline
+FR1 & De gebruiker kan taken aanmaken met titel en beschrijving. & Must \\
+\hline
+FR2 & De gebruiker kan een dag selecteren om taken in te plannen. & Must \\
+\hline
+FR3 & De gebruiker kan geplande taken bekijken per dag. & Must \\
+\hline
+FR4 & De applicatie kent punten toe bij het voltooien van taken. & Must \\
+\hline
+FR5 & De applicatie ondersteunt een streak-systeem op basis van opeenvolgende dagen activiteit. & Should \\
+\hline
+FR6 & De gebruiker kan een profielpagina bekijken met voortgang en beloningen. & Should \\
+\hline
+FR7 & De gebruiker kan instellingen aanpassen zoals notificaties of visuele voorkeuren. & Could \\
+\hline
+\end{tabular}
+\caption[Functionele requirements]{Overzicht van de functionele requirements van het prototype.}
+\label{tab:functionele-requirements}
+\end{table}
+
+\section{Niet-functionele requirements}
+
+Naast functionaliteiten zijn ook kwaliteitscriteria van belang. Aangezien studenten met
+ADHD gevoelig kunnen zijn voor overprikkeling, ligt de nadruk op eenvoud, rust en
+voorspelbaarheid.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|p{3cm}|p{10cm}|p{2cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement} & \textbf{Type} \\
+\hline
+NFR1 & De interface moet minimalistisch zijn en geen overbodige visuele elementen bevatten. & Usability \\
+\hline
+NFR2 & Navigatie moet consistent en voorspelbaar zijn over alle schermen heen. & Usability \\
+\hline
+NFR3 & De applicatie moet bruikbaar zijn op mobiele schermformaten. & Compatibility \\
+\hline
+NFR4 & De applicatie moet snel reageren zonder merkbare vertraging bij navigatie. & Performance \\
+\hline
+NFR5 & De applicatie moet offline bruikbaar zijn zolang de browser actief is. & Reliability \\
+\hline
+\end{tabular}
+\caption[Niet-functionele requirements]{Overzicht van niet-functionele requirements voor het prototype.}
+\label{tab:niet-functionele-requirements}
+\end{table}
+
+\section{Scope-afbakening}
+
+Aangezien dit onderzoek een proof-of-concept betreft, werd de scope bewust beperkt.
+Het prototype bevat geen server-side opslag, geen cloud synchronisatie en geen
+authenticatie. Alle data worden lokaal opgeslagen in de clientomgeving. Dit maakt het
+mogelijk om de focus te leggen op usability, ontwerpkeuzes en motivatie-elementen.
+
+In een toekomstige versie kan een backend toegevoegd worden zodat gebruikers hun
+taken kunnen synchroniseren over meerdere toestellen heen en zodat privacy en
+gegevensbeheer verder kunnen worden uitgewerkt.

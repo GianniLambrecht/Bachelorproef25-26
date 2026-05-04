@@ -1,0 +1,45 @@
+%%=============================================================================
+%% Ontwerp
+%%=============================================================================
+
+\chapter{Ontwerp van de applicatie}%
+\label{ch:ontwerp}
+
+Dit hoofdstuk beschrijft de ontwerpkeuzes die gemaakt werden bij het ontwikkelen van
+het prototype. De focus ligt op een interface die prikkelarm is en die studenten met ADHD
+ondersteunt in het behouden van overzicht en motivatie.
+
+\section{Ontwerpprincipes}
+
+Op basis van de literatuurstudie werden de volgende ontwerpprincipes gehanteerd:
+
+\begin{itemize}
+  \item \textbf{Minimalisme:} enkel noodzakelijke informatie wordt weergegeven om cognitieve belasting te beperken.
+  \item \textbf{Consistentie:} navigatie en knoppen bevinden zich steeds op dezelfde plaats.
+  \item \textbf{Duidelijke hiërarchie:} belangrijke acties worden visueel benadrukt.
+  \item \textbf{Directe feedback:} acties zoals het voltooien van taken geven onmiddellijke bevestiging.
+  \item \textbf{Motivatie via beloning:} punten en streaks stimuleren taakvoltooiing.
+\end{itemize}
+
+
+\section{Visueel design}
+
+Het visuele ontwerp werd bewust eenvoudig gehouden. Kleuren werden beperkt en er werd
+gebruik gemaakt van duidelijke iconen. Dit voorkomt overprikkeling en ondersteunt snelle
+interpretatie van acties.
+
+De applicatie maakt gebruik van Tailwind CSS om een consistente styling te garanderen.
+Daarnaast werden iconen geïmplementeerd met Lucide React.
+
+\section{Beloningssysteem}
+
+Een belangrijk onderdeel van het ontwerp is het reward system. Door het toekennen van punten
+en het opbouwen van streaks wordt taakvoltooiing beloond. Dit ondersteunt motivatie door het
+gevoel van progressie zichtbaar te maken.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{streaks.png}
+\caption[Reward systeem]{Voorbeeld van het reward systeem waarin punten en streaks worden weergegeven.}
+\label{fig:reward-system}
+\end{figure}

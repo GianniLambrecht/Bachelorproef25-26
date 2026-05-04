@@ -1,0 +1,129 @@
+\chapter{\IfLanguageName{dutch}{Evaluatie}{Evaluation}}
+\label{ch:evaluatie}
+
+Dit hoofdstuk bespreekt de evaluatie van het ontwikkelde prototype van de Focus Planner applicatie. Aangezien er op het moment van schrijven nog geen gebruikerstesten uitgevoerd werden met de doelgroep, richt deze evaluatie zich uitsluitend op de technische validatie van het systeem via geautomatiseerde testen. Deze testen hebben als doel om de correctheid, stabiliteit en basisfunctionaliteit van de applicatie te verifiëren.
+
+\section{Doel van de evaluatie}
+
+Het doel van deze evaluatie is om na te gaan of de belangrijkste functionaliteiten van de applicatie correct werken binnen een gecontroleerde ontwikkelomgeving. Hierbij wordt vooral gekeken naar:
+
+\begin{itemize}
+    \item correcte werking van taakbeheerfunctionaliteiten;
+    \item betrouwbaarheid van het reward- en streaksysteem;
+    \item correcte navigatie tussen verschillende schermen;
+    \item persistentie van data via localStorage;
+    \item correcte interactie tussen componenten.
+\end{itemize}
+
+Deze technische evaluatie vormt een eerste validatiestap vóór eventuele gebruikerstesten in een latere fase van het project.
+
+\section{Testopzet}
+
+De applicatie werd getest met behulp van:
+
+\begin{itemize}
+    \item \textbf{Vitest} als testframework;
+    \item \textbf{React Testing Library} voor componenttesting;
+    \item \textbf{JSDOM} als simulatie van de browseromgeving;
+    \item \textbf{localStorage mocking} voor persistentietesten.
+\end{itemize}
+
+De tests werden uitgevoerd in een geïsoleerde omgeving waarbij elke test start met een schone toestand van de applicatie.
+
+\section{Testcategorieën}
+
+De testen werden opgedeeld in verschillende categorieën.
+
+\subsection{Basisrendering}
+
+Deze testen controleren of de applicatie correct wordt weergegeven bij het opstarten. Hierbij wordt onder andere gevalideerd:
+
+\begin{itemize}
+    \item correcte weergave van de header;
+    \item correcte weergave van navigatie-elementen;
+    \item standaard startscherm (Tasks tab).
+\end{itemize}
+
+\subsection{Taakbeheer}
+
+Deze categorie test de kernfunctionaliteit van de applicatie:
+
+\begin{itemize}
+    \item toevoegen van nieuwe taken;
+    \item automatisch opsplitsen van taken in subtaken;
+    \item afronden van taken via checkbox-interactie;
+    \item tonen van lege toestand wanneer geen taken aanwezig zijn.
+\end{itemize}
+
+De automatische taakopsplitsing is hierbij een belangrijke functionaliteit die inspeelt op het verminderen van cognitieve belasting.
+
+\subsection{Datum- en navigatiefuncties}
+
+De applicatie bevat een datumselectiesysteem waarmee gebruikers tussen dagen kunnen navigeren. De testen controleren:
+
+\begin{itemize}
+    \item standaardweergave van de huidige dag;
+    \item navigatie naar volgende dag;
+    \item openen van kalendercomponent.
+\end{itemize}
+
+\subsection{Reward- en voortgangssysteem}
+
+Het reward-systeem werd getest op:
+
+\begin{itemize}
+    \item correcte toekenning van punten bij het voltooien van taken;
+    \item weergave van streaks;
+    \item visualisatie van progressie;
+    \item correcte initialisatie van waarden.
+\end{itemize}
+
+\subsection{Profiel- en instellingenbeheer}
+
+Deze testen controleren de correcte werking van gebruikersinstellingen:
+
+\begin{itemize}
+    \item aanpassen van gebruikersnaam;
+    \item wijzigen van thema-instellingen;
+    \item aanpassen van applicatievoorkeuren;
+    \item opslag van instellingen in localStorage.
+\end{itemize}
+
+\subsection{Data persistentie}
+
+Een belangrijk onderdeel van de applicatie is het bewaren van data. De testen controleren:
+
+\begin{itemize}
+    \item opslag van taken in localStorage;
+    \item opslag van gebruikersdata;
+    \item opslag van instellingen;
+    \item correcte heropbouw van data bij herladen.
+\end{itemize}
+
+\subsection{Subtask- en progressielogica}
+
+Deze testen verifiëren de meer geavanceerde logica:
+
+\begin{itemize}
+    \item in- en uitklappen van subtaken;
+    \item correcte synchronisatie tussen subtaken en hoofdtaak;
+    \item automatische voltooiing van hoofdtaak wanneer alle subtaken afgerond zijn;
+    \item correcte progressieberekening.
+\end{itemize}
+
+\section{Testresultaten}
+
+Alle geautomatiseerde testen werden succesvol uitgevoerd. Er werden geen kritieke fouten vastgesteld in de kernfunctionaliteiten van de applicatie.
+
+De test suite bevestigt dat:
+
+\begin{itemize}
+    \item de applicatie stabiel functioneert binnen de ontwikkelomgeving;
+    \item gebruikersinteracties correct verwerkt worden;
+    \item data consistent wordt opgeslagen en opgehaald;
+    \item de belangrijkste logica van het systeem correct geïmplementeerd is.
+\end{itemize}
+
+\section{Vervolgwerk}
+
+% to do, voeg deel over gebruikerstesten toe

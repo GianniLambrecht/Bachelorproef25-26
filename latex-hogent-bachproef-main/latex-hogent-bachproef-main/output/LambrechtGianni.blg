@@ -1,0 +1,26 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-bachproef-main/latex-hogent-bachproef-main/output/LambrechtGianni.blg'
+[196] biber-MSWIN64:342> INFO - === 
+[255] Biber.pm:421> INFO - Reading 'C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-bachproef-main/latex-hogent-bachproef-main/output/LambrechtGianni.bcf'
+[494] Biber.pm:1002> INFO - Found 19 citekeys in bib section 0
+[533] Biber.pm:4487> INFO - Processing section 0
+[554] Biber.pm:4678> INFO - Looking for bibtex file 'bachproef.bib' for section 0
+[624] bibtex.pm:1713> INFO - LaTeX decoding ...
+[654] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
+[814] Biber.pm:4678> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
+[893] bibtex.pm:1713> INFO - LaTeX decoding ...
+[922] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[1048] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1048] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1049] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[1049] Biber.pm:4313> INFO - No sort tailoring available for locale 'nl-NL'
+[1133] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1133] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1133] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[1134] Biber.pm:4313> INFO - No sort tailoring available for locale 'nl-NL'
+[1182] bbl.pm:676> INFO - Writing 'C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-bachproef-main/latex-hogent-bachproef-main/output/LambrechtGianni.bbl' with encoding 'UTF-8'
+[1230] bbl.pm:779> INFO - Output to C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-bachproef-main/latex-hogent-bachproef-main/output/LambrechtGianni.bbl
+[1231] Biber.pm:132> WARN - Duplicate entry key: 'Alloway2010' in file '../voorstel/voorstel.bib', skipping ...
+[1231] Biber.pm:132> WARN - Duplicate entry key: 'Visser2016' in file '../voorstel/voorstel.bib', skipping ...
+[1231] Biber.pm:132> WARN - Duplicate entry key: 'Seeman2022' in file '../voorstel/voorstel.bib', skipping ...
+[1232] Biber.pm:134> INFO - WARNINGS: 3
