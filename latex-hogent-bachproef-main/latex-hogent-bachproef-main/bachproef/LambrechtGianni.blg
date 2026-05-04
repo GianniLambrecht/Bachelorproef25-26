@@ -1,0 +1,26 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'LambrechtGianni.blg'
+[195] biber-MSWIN64:342> INFO - === 
+[252] Biber.pm:421> INFO - Reading 'LambrechtGianni.bcf'
+[489] Biber.pm:1002> INFO - Found 19 citekeys in bib section 0
+[527] Biber.pm:4487> INFO - Processing section 0
+[549] Biber.pm:4678> INFO - Looking for bibtex file 'bachproef.bib' for section 0
+[615] bibtex.pm:1713> INFO - LaTeX decoding ...
+[644] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
+[818] Biber.pm:4678> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
+[881] bibtex.pm:1713> INFO - LaTeX decoding ...
+[908] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[1038] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1038] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1038] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[1039] Biber.pm:4313> INFO - No sort tailoring available for locale 'nl-NL'
+[1126] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1126] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1126] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[1127] Biber.pm:4313> INFO - No sort tailoring available for locale 'nl-NL'
+[1175] bbl.pm:676> INFO - Writing 'LambrechtGianni.bbl' with encoding 'UTF-8'
+[1224] bbl.pm:779> INFO - Output to LambrechtGianni.bbl
+[1225] Biber.pm:132> WARN - Duplicate entry key: 'Alloway2010' in file '../voorstel/voorstel.bib', skipping ...
+[1225] Biber.pm:132> WARN - Duplicate entry key: 'Visser2016' in file '../voorstel/voorstel.bib', skipping ...
+[1226] Biber.pm:132> WARN - Duplicate entry key: 'Seeman2022' in file '../voorstel/voorstel.bib', skipping ...
+[1226] Biber.pm:134> INFO - WARNINGS: 3

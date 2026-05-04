@@ -1,51 +1,56 @@
 \chapter{\IfLanguageName{dutch}{Stand van zaken}{State of the art}}%
 \label{ch:stand-van-zaken}
 
-% Tip: Begin elk hoofdstuk met een paragraaf inleiding die beschrijft hoe
-% dit hoofdstuk past binnen het geheel van de bachelorproef. Geef in het
-% bijzonder aan wat de link is met het vorige en volgende hoofdstuk.
+Dit hoofdstuk bevat de literatuurstudie die de theoretische basis vormt voor het ontwikkelen van een planningsapplicatie voor studenten met ADHD. Waar de inleiding de algemene context schetste, wordt in dit hoofdstuk dieper ingegaan op de relatie tussen executieve functies, cognitieve belasting en digitale interfaces. Dit vormt de noodzakelijke onderbouwing voor de ontwerpbeslissingen die in de volgende hoofdstukken aan bod komen.
 
-% Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
+\section{Inleiding}
+Attention Deficit Hyperactivity Disorder (ADHD) is een neurobiologische ontwikkelingsstoornis die wordt gekenmerkt door persisterende patronen van onoplettendheid en/of hyperactiviteit-impulsiviteit die interfereren met het dagelijks functioneren \autocite{AmericanPsychiatricAssociation2013}. Hoewel ADHD traditioneel wordt geassocieerd met kinderen, toont longitudinaal onderzoek aan dat de symptomen bij een aanzienlijke groep individuen aanhouden tot in de adolescentie en volwassenheid.
 
-Dit hoofdstuk bevat je literatuurstudie. De inhoud gaat verder op de inleiding, maar zal het onderwerp van de bachelorproef *diepgaand* uitspitten. De bedoeling is dat de lezer na lezing van dit hoofdstuk helemaal op de hoogte is van de huidige stand van zaken (state-of-the-art) in het onderzoeksdomein. Iemand die niet vertrouwd is met het onderwerp, weet nu voldoende om de rest van het verhaal te kunnen volgen, zonder dat die er nog andere informatie moet over opzoeken \autocite{Pollefliet2011}.
+In het hoger onderwijs manifesteert ADHD zich vooral in problemen met zelfregulatie, planning, organisatie, tijdsbeheer en taakvoltooiing. De overgang naar het hoger onderwijs brengt een verhoogde mate van autonomie met zich mee. Studenten worden geacht zelfstandig deadlines te beheren, complexe opdrachten te structureren en lange termijnplanning te combineren met dagelijkse verplichtingen. Voor studenten met ADHD vormt dit een structurele uitdaging. Waar medestudenten gebruikmaken van conventionele planningsstrategieën, ervaren studenten met ADHD vaak moeilijkheden in taakinitiatie, prioritering en volgehouden aandacht. Dit leidt niet zelden tot uitstelgedrag, verhoogde stress en verminderde academische prestaties.
 
-Je verwijst bij elke bewering die je doet, vakterm die je introduceert, enz.\ naar je bronnen. In \LaTeX{} kan dat met het commando \texttt{$\backslash${textcite\{\}}} of \texttt{$\backslash${autocite\{\}}}. Als argument van het commando geef je de ``sleutel'' van een ``record'' in een bibliografische databank in het Bib\LaTeX{}-formaat (een tekstbestand). Als je expliciet naar de auteur verwijst in de zin (narratieve referentie), gebruik je \texttt{$\backslash${}textcite\{\}}. Soms is de auteursnaam niet expliciet een onderdeel van de zin, dan gebruik je \texttt{$\backslash${}autocite\{\}} (referentie tussen haakjes). Dit gebruik je bv.~bij een citaat, of om in het bijschrift van een overgenomen afbeelding, broncode, tabel, enz. te verwijzen naar de bron. In de volgende paragraaf een voorbeeld van elk.
+Digitale planningsapplicaties worden steeds vaker ingezet als hulpmiddel bij zelforganisatie. Toepassingen zoals Todoist, Notion en Trello bieden uitgebreide functionaliteiten voor taakbeheer en projectplanning. Desondanks blijkt uit zowel klinische literatuur als gebruikerservaringen dat deze tools niet altijd aansluiten bij de specifieke cognitieve en emotionele noden van personen met ADHD. Interfaces zijn vaak complex, vereisen uitgebreide configuratie en bevatten talrijke visuele prikkels en notificaties die de cognitieve belasting verhogen.
 
-\textcite{Knuth1998} schreef een van de standaardwerken over sorteer- en zoekalgoritmen. Experten zijn het erover eens dat cloud computing een interessante opportuniteit vormen, zowel voor gebruikers als voor dienstverleners op vlak van informatietechnologie~\autocite{Creeger2009}.
+Deze literatuurstudie beoogt een diepgaande theoretische onderbouwing te bieden voor het ontwerp van een ADHD-vriendelijke planningsapplicatie. Hierbij wordt gefocust op de relatie tussen executieve functies en planning, de rol van cognitieve belasting, de impact van digitale interventies, en relevante inzichten uit Human-Computer Interaction (HCI). De studie vormt de theoretische basis voor het ontwikkelen en evalueren van een prototype dat specifiek is afgestemd op studenten met ADHD binnen een Gentse context.
 
-Let er ook op: het \texttt{cite}-commando voor de punt, dus binnen de zin. Je verwijst meteen naar een bron in de eerste zin die erop gebaseerd is, dus niet pas op het einde van een paragraaf.
+\section{ADHD en executieve functies}
+\subsection{Theoretisch kader rond executieve functies}
+Executieve functies verwijzen naar een verzameling cognitieve processen die verantwoordelijk zijn voor doelgericht gedrag, zelfregulatie en adaptieve probleemoplossing. Volgens \textcite{Barkley2015} vormt een stoornis in gedragsinhibitie de kern van ADHD, wat secundair leidt tot verstoringen in werkgeheugen, internalisatie van spraak, emotieregulatie en reconstitutie (het vermogen om gedrag flexibel aan te passen).
 
-\begin{figure}
-  \centering
-  \includegraphics[width=0.8\textwidth]{grail.jpg}
-  \caption[Voorbeeld figuur.]{\label{fig:grail}Voorbeeld van invoegen van een figuur. Zorg altijd voor een uitgebreid bijschrift dat de figuur volledig beschrijft zonder in de tekst te moeten gaan zoeken. Vergeet ook je bronvermelding niet!}
-\end{figure}
 
-\begin{listing}
-  \begin{minted}{python}
-    import pandas as pd
-    import seaborn as sns
 
-    penguins = sns.load_dataset('penguins')
-    sns.relplot(data=penguins, x="flipper_length_mm", y="bill_length_mm", hue="species")
-  \end{minted}
-  \caption[Voorbeeld codefragment]{Voorbeeld van het invoegen van een codefragment.}
-\end{listing}
+[Image of executive functions in ADHD model]
 
-\lipsum[7-20]
 
-\begin{table}
-  \centering
-  \begin{tabular}{lcr}
-    \toprule
-    \textbf{Kolom 1} & \textbf{Kolom 2} & \textbf{Kolom 3} \\
-    $\alpha$         & $\beta$          & $\gamma$         \\
-    \midrule
-    A                & 10.230           & a                \\
-    B                & 45.678           & b                \\
-    C                & 99.987           & c                \\
-    \bottomrule
-  \end{tabular}
-  \caption[Voorbeeld tabel]{\label{tab:example}Voorbeeld van een tabel.}
-\end{table}
+\textcite{Alloway2010} benadrukken dat vooral het werkgeheugen significant verminderd kan zijn bij personen met ADHD. Werkgeheugen is essentieel voor het tijdelijk vasthouden en manipuleren van informatie, bijvoorbeeld bij het plannen van meerdere taken of het inschatten van tijdsduur. Wanneer dit systeem beperkt functioneert, ontstaat snel cognitieve overbelasting bij complexe opdrachten. \textcite{Diamond2013} onderscheidt drie kerncomponenten van executieve functies: werkgeheugen, inhibitie en cognitieve flexibiliteit. Problemen in deze domeinen verklaren waarom studenten met ADHD moeite hebben met het prioriteren van taken, het weerstaan van afleidingen en het aanpassen van planning wanneer omstandigheden wijzigen.
 
+\subsection{Tijdperceptie en temporal discounting}
+Een bijkomend kenmerk van ADHD betreft afwijkingen in tijdsperceptie. Onderzoek toont aan dat personen met ADHD geneigd zijn tot temporal discounting, waarbij onmiddellijke beloningen zwaarder wegen dan toekomstige voordelen \autocite{Sonuga-Barke2010}. Hierdoor worden deadlines die ver in de toekomst liggen minder als urgent ervaren. Dit fenomeen heeft directe implicaties voor planningstools. Traditionele agenda's visualiseren deadlines lineair in de tijd, maar bieden weinig ondersteuning bij het vertalen van langetermijndoelen naar onmiddellijke, concrete acties. Zonder expliciete opsplitsing van taken blijft de cognitieve drempel hoog.
+
+\subsection{Emotionele regulatie en stress}
+Naast cognitieve processen speelt emotionele regulatie een cruciale rol. \textcite{Shaw2014} tonen aan dat emotionele dysregulatie frequent voorkomt bij ADHD. Studenten ervaren vaak gevoelens van overweldiging wanneer zij geconfronteerd worden met complexe taken. Deze emotionele respons kan leiden tot vermijdingsgedrag en verdere procrastinatie. Digitale omgevingen die overmatig gebruik maken van notificaties, felle kleuren of complexe dashboards kunnen deze stress versterken. Het reduceren van prikkels en het aanbieden van voorspelbare interactiepatronen is daarom essentieel in het ontwerp van ondersteunende applicaties.
+
+\section{Cognitive Load Theory en digitale interfaces}
+Cognitive Load Theory \autocite{Sweller1988} stelt dat het werkgeheugen een beperkte capaciteit heeft. Cognitieve belasting kan worden onderverdeeld in intrinsieke, extrinsieke en germane belasting. Intrinsieke belasting is inherent aan de taak zelf, terwijl extrinsieke belasting voortkomt uit de manier waarop informatie wordt gepresenteerd. Voor studenten met ADHD is vooral extrinsieke belasting problematisch. Interfaces met veel visuele elementen, complexe navigatiestructuren en talrijke opties verhogen de cognitieve belasting onnodig. Volgens \textcite{Paas2020} leidt overmatige extrinsieke belasting tot verminderde leerprestaties en verhoogde mentale vermoeidheid. Minimalistisch ontwerp, duidelijke hiërarchieën en progressieve onthulling van informatie zijn strategieën die cognitieve belasting kunnen reduceren. Dit sluit aan bij principes uit HCI rond cognitieve toegankelijkheid.
+
+
+
+\section{Ontwerpen voor cognitieve toegankelijkheid}
+Binnen Human-Computer Interaction groeit de aandacht voor neurodiversiteit. \textcite{Seeman2022} formuleren richtlijnen voor cognitieve toegankelijkheid, waaronder voorspelbaarheid, consistentie, eenvoudige taal en beperkte visuele ruis. Interfaces moeten intuïtief zijn en gebruikers niet verplichten om meerdere stappen tegelijk te plannen. \textcite{Visser2016} benadrukken het belang van gestructureerde taakomgevingen voor personen met ADHD. Structuur reduceert onzekerheid en ondersteunt taakinitiatie. In digitale toepassingen kan dit vertaald worden naar duidelijke workflows, vaste interactiepatronen en beperkte keuze-opties. Personalisatie speelt eveneens een rol. Echter, overmatige personalisatiemogelijkheden kunnen paradoxaal genoeg de cognitieve belasting verhogen. Een evenwicht tussen aanpasbaarheid en eenvoud is daarom noodzakelijk.
+
+\section{Digitale interventies bij ADHD}
+\textcite{Cortese2023} voerden een systematische review en meta-analyse uit naar technologie-gebaseerde interventies bij schoolgaande kinderen met ADHD. De resultaten suggereren dat digitale interventies positieve effecten kunnen hebben op aandacht en executieve functies, mits zij gebaseerd zijn op gedragswetenschappelijke principes. \textcite{Hollis2025} wijzen er echter op dat veel digitale toepassingen onvoldoende empirisch geëvalueerd zijn. Bovendien blijkt gebruikersretentie vaak laag. Dit onderstreept het belang van gebruiksvriendelijkheid en intrinsieke motivatie in ontwerp. Digitale ondersteuning moet niet louter informatief zijn, maar actief begeleiden bij taakstructurering. Automatische taakopsplitsing kan hierbij een cruciale rol spelen.
+
+\section{Automatische taakopsplitsing}
+Een centrale uitdaging bij ADHD is taakinitiatie. Grote opdrachten worden vaak als overweldigend ervaren. Door taken automatisch op te splitsen in kleinere, concreet uitvoerbare stappen kan de cognitieve drempel verlaagd worden. \textcite{Locke2002} tonen aan dat specifieke en haalbare subdoelen motivatie verhogen. Wanneer voortgang zichtbaar wordt gemaakt via kleine successen, stijgt de kans op volharding. Voor studenten met ADHD kan automatische opsplitsing helpen bij het overbruggen van de kloof tussen intentie en actie. Technologisch kan dit gerealiseerd worden via templates, AI-ondersteunde suggesties of vooraf gedefinieerde taakstructuren. De uitdaging ligt in het aanbieden van structuur zonder rigiditeit.
+
+\section{Notificaties en stressregulatie}
+Notificatiesystemen zijn ontworpen om aandacht te trekken, maar kunnen bij ADHD leiden tot overprikkeling. Onderzoek naar digitale stress suggereert dat constante onderbrekingen de concentratie verminderen en mentale vermoeidheid verhogen \autocite{Mark2008}. Contextbewuste notificaties, die rekening houden met tijdstip en gebruikersactiviteit, kunnen minder intrusief zijn. Rustige visuele herinneringen zonder auditieve signalen reduceren stress en ondersteunende zelfregulatie.
+
+\section{Gamification en motivatie}
+Gamification wordt gedefinieerd als het gebruik van spelelementen in niet-spelcontexten \autocite{Deterding2011}. \textcite{Mekler2021} benadrukken dat gamification effectief kan zijn wanneer het intrinsieke motivatie ondersteunt in plaats van louter extrinsieke beloningen te bieden. Bij ADHD is motivatie sterk gekoppeld aan directe feedback en beloningssystemen. Visuele voortgangsbalken, positieve bevestiging en kleine beloningen kunnen bijdragen aan dopamine-gerelateerde motivatieprocessen. Overmatige competitie of complexe beloningssystemen kunnen echter contraproductief werken.
+
+\section{Lacunes in het huidige applicatielandschap}
+Ondanks de overvloed aan planningsapps is er een gebrek aan toepassingen die expliciet ontworpen zijn op basis van wetenschappelijke inzichten rond ADHD en cognitieve belasting. Bestaande tools bieden veel functionaliteit, maar vereisen vaak hoge mate van zelfstructurering. Er is nood aan een geïntegreerde benadering waarin executieve functiestoornissen, cognitieve belasting, motivatie en stressreductie samen worden beschouwd. Empirische evaluatie binnen de doelgroep is essentieel om effectiviteit aan te tonen.
+
+\section{Conclusie}
+De literatuur bevestigt dat studenten met ADHD specifieke uitdagingen ervaren op het vlak van planning en taakbeheer. Executieve functiestoornissen, afwijkende tijdsperceptie en emotionele dysregulatie vormen structurele barrières voor academisch functioneren. Digitale tools kunnen ondersteuning bieden, maar enkel wanneer zij ontworpen worden met aandacht voor cognitieve toegankelijkheid en lage extrinsieke belasting. Belangrijke ontwerpprincipes omvatten minimalistische interfaces, voorspelbare workflows, automatische taakopsplitsing, rustige notificaties en betekenisvolle, lichte gamification. De combinatie van deze elementen in een empirisch geëvalueerd prototype kan bijdragen aan beter taakbeheer, verminderde stress en verhoogde motivatie bij studenten met ADHD. Deze literatuurstudie vormt daarmee de theoretische basis voor de verdere ontwikkeling en evaluatie van een gebruiksvriendelijke planningsapplicatie op maat van studenten binnen Gent met ADHD.

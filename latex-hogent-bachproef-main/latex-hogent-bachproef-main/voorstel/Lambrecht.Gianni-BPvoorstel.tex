@@ -4,7 +4,10 @@
 %==============================================================================
 
 \documentclass{hogent-article}
-
+\usepackage[
+  backend=biber,
+  style=apa
+]{biblatex}
 % Invoegen bibliografiebestand
 \addbibresource{voorstel.bib}
 
@@ -16,14 +19,15 @@
 \academicyear{2025-2026} % pas aan indien nodig
 
 % Werktitel
-\title{Een gebruiksvriendelijke planningsapplicatie op maat van mensen met ADHD: ontwerp, vergelijking en optimalisatie van digitale hulpmiddelen voor beter taakbeheer}
+\title{Een gebruiksvriendelijke planningsapplicatie op maat van studenten binnen Gent met ADHD: ontwerp, vergelijking en optimalisatie van digitale hulpmiddelen voor beter taakbeheer}
 
 % Studentnaam en emailadres
 \author{Gianni Lambrecht}
 \email{gianni.lambrecht@student.hogent.be}
 
-% Geen co-promotor voor nu
-% \supervisor[Co-promotor]{S. Beekman (Synalco, \href{mailto:sigrid.beekman@synalco.be}{sigrid.beekman@synalco.be})}
+% 
+\supervisor[Co-promotor]{Michel Vuijlsteke
+ (Ugent, \href{michel@zog.org}{michel@zog.org})}
 
 % Specialisatierichting
 \specialisation{Mobile \& Enterprise development}
@@ -32,7 +36,7 @@
 \begin{document}
 
 \begin{abstract}
-Een korte samenvatting van het voorstel: dit onderzoek richt zich op het ontwerp en de evaluatie van een digitale planningsapplicatie die specifiek inspeelt op de noden van personen met ADHD. Uit eerdere analyse blijkt dat bestaande planningsapps vaak te complex of overweldigend zijn en onvoldoende automatische ondersteuning bieden bij het opdelen van taken. Het doel is een wetenschappelijk onderbouwd prototype te ontwikkelen en te vergelijken met gangbare tools op gebruiksvriendelijkheid en effect op uitstelgedrag en ervaren stress. De voorgestelde methodologie omvat literatuurstudie, behoefteanalyse met gebruikers (interviews / korte gebruikerstesten), ontwerp en iteratieve ontwikkeling van een proof-of-concept en een vergelijkende evaluatie. Verwachte resultaten zijn een set ontwerpprincipes, een werkend prototype en concrete aanbevelingen voor de ontwikkeling van ADHD-vriendelijke planningshulpmiddelen.
+Een korte samenvatting van het voorstel: dit onderzoek richt zich op het ontwerp en de evaluatie van een digitale planningsapplicatie voor studenten binnen Gent die specifiek inspeelt op de noden van personen met ADHD. Uit eerdere analyse blijkt dat bestaande planningsapps vaak te complex of overweldigend zijn en onvoldoende automatische ondersteuning bieden bij het opdelen van taken. Het doel is een wetenschappelijk onderbouwd prototype te ontwikkelen en te vergelijken met gangbare tools op gebruiksvriendelijkheid en effect op uitstelgedrag en ervaren stress. De voorgestelde methodologie omvat literatuurstudie, behoefteanalyse met gebruikers (interviews / korte gebruikerstesten), ontwerp en iteratieve ontwikkeling van een proof-of-concept en een vergelijkende evaluatie. Verwachte resultaten zijn een set ontwerpprincipes, een werkend prototype en concrete aanbevelingen voor de ontwikkeling van ADHD-vriendelijke planningshulpmiddelen.
 \end{abstract}
 
 \tableofcontents
@@ -40,7 +44,10 @@ Een korte samenvatting van het voorstel: dit onderzoek richt zich op het ontwerp
 % De hoofdtekst (gescheiden bestand)
 \input{voorstel-inhoud}
 
-\nocite{*}
-\printbibliography[heading=bibintoc,title={Referenties}]
+\printbibliography[heading=bibintoc]
+
+
+
+
 
 \end{document}

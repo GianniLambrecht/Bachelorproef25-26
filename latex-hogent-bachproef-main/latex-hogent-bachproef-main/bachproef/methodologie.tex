@@ -25,6 +25,146 @@
 %%
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
+%%=============================================================================
+%% Methodologie
+%%=============================================================================
 
+\chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}%
+\label{ch:methodologie}
+
+Dit hoofdstuk beschrijft het plan van aanpak van deze bachelorproef. Het onderzoek werd opgevat als een iteratief ontwerponderzoek, waarbij inzichten uit literatuur en doelgroepanalyse vertaald werden naar een prototype, dat vervolgens geëvalueerd en bijgestuurd werd.  
+
+Het onderzoek werd opgedeeld in zes opeenvolgende fasen: (1) literatuurstudie, (2) behoefteanalyse via interviews, (3) ontwerp van het prototype, (4) implementatie van een proof-of-concept, (5) evaluatie via gebruikerstesten en (6) analyse en synthese. Per fase worden hieronder de doelstelling, gehanteerde methoden en verwachte deliverables toegelicht.
+
+\section{Fase 1: Literatuurstudie}
+
+\textbf{Doelstelling.}  
+In deze fase werd een systematische literatuurstudie uitgevoerd binnen zowel het probleemdomein als het oplossingsdomein. Enerzijds werd onderzoek bestudeerd rond ADHD en executieve functies, met bijzondere aandacht voor planning, organisatie, tijdsbeleving en uitstelgedrag. Anderzijds werd literatuur geraadpleegd rond UX- en UI-ontwerp, cognitieve toegankelijkheid en digitale ondersteuning voor personen met ADHD.
+
+\textbf{Methode.}  
+Wetenschappelijke artikels en relevante vakliteratuur werden verzameld via academische databanken. De geselecteerde bronnen werden geanalyseerd en samengevat in een literatuurmatrix.
+
+\textbf{Deliverable.}  
+Een gestructureerde literatuurmatrix en een synthese van relevante ontwerpprincipes en probleemdefinities, die als theoretische basis dienden voor de volgende fasen.
+
+\textbf{Verantwoording.}  
+Een grondige literatuurstudie is noodzakelijk om het probleem wetenschappelijk te kaderen en om ontwerpkeuzes te baseren op bestaande inzichten in plaats van intuïtie.
+
+\section{Fase 2: Behoefteanalyse via interviews}
+
+\textbf{Doelstelling.}  
+Het concretiseren van de deelonderzoeksvragen binnen het probleemdomein door inzicht te krijgen in de ervaringen van de doelgroep.
+
+\textbf{Methode.}  
+Er werden semigestructureerde interviews afgenomen bij 5 tot 10 studenten met ADHD uit het hoger onderwijs in Gent. Tijdens deze gesprekken werd gepeild naar:
+\begin{itemize}
+  \item huidig planningsgedrag;
+  \item gebruikte digitale tools;
+  \item ervaren moeilijkheden bij taakplanning;
+  \item stressfactoren en motivatieproblemen.
+\end{itemize}
+
+De interviews werden thematisch geanalyseerd via handmatige codering of met behulp van software zoals NVivo of Atlas.ti.
+
+\textbf{Deliverable.}  
+Een requirementsdocument waarin de belangrijkste noden, pijnpunten en functionele vereisten werden opgelijst.
+
+\textbf{Verantwoording.}  
+Interviews laten toe om diepgaande, contextgebonden inzichten te verzamelen die niet steeds uit literatuur blijken. Deze kwalitatieve aanpak is geschikt om gebruikersnoden helder te definiëren.
+
+\section{Fase 3: Ontwerp van het prototype}
+
+\textbf{Doelstelling.}  
+Het vertalen van theoretische inzichten en gebruikersnoden naar concrete ontwerpprincipes en functionele specificaties.
+
+\textbf{Methode.}  
+Op basis van de literatuurstudie en behoefteanalyse werden:
+\begin{itemize}
+  \item functionele requirements opgesteld;
+  \item wireframes uitgewerkt;
+  \item interactieve mock-ups ontworpen in Figma.
+\end{itemize}
+
+De focus lag op een afleidingsarme interface, automatische taakopsplitsing, rustige notificaties en motiverende feedbackmechanismen.
+
+\textbf{Deliverable.}  
+Figma-wireframes en een interactief klikbaar prototype.
+
+\textbf{Verantwoording.}  
+Door eerst te ontwerpen en te prototypen op conceptueel niveau kunnen ontwerpkeuzes gevalideerd worden vóór technische implementatie, wat efficiëntie en consistentie verhoogt.
+
+\section{Fase 4: Implementatie van een proof-of-concept}
+
+\textbf{Doelstelling.}  
+Het realiseren van een functioneel prototype dat de vooropgestelde ontwerpprincipes technisch implementeert.
+
+\textbf{Methode.}  
+De applicatie werd ontwikkeld met behulp van:
+\begin{itemize}
+  \item React (web) of React Native (mobiel) voor de front-end;
+  \item Firebase of Supabase als eenvoudige backend-oplossing.
+\end{itemize}
+
+In deze fase werd de technische haalbaarheid onderzocht van onder meer:
+\begin{itemize}
+  \item automatische taakopsplitsing;
+  \item contextbewuste notificaties;
+  \item visuele feedbackmechanismen.
+\end{itemize}
+
+\textbf{Deliverable.}  
+Een werkend proof-of-concept (PoC) met basisfunctionaliteiten.
+
+\textbf{Verantwoording.}  
+Een proof-of-concept laat toe om ontwerpideeën in de praktijk te testen zonder een volledig productieklare applicatie te moeten ontwikkelen.
+
+\section{Fase 5: Evaluatie via gebruikerstesten}
+
+\textbf{Doelstelling.}  
+Het evalueren van de effectiviteit van het prototype binnen de doelgroep.
+
+\textbf{Methode.}  
+Gebruikerstesten werden uitgevoerd met studenten uit de doelgroep. De deelnemers voerden representatieve plannings- en taaktaken uit met het prototype en, indien mogelijk, met een bestaande planningsapp ter vergelijking.
+
+De evaluatie gebeurde op basis van:
+\begin{itemize}
+  \item taakvoltooiingspercentages;
+  \item zelfgerapporteerde stress- en motivatiescores;
+  \item kwalitatieve feedback.
+\end{itemize}
+
+Kwantitatieve data werden geanalyseerd met Python (pandas, scipy) of R. Kwalitatieve feedback werd thematisch gecodeerd.
+
+\textbf{Deliverable.}  
+Een testverslag met analyse van de resultaten en interpretatie in functie van de onderzoeksvragen.
+
+\textbf{Verantwoording.}  
+Gebruikersonderzoek is essentieel om te bepalen of de ontworpen oplossing daadwerkelijk aansluit bij de noden van de doelgroep.
+
+\section{Fase 6: Analyse en synthese}
+
+\textbf{Doelstelling.}  
+Het samenbrengen van alle verzamelde data om conclusies te formuleren per deelonderzoeksvraag.
+
+\textbf{Methode.}  
+Kwalitatieve en kwantitatieve resultaten werden geïntegreerd en geïnterpreteerd. Op basis hiervan werden ontwerpaanbevelingen opgesteld en werd gereflecteerd over beperkingen en mogelijke vervolgonderzoeken.
+
+\textbf{Deliverable.}  
+Een geïntegreerde analyse, conclusies per onderzoeksvraag en aanbevelingen voor verdere ontwikkeling en validatie.
+
+\textbf{Verantwoording.}  
+Een synthese van verschillende databronnen verhoogt de validiteit van de conclusies en zorgt voor een onderbouwde beantwoording van de centrale onderzoeksvraag.
+
+\section{Globale tijdsplanning en deliverables}
+
+De globale planning van het onderzoek was als volgt:
+
+\begin{itemize}
+  \item Maand 1-2: literatuurstudie en opzet methodologie (deliverable: literatuurmatrix).
+  \item Maand 3: behoefteanalyse en requirements (deliverable: requirementsdocument).
+  \item Maand 4-5: ontwerp en prototypeontwikkeling (deliverable: Figma-mock-ups en proof-of-concept).
+  \item Maand 6: gebruikerstesten en gegevensverzameling (deliverable: testverslag).
+  \item Maand 7: analyse, schrijven en aanbevelingen (deliverable: eindscriptie en codebase).
+\end{itemize}
 \lipsum[21-25]
 

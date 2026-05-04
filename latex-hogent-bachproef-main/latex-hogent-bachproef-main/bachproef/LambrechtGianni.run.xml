@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Lambrecht.Gianni-BPvoorstel.bcf</file>
+      <file>LambrechtGianni.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>Lambrecht.Gianni-BPvoorstel.bbl</file>
+      <file>LambrechtGianni.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -55,6 +55,7 @@
       <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
+      <file>blx-natbib.def</file>
       <file>standard.bbx</file>
       <file>apa.bbx</file>
       <file>apa.cbx</file>
@@ -67,22 +68,23 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>Lambrecht.Gianni-BPvoorstel</infile>
+      <infile>LambrechtGianni</infile>
     </cmdline>
     <input>
-      <file>Lambrecht.Gianni-BPvoorstel.bcf</file>
+      <file>LambrechtGianni.bcf</file>
     </input>
     <output>
-      <file>Lambrecht.Gianni-BPvoorstel.bbl</file>
+      <file>LambrechtGianni.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>Lambrecht.Gianni-BPvoorstel.bbl</file>
+      <file>LambrechtGianni.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Lambrecht.Gianni-BPvoorstel.bcf</file>
+      <file>LambrechtGianni.bcf</file>
     </requires>
     <requires type="editable">
-      <file>voorstel.bib</file>
+      <file>bachproef.bib</file>
+      <file>../voorstel/voorstel.bib</file>
     </requires>
   </external>
 </requests>

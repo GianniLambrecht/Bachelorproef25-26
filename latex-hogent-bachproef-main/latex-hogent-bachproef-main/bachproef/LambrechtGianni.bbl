@@ -1,0 +1,1481 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Alloway2010}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8acb27fbb2f5b227251537bf180e908b}{%
+           family={Alloway},
+           familyi={A\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e01b4dbbdc753940f63cbefea24d8c6b}{%
+           family={Gathercole},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70d6f9a99facebefac91b4b6c41723cd}{%
+           family={Kirkwood},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f5674a38d71c17ea489753c4875d2c29}
+      \strng{fullhash}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{fullhashraw}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{bibnamehash}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{authorbibnamehash}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{authornamehash}{f5674a38d71c17ea489753c4875d2c29}
+      \strng{authorfullhash}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{authorfullhashraw}{5895ee0abb06374c4e1233f8ea67773e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Child Psychology and Psychiatry}
+      \field{number}{8}
+      \field{title}{Working memory and executive function in ADHD}
+      \field{volume}{51}
+      \field{year}{2010}
+      \field{pages}{1010\bibrangedash 1019}
+      \range{pages}{10}
+    \endentry
+    \entry{AmericanPsychiatricAssociation2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce2c470a69e9b189664512d02dc6f03c}{%
+           family={{American Psychiatric Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \strng{namehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{fullhash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{fullhashraw}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{bibnamehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authorbibnamehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authornamehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authorfullhash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authorfullhashraw}{ce2c470a69e9b189664512d02dc6f03c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{title}{Diagnostic and statistical manual of mental disorders}
+      \field{year}{2013}
+    \endentry
+    \entry{Barkley2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=addfa6adc2ac0b128c6eadf0beb7838c}{%
+           family={Barkley},
+           familyi={B\bibinitperiod},
+           given={Russell\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Guilford Publications}%
+      }
+      \strng{namehash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{fullhash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{fullhashraw}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{bibnamehash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{authorbibnamehash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{authornamehash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{authorfullhash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{authorfullhashraw}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Attention-deficit hyperactivity disorder: A handbook for diagnosis and treatment}
+      \field{year}{2015}
+    \endentry
+    \entry{Cortese2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b644f900fdd69e26ca5ef0cfcb1a2ea2}{%
+           family={Cortese},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{fullhash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{fullhashraw}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{bibnamehash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{authorbibnamehash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{authornamehash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{authorfullhash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{authorfullhashraw}{748997f3a1f370142727d7c3e2fd16d6}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JMIR Mental Health}
+      \field{title}{Effectiveness of technology-based interventions for school-age children with ADHD: A systematic review and meta-analysis}
+      \field{year}{2023}
+    \endentry
+    \entry{cortese2023adhd}{article}{}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=50e5e05b3e8afc9b54434834aa009d79}{%
+           family={Cortese},
+           familyi={C\bibinitperiod},
+           given={Samuele},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a5e44450dd92ed2aea0c882aa1e0e60}{%
+           family={Adamo},
+           familyi={A\bibinitperiod},
+           given={Nadia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1576d07c28e4da8a58b5303d4fe415cc}{%
+           family={Del\bibnamedelima Giovane},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Cinzia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee5a63a212b969fef9825128b2d7f31f}{%
+           family={Mohr-Jensen},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30b500c723739fd28da5830f56d42a62}{%
+           family={Hayes},
+           familyi={H\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a62f8ec16725af120c8a008123c3048a}{%
+           family={Carucci},
+           familyi={C\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88b0bf2d6d777d11bae6b52693264c83}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={Lauren\bibnamedelima Z.},
+           giveni={L\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2430a4013d136df1b94fd2dcd7e1d832}{%
+           family={Tessari},
+           familyi={T\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4aff2da3b30b451372c8025627f08e33}{%
+           family={Banaschewski},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a420313bed2f987c6c48c5e7a2f223a8}{%
+           family={Coghill},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=917d167cb84bd21d8add18d91bef5c42}{%
+           family={Hollis},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65b5c47ba9709ca2f66767796030a768}{%
+           family={Simonoff},
+           familyi={S\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ac143db897db7cc3a6a35da25171d5c}{%
+           family={Sonuga-Barke},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={Edmund\bibnamedelimb J.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d438644e32551ec96e8022ceaf8266a}
+      \strng{fullhash}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{fullhashraw}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{bibnamehash}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{authorbibnamehash}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{authornamehash}{5d438644e32551ec96e8022ceaf8266a}
+      \strng{authorfullhash}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{authorfullhashraw}{ccd6a8cb95a5537b18b275fe38675b15}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JMIR Mental Health}
+      \field{number}{1}
+      \field{title}{Effectiveness of technology-based interventions for school-age children with ADHD: A systematic review and meta-analysis}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{pages}{e51459}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/51459
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2196/51459
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2196/51459
+      \endverb
+    \endentry
+    \entry{Deterding2011}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b5160d1d05fc074b8b8e5e7a6b23ce6}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{fullhash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{fullhashraw}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{bibnamehash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{authorbibnamehash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{authornamehash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{authorfullhash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{authorfullhashraw}{04f0d43acb334f130e7bc9ab99fd476e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 15th International Academic MindTrek Conference}
+      \field{title}{From game design elements to gamefulness: Defining gamification}
+      \field{year}{2011}
+    \endentry
+    \entry{Diamond2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c75d7634577f379dbb0e55cc6785a97}{%
+           family={Diamond},
+           familyi={D\bibinitperiod},
+           given={Adele},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{fullhash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{fullhashraw}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{bibnamehash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{authorbibnamehash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{authornamehash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{authorfullhash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{authorfullhashraw}{0c75d7634577f379dbb0e55cc6785a97}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Psychology}
+      \field{title}{Executive functions}
+      \field{volume}{64}
+      \field{year}{2013}
+      \field{pages}{135\bibrangedash 168}
+      \range{pages}{34}
+    \endentry
+    \entry{Hollis2025}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b010462e564aec438f0ed22e46ddea64}{%
+           family={Hollis},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{fullhash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{fullhashraw}{0e37f3f04445f01f5586611c12df6466}
+      \strng{bibnamehash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{authorbibnamehash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{authornamehash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{authorfullhash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{authorfullhashraw}{0e37f3f04445f01f5586611c12df6466}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Psychiatry}
+      \field{title}{Evaluating the evidence: A systematic review of reviews of the effectiveness and safety of digital interventions for ADHD}
+      \field{year}{2025}
+    \endentry
+    \entry{bmc2025digitaladhd}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=917d167cb84bd21d8add18d91bef5c42}{%
+           family={Hollis},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f572a399f72c36330a131697fa7db671}
+      \strng{fullhash}{f572a399f72c36330a131697fa7db671}
+      \strng{fullhashraw}{f572a399f72c36330a131697fa7db671}
+      \strng{bibnamehash}{f572a399f72c36330a131697fa7db671}
+      \strng{authorbibnamehash}{f572a399f72c36330a131697fa7db671}
+      \strng{authornamehash}{f572a399f72c36330a131697fa7db671}
+      \strng{authorfullhash}{f572a399f72c36330a131697fa7db671}
+      \strng{authorfullhashraw}{f572a399f72c36330a131697fa7db671}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Psychiatry}
+      \field{number}{1}
+      \field{title}{Evaluating the evidence: a systematic review of reviews of the effectiveness and safety of digital interventions for attention-deficit/hyperactivity disorder}
+      \field{volume}{25}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1186/s12888-025-06825-0
+      \endverb
+    \endentry
+    \entry{Locke2002}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=97e3859df1ecc8949a114c08c92fa1b0}{%
+           family={Locke},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26418df26be75e2b9eb88ecbe52725b5}{%
+           family={Latham},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{fullhash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{fullhashraw}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{bibnamehash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{authorbibnamehash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{authornamehash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{authorfullhash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{authorfullhashraw}{4c08a8b626f6714da4becd1518f97e14}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Psychologist}
+      \field{number}{9}
+      \field{title}{Building a practically useful theory of goal setting and task motivation}
+      \field{volume}{57}
+      \field{year}{2002}
+      \field{pages}{705\bibrangedash 717}
+      \range{pages}{13}
+    \endentry
+    \entry{Mark2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8b2d1b8792539b0eb5ec1a985e5923cd}{%
+           family={Mark},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95f58fe58617c5d748d7f1a47c09dd74}{%
+           family={Gudith},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64bfb80648f6d67a1c2aa4403e73bcb0}{%
+           family={Klocke},
+           familyi={K\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e79dea6332b91a03b4c752ab38ea8a9}
+      \strng{fullhash}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{fullhashraw}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{bibnamehash}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{authorbibnamehash}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{authornamehash}{6e79dea6332b91a03b4c752ab38ea8a9}
+      \strng{authorfullhash}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{authorfullhashraw}{d7d11a24326e5e8d526cb690bfc00922}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}
+      \field{title}{The cost of interrupted work}
+      \field{year}{2008}
+    \endentry
+    \entry{Mekler2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a1d1f6e94e7281b3003ae21bc8ac1a4d}{%
+           family={Mekler},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a00b10361f2652cfe0a72fde485c090}{%
+           family={Tuch},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{fullhash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{fullhashraw}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{bibnamehash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{authorbibnamehash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{authornamehash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{authorfullhash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{authorfullhashraw}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{title}{Gamification, motivation and cognitive load: Implications for ADHD design}
+      \field{year}{2021}
+    \endentry
+    \entry{Gamification2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1c727f8e79c5372c07f535bd00670ca1}{%
+           family={Mekler},
+           familyi={M\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=320e88b9763529f5642c9d11c100f938}{%
+           family={Tuch},
+           familyi={T\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{fullhash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{fullhashraw}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{bibnamehash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{authorbibnamehash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{authornamehash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{authorfullhash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{authorfullhashraw}{26b63abdf106082d68fabbd58b966a7b}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{title}{Gamification, Motivation and Cognitive Load: Implications for ADHD Design}
+      \field{volume}{122}
+      \field{year}{2021}
+      \field{pages}{106831}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.chb.2021.106831
+      \endverb
+    \endentry
+    \entry{Paas2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ded9633ca6f45cb889fa614973e39c90}{%
+           family={Paas},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bc5354232b08f06a15cc487dcd5fef0}{%
+           family={Merriënboer},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{fullhash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{fullhashraw}{427751734fe3553498ef9fb096cd0f89}
+      \strng{bibnamehash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{authorbibnamehash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{authornamehash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{authorfullhash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{authorfullhashraw}{427751734fe3553498ef9fb096cd0f89}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Psychology Review}
+      \field{title}{Cognitive load theory}
+      \field{year}{2020}
+    \endentry
+    \entry{Seeman2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=600ce442e58e467b2183baed7592579a}{%
+           family={Seeman},
+           familyi={S\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1fc07a79ab3b2ca152694827ca77fa0}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{810b646d8800c6f2df50e56c79968323}
+      \strng{fullhash}{810b646d8800c6f2df50e56c79968323}
+      \strng{fullhashraw}{810b646d8800c6f2df50e56c79968323}
+      \strng{bibnamehash}{810b646d8800c6f2df50e56c79968323}
+      \strng{authorbibnamehash}{810b646d8800c6f2df50e56c79968323}
+      \strng{authornamehash}{810b646d8800c6f2df50e56c79968323}
+      \strng{authorfullhash}{810b646d8800c6f2df50e56c79968323}
+      \strng{authorfullhashraw}{810b646d8800c6f2df50e56c79968323}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Inclusive Design}
+      \field{title}{Designing for cognitive accessibility: Principles for neurodivergent users}
+      \field{year}{2022}
+    \endentry
+    \entry{Shaw2014}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0142cfe5c8b863ed87b50c631c1c2d75}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{fullhash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{fullhashraw}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{bibnamehash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{authorbibnamehash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{authornamehash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{authorfullhash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{authorfullhashraw}{8bb04e52bb044859ad474434bdf9cb7e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Psychiatry}
+      \field{title}{Emotion dysregulation in ADHD}
+      \field{year}{2014}
+    \endentry
+    \entry{Sonuga-Barke2010}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e37aba1f30ad2023cb63d9b8841fb639}{%
+           family={Sonuga-Barke},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={E.\bibnamedelimi J.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{fullhash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{fullhashraw}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{bibnamehash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{authorbibnamehash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{authornamehash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{authorfullhash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{authorfullhashraw}{069ef0a68361e7911e7364b2160c28e4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Child Neuropsychology}
+      \field{title}{Temporal discounting and ADHD}
+      \field{year}{2010}
+    \endentry
+    \entry{Sweller1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=376ea5eea4e2127d4a885ab15ead9616}{%
+           family={Sweller},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{fullhash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{fullhashraw}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{bibnamehash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{authorbibnamehash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{authornamehash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{authorfullhash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{authorfullhashraw}{376ea5eea4e2127d4a885ab15ead9616}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Science}
+      \field{number}{2}
+      \field{title}{Cognitive load during problem solving}
+      \field{volume}{12}
+      \field{year}{1988}
+      \field{pages}{257\bibrangedash 285}
+      \range{pages}{29}
+    \endentry
+    \entry{Visser2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=324302693d1a20edf255b9e5b0a54226}{%
+           family={Visser},
+           familyi={V\bibinitperiod},
+           given={T.\bibnamedelimi A.\bibnamedelimi W.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36120d85b2737de7860cbfb4e8f970aa}{%
+           family={Jefferies},
+           familyi={J\bibinitperiod},
+           given={L.\bibnamedelimi N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{fullhash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{fullhashraw}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{bibnamehash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{authorbibnamehash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{authornamehash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{authorfullhash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{authorfullhashraw}{9657b24c485e5f162bfb4460aff76e44}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Attention Disorders}
+      \field{title}{ADHD and the importance of structure in task environments}
+      \field{year}{2016}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Alloway2010}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8acb27fbb2f5b227251537bf180e908b}{%
+           family={Alloway},
+           familyi={A\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e01b4dbbdc753940f63cbefea24d8c6b}{%
+           family={Gathercole},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70d6f9a99facebefac91b4b6c41723cd}{%
+           family={Kirkwood},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f5674a38d71c17ea489753c4875d2c29}
+      \strng{fullhash}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{fullhashraw}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{bibnamehash}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{authorbibnamehash}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{authornamehash}{f5674a38d71c17ea489753c4875d2c29}
+      \strng{authorfullhash}{5895ee0abb06374c4e1233f8ea67773e}
+      \strng{authorfullhashraw}{5895ee0abb06374c4e1233f8ea67773e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Child Psychology and Psychiatry}
+      \field{number}{8}
+      \field{title}{Working memory and executive function in ADHD}
+      \field{volume}{51}
+      \field{year}{2010}
+      \field{pages}{1010\bibrangedash 1019}
+      \range{pages}{10}
+    \endentry
+    \entry{AmericanPsychiatricAssociation2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce2c470a69e9b189664512d02dc6f03c}{%
+           family={{American Psychiatric Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \strng{namehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{fullhash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{fullhashraw}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{bibnamehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authorbibnamehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authornamehash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authorfullhash}{ce2c470a69e9b189664512d02dc6f03c}
+      \strng{authorfullhashraw}{ce2c470a69e9b189664512d02dc6f03c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{title}{Diagnostic and statistical manual of mental disorders}
+      \field{year}{2013}
+    \endentry
+    \entry{Barkley2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=addfa6adc2ac0b128c6eadf0beb7838c}{%
+           family={Barkley},
+           familyi={B\bibinitperiod},
+           given={Russell\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Guilford Publications}%
+      }
+      \strng{namehash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{fullhash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{fullhashraw}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{bibnamehash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{authorbibnamehash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{authornamehash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{authorfullhash}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \strng{authorfullhashraw}{addfa6adc2ac0b128c6eadf0beb7838c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Attention-deficit hyperactivity disorder: A handbook for diagnosis and treatment}
+      \field{year}{2015}
+    \endentry
+    \entry{Cortese2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b644f900fdd69e26ca5ef0cfcb1a2ea2}{%
+           family={Cortese},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{fullhash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{fullhashraw}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{bibnamehash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{authorbibnamehash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{authornamehash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{authorfullhash}{748997f3a1f370142727d7c3e2fd16d6}
+      \strng{authorfullhashraw}{748997f3a1f370142727d7c3e2fd16d6}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JMIR Mental Health}
+      \field{title}{Effectiveness of technology-based interventions for school-age children with ADHD: A systematic review and meta-analysis}
+      \field{year}{2023}
+    \endentry
+    \entry{cortese2023adhd}{article}{}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=50e5e05b3e8afc9b54434834aa009d79}{%
+           family={Cortese},
+           familyi={C\bibinitperiod},
+           given={Samuele},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a5e44450dd92ed2aea0c882aa1e0e60}{%
+           family={Adamo},
+           familyi={A\bibinitperiod},
+           given={Nadia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1576d07c28e4da8a58b5303d4fe415cc}{%
+           family={Del\bibnamedelima Giovane},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Cinzia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee5a63a212b969fef9825128b2d7f31f}{%
+           family={Mohr-Jensen},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30b500c723739fd28da5830f56d42a62}{%
+           family={Hayes},
+           familyi={H\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a62f8ec16725af120c8a008123c3048a}{%
+           family={Carucci},
+           familyi={C\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88b0bf2d6d777d11bae6b52693264c83}{%
+           family={Atkinson},
+           familyi={A\bibinitperiod},
+           given={Lauren\bibnamedelima Z.},
+           giveni={L\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2430a4013d136df1b94fd2dcd7e1d832}{%
+           family={Tessari},
+           familyi={T\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4aff2da3b30b451372c8025627f08e33}{%
+           family={Banaschewski},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a420313bed2f987c6c48c5e7a2f223a8}{%
+           family={Coghill},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=917d167cb84bd21d8add18d91bef5c42}{%
+           family={Hollis},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65b5c47ba9709ca2f66767796030a768}{%
+           family={Simonoff},
+           familyi={S\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ac143db897db7cc3a6a35da25171d5c}{%
+           family={Sonuga-Barke},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={Edmund\bibnamedelimb J.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d438644e32551ec96e8022ceaf8266a}
+      \strng{fullhash}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{fullhashraw}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{bibnamehash}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{authorbibnamehash}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{authornamehash}{5d438644e32551ec96e8022ceaf8266a}
+      \strng{authorfullhash}{ccd6a8cb95a5537b18b275fe38675b15}
+      \strng{authorfullhashraw}{ccd6a8cb95a5537b18b275fe38675b15}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JMIR Mental Health}
+      \field{number}{1}
+      \field{title}{Effectiveness of technology-based interventions for school-age children with ADHD: A systematic review and meta-analysis}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{pages}{e51459}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/51459
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2196/51459
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2196/51459
+      \endverb
+    \endentry
+    \entry{Deterding2011}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b5160d1d05fc074b8b8e5e7a6b23ce6}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{fullhash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{fullhashraw}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{bibnamehash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{authorbibnamehash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{authornamehash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{authorfullhash}{04f0d43acb334f130e7bc9ab99fd476e}
+      \strng{authorfullhashraw}{04f0d43acb334f130e7bc9ab99fd476e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 15th International Academic MindTrek Conference}
+      \field{title}{From game design elements to gamefulness: Defining gamification}
+      \field{year}{2011}
+    \endentry
+    \entry{Diamond2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c75d7634577f379dbb0e55cc6785a97}{%
+           family={Diamond},
+           familyi={D\bibinitperiod},
+           given={Adele},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{fullhash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{fullhashraw}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{bibnamehash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{authorbibnamehash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{authornamehash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{authorfullhash}{0c75d7634577f379dbb0e55cc6785a97}
+      \strng{authorfullhashraw}{0c75d7634577f379dbb0e55cc6785a97}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Psychology}
+      \field{title}{Executive functions}
+      \field{volume}{64}
+      \field{year}{2013}
+      \field{pages}{135\bibrangedash 168}
+      \range{pages}{34}
+    \endentry
+    \entry{Hollis2025}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b010462e564aec438f0ed22e46ddea64}{%
+           family={Hollis},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{fullhash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{fullhashraw}{0e37f3f04445f01f5586611c12df6466}
+      \strng{bibnamehash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{authorbibnamehash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{authornamehash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{authorfullhash}{0e37f3f04445f01f5586611c12df6466}
+      \strng{authorfullhashraw}{0e37f3f04445f01f5586611c12df6466}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Psychiatry}
+      \field{title}{Evaluating the evidence: A systematic review of reviews of the effectiveness and safety of digital interventions for ADHD}
+      \field{year}{2025}
+    \endentry
+    \entry{bmc2025digitaladhd}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=917d167cb84bd21d8add18d91bef5c42}{%
+           family={Hollis},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f572a399f72c36330a131697fa7db671}
+      \strng{fullhash}{f572a399f72c36330a131697fa7db671}
+      \strng{fullhashraw}{f572a399f72c36330a131697fa7db671}
+      \strng{bibnamehash}{f572a399f72c36330a131697fa7db671}
+      \strng{authorbibnamehash}{f572a399f72c36330a131697fa7db671}
+      \strng{authornamehash}{f572a399f72c36330a131697fa7db671}
+      \strng{authorfullhash}{f572a399f72c36330a131697fa7db671}
+      \strng{authorfullhashraw}{f572a399f72c36330a131697fa7db671}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Psychiatry}
+      \field{number}{1}
+      \field{title}{Evaluating the evidence: a systematic review of reviews of the effectiveness and safety of digital interventions for attention-deficit/hyperactivity disorder}
+      \field{volume}{25}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1186/s12888-025-06825-0
+      \endverb
+    \endentry
+    \entry{Locke2002}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=97e3859df1ecc8949a114c08c92fa1b0}{%
+           family={Locke},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26418df26be75e2b9eb88ecbe52725b5}{%
+           family={Latham},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{fullhash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{fullhashraw}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{bibnamehash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{authorbibnamehash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{authornamehash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{authorfullhash}{4c08a8b626f6714da4becd1518f97e14}
+      \strng{authorfullhashraw}{4c08a8b626f6714da4becd1518f97e14}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Psychologist}
+      \field{number}{9}
+      \field{title}{Building a practically useful theory of goal setting and task motivation}
+      \field{volume}{57}
+      \field{year}{2002}
+      \field{pages}{705\bibrangedash 717}
+      \range{pages}{13}
+    \endentry
+    \entry{Mark2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8b2d1b8792539b0eb5ec1a985e5923cd}{%
+           family={Mark},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95f58fe58617c5d748d7f1a47c09dd74}{%
+           family={Gudith},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64bfb80648f6d67a1c2aa4403e73bcb0}{%
+           family={Klocke},
+           familyi={K\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e79dea6332b91a03b4c752ab38ea8a9}
+      \strng{fullhash}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{fullhashraw}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{bibnamehash}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{authorbibnamehash}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{authornamehash}{6e79dea6332b91a03b4c752ab38ea8a9}
+      \strng{authorfullhash}{d7d11a24326e5e8d526cb690bfc00922}
+      \strng{authorfullhashraw}{d7d11a24326e5e8d526cb690bfc00922}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}
+      \field{title}{The cost of interrupted work}
+      \field{year}{2008}
+    \endentry
+    \entry{Mekler2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a1d1f6e94e7281b3003ae21bc8ac1a4d}{%
+           family={Mekler},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a00b10361f2652cfe0a72fde485c090}{%
+           family={Tuch},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{fullhash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{fullhashraw}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{bibnamehash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{authorbibnamehash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{authornamehash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{authorfullhash}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \strng{authorfullhashraw}{b7546d848e2b2902a0a4629d82ddcb5e}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{title}{Gamification, motivation and cognitive load: Implications for ADHD design}
+      \field{year}{2021}
+    \endentry
+    \entry{Gamification2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1c727f8e79c5372c07f535bd00670ca1}{%
+           family={Mekler},
+           familyi={M\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=320e88b9763529f5642c9d11c100f938}{%
+           family={Tuch},
+           familyi={T\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{fullhash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{fullhashraw}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{bibnamehash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{authorbibnamehash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{authornamehash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{authorfullhash}{26b63abdf106082d68fabbd58b966a7b}
+      \strng{authorfullhashraw}{26b63abdf106082d68fabbd58b966a7b}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{title}{Gamification, Motivation and Cognitive Load: Implications for ADHD Design}
+      \field{volume}{122}
+      \field{year}{2021}
+      \field{pages}{106831}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.chb.2021.106831
+      \endverb
+    \endentry
+    \entry{Paas2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ded9633ca6f45cb889fa614973e39c90}{%
+           family={Paas},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bc5354232b08f06a15cc487dcd5fef0}{%
+           family={Merriënboer},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{fullhash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{fullhashraw}{427751734fe3553498ef9fb096cd0f89}
+      \strng{bibnamehash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{authorbibnamehash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{authornamehash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{authorfullhash}{427751734fe3553498ef9fb096cd0f89}
+      \strng{authorfullhashraw}{427751734fe3553498ef9fb096cd0f89}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Psychology Review}
+      \field{title}{Cognitive load theory}
+      \field{year}{2020}
+    \endentry
+    \entry{Seeman2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=600ce442e58e467b2183baed7592579a}{%
+           family={Seeman},
+           familyi={S\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1fc07a79ab3b2ca152694827ca77fa0}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{810b646d8800c6f2df50e56c79968323}
+      \strng{fullhash}{810b646d8800c6f2df50e56c79968323}
+      \strng{fullhashraw}{810b646d8800c6f2df50e56c79968323}
+      \strng{bibnamehash}{810b646d8800c6f2df50e56c79968323}
+      \strng{authorbibnamehash}{810b646d8800c6f2df50e56c79968323}
+      \strng{authornamehash}{810b646d8800c6f2df50e56c79968323}
+      \strng{authorfullhash}{810b646d8800c6f2df50e56c79968323}
+      \strng{authorfullhashraw}{810b646d8800c6f2df50e56c79968323}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Inclusive Design}
+      \field{title}{Designing for cognitive accessibility: Principles for neurodivergent users}
+      \field{year}{2022}
+    \endentry
+    \entry{Shaw2014}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0142cfe5c8b863ed87b50c631c1c2d75}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{fullhash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{fullhashraw}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{bibnamehash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{authorbibnamehash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{authornamehash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{authorfullhash}{8bb04e52bb044859ad474434bdf9cb7e}
+      \strng{authorfullhashraw}{8bb04e52bb044859ad474434bdf9cb7e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Psychiatry}
+      \field{title}{Emotion dysregulation in ADHD}
+      \field{year}{2014}
+    \endentry
+    \entry{Sonuga-Barke2010}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e37aba1f30ad2023cb63d9b8841fb639}{%
+           family={Sonuga-Barke},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={E.\bibnamedelimi J.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{fullhash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{fullhashraw}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{bibnamehash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{authorbibnamehash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{authornamehash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{authorfullhash}{069ef0a68361e7911e7364b2160c28e4}
+      \strng{authorfullhashraw}{069ef0a68361e7911e7364b2160c28e4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Child Neuropsychology}
+      \field{title}{Temporal discounting and ADHD}
+      \field{year}{2010}
+    \endentry
+    \entry{Sweller1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=376ea5eea4e2127d4a885ab15ead9616}{%
+           family={Sweller},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{fullhash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{fullhashraw}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{bibnamehash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{authorbibnamehash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{authornamehash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{authorfullhash}{376ea5eea4e2127d4a885ab15ead9616}
+      \strng{authorfullhashraw}{376ea5eea4e2127d4a885ab15ead9616}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Science}
+      \field{number}{2}
+      \field{title}{Cognitive load during problem solving}
+      \field{volume}{12}
+      \field{year}{1988}
+      \field{pages}{257\bibrangedash 285}
+      \range{pages}{29}
+    \endentry
+    \entry{Visser2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=324302693d1a20edf255b9e5b0a54226}{%
+           family={Visser},
+           familyi={V\bibinitperiod},
+           given={T.\bibnamedelimi A.\bibnamedelimi W.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36120d85b2737de7860cbfb4e8f970aa}{%
+           family={Jefferies},
+           familyi={J\bibinitperiod},
+           given={L.\bibnamedelimi N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{fullhash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{fullhashraw}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{bibnamehash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{authorbibnamehash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{authornamehash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{authorfullhash}{9657b24c485e5f162bfb4460aff76e44}
+      \strng{authorfullhashraw}{9657b24c485e5f162bfb4460aff76e44}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Attention Disorders}
+      \field{title}{ADHD and the importance of structure in task environments}
+      \field{year}{2016}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

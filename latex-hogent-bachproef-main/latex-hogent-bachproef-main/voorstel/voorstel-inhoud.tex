@@ -18,7 +18,7 @@ Waarover zal je bachelorproef gaan? Introduceer het thema en zorg dat volgende z
 Personen met ADHD (Attention Deficit Hyperactivity Disorder) ervaren vaak moeilijkheden met executieve functies zoals planning, organisatie, tijdsbeheer en taakvoltooiing. Veel bestaande planningsapps (bijv. Todoist, Notion, TickTick, Tiimo, Trello) richten zich op brede gebruikersgroepen en missen vaak specifieke aanpassingen die nodig zijn voor ADHD-gebruikers. Deze apps kunnen te complex zijn, onvoldoende structuur bieden, of notificaties gebruiken die extra stress veroorzaken in plaats van te helpen. Daardoor is er behoefte aan een toepassing die rekening houdt met beperkte werkgeheugencapaciteit, neiging tot uitstel en gevoeligheid voor prikkels.
 
 \medskip
-\textbf{Doelgroep:} jongvolwassenen en volwassenen met ADHD die digitale hulpmiddelen gebruiken voor taakbeheer, studie of werk.
+\textbf{Doelgroep:} Studenten binnen Gent met ADHD die digitale hulpmiddelen gebruiken voor taakbeheer, studie of werk.
 
 \medskip
 \textbf{Casus en afbakening:} dit onderzoek richt zich op het ontwerpen, implementeren en evalueren van een prototype van een planningsapp die inspeelt op de noden van ADHD-gebruikers. De focus ligt op UX-ontwerp, automatische taakopsplitsing, rustige notificaties en motiverende, niet-overprikkelende feedbackmechanismen.
@@ -33,6 +33,26 @@ Hoe kan een applicatie op maat van mensen met ADHD bijdragen aan beter taakbehee
 \end{quote}
 
 \medskip
+\textbf{Deelvragen Probleemdomein:}
+\begin{itemize}
+  \item Welke specifieke problemen ervaren personen met ADHD bij het plannen, organiseren en voltooien van taken tijdens studie- of werkgerelateerde activiteiten?
+  \item Welke planningsapps en digitale tools worden momenteel het meest gebruikt door personen met ADHD?
+  \item Welke concrete tekortkomingen ervaren personen met ADHD in bestaande planningsapps op het vlak van gebruiksvriendelijkheid, cognitieve belasting en stressbeleving?
+\end{itemize}
+
+\medskip
+\textbf{Deelvragen Oplossingsdomein:}
+\begin{itemize}
+  \item Welke UX- en UI-ontwerpprincipes leiden bij personen met ADHD tot een lagere ervaren cognitieve belasting tijdens het plannen van taken?
+  \item Welke kernfunctionaliteiten dragen aantoonbaar bij aan een beter overzicht en een hogere taakvoltooiing bij personen met ADHD?
+  \item In welke mate vermindert een afleidingsarme gebruikersinterface de ervaren stress tijdens het gebruik van een planningsapp?
+  \item In welke mate verhogen visuele feedback en lichte gamification de motivatie tot dagelijks gebruik bij personen met ADHD?
+  \item In welke mate worden rustige, contextbewuste notificaties als minder stressvol ervaren dan standaard notificaties van bestaande planningsapps?
+  \item In welke mate draagt automatische taakopsplitsing bij aan een hogere taakvoltooiing en een vermindering van uitstelgedrag?
+  \item Welke technologieën en frameworks maken het mogelijk om een toegankelijk en performant prototype te ontwikkelen binnen de scope van deze bachelorproef?
+\end{itemize}
+
+\medskip
 \textbf{Onderzoeksdoelstelling:} het ontwikkelen en evalueren van een proof-of-concept dat ontwerpprincipes en technische realisaties (front-end en eenvoudige backend) demonstreert, aangevuld met aanbevelingen voor opschaling en verdere validatie.
 
 %---------- State-of-the-art -------------------------------------------------
@@ -41,7 +61,7 @@ Hoe kan een applicatie op maat van mensen met ADHD bijdragen aan beter taakbehee
 
 Hier beschrijf je de state-of-the-art rondom je gekozen onderzoeksdomein. Je steunt daarbij sterk op professionele vakliteratuur en recente studies.
 
-ADHD beïnvloedt vooral executieve functies zoals werkgeheugen en planningcapaciteit; dit vertaalt zich in moeilijkheden bij het opdelen en volhouden van taken en in een afwijkende tijdsbeleving. Studies tonen dat visuele structuur, eenvoudige workflows en beperkte prikkelintensiteit kunnen helpen om taakvoltooiing te verbeteren. Daarnaast wijzen onderzoeken op de rol van beloningsmechanismen en aangepaste notificaties om motivatie te stimuleren zonder extra stress te veroorzaken.
+ADHD beïnvloedt vooral executieve functies zoals werkgeheugen en planningcapaciteit; dit vertaalt zich in moeilijkheden bij het opdelen en volhouden van taken en in een afwijkende tijdsbeleving \parencite{Alloway2010}. Studies tonen dat visuele structuur, eenvoudige workflows en beperkte prikkelintensiteit kunnen helpen om taakvoltooiing te verbeteren \parencite{Visser2016, Seeman2022}. Daarnaast wijzen onderzoeken op de rol van beloningsmechanismen en aangepaste notificaties om motivatie te stimuleren zonder extra stress te veroorzaken \parencite{Gamification2021}.
 
 Bestaande apps (bijv. Tiimo) bieden interessante voorbeelden van visuele routines, maar tonen beperkingen in flexibiliteit en automatisering voor complexe taken. Er is een lacune voor apps die:
 \begin{itemize}
@@ -50,6 +70,7 @@ Bestaande apps (bijv. Tiimo) bieden interessante voorbeelden van visuele routine
   \item rustige en contextbewuste notificaties hanteren;
   \item eenvoudige, voorspelbare UI-flows hebben.
 \end{itemize}
+Onderzoek toont aan dat digitale interventies ondersteuning kunnen bieden bij ADHD \parencite{cortese2023adhd}. Ook toont recente literatuur aan dat veel digitale interventies voor ADHD wel potentieel hebben, maar dat hun effectiviteit sterk afhankelijk is van gebruiksvriendelijkheid, personalisatie en cognitieve belasting \parencite{bmc2025digitaladhd}.
 
 In de literatuur zal ik werken met peer-reviewed bronnen over ADHD en executieve functies, HCI-onderzoek over cognitieve toegankelijkheid, en empirische evaluaties van bestaande apps en prototypes. Verwijzingen naar gebruikte bronnen vind je in de Referenties.
 
@@ -62,12 +83,28 @@ Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoeks
 De voorgestelde methodologie bestaat uit de volgende fasen:
 
 \begin{enumerate}
-  \item \textbf{Literatuurstudie}: systematische verkenning van wetenschappelijke publicaties en relevante gray literature omtrent ADHD, UX-ontwerp voor cognitieve toegankelijkheid en bestaande planningsapps.
-  \item \textbf{Behoefteanalyse (kwalitatief)}: semigestructureerde interviews en korte gebruikerstesten (5–10 deelnemers met ADHD) om concrete pijnpunten en wensen te identificeren. Deze fase genereert requirements en prioriteiten.
-  \item \textbf{Ontwerp}: opstellen van ontwerpprincipes, wireframes en interactieve mock-ups (Figma). Iteratieve feedbacksessies met 2–3 gebruikers.
-  \item \textbf{Implementatie (PoC)}: bouw van een eenvoudig maar functioneel prototype (React of React Native; backend met Firebase of Supabase) met nadruk op automatische taakopsplitsing, visuele feedback en contextbewuste notificaties.
-  \item \textbf{Evaluatie}: vergelijkende gebruikerstesten (within-subjects of matched) tussen prototype en bestaande app(s). Meetinstrumenten: SUS (usability), korte stress-vragenlijst (zelfgerapporteerd), taakvoltooiingspercentage en kwalitatieve feedback.
-  \item \textbf{Analyse en synthese}: kwantitatieve analyse van meetgegevens en thematische analyse van kwalitatieve data. Formuleren van aanbevelingen en discussie over beperkingen.
+  \item \textbf{Literatuurstudie (probleemdomein en oplossingsdomein):}  
+  In deze eerste fase wordt een systematische literatuurstudie uitgevoerd naar ADHD en executieve functies, met focus op planning, organisatie en tijdsbeleving. Daarnaast wordt relevante literatuur onderzocht rond UX- en UI-ontwerp voor cognitieve toegankelijkheid en digitale ondersteuning bij ADHD.  
+  Deze stap beantwoordt de deelonderzoeksvragen met betrekking tot de ervaren problemen bij taakplanning, de tekortkomingen van bestaande planningsapps en de relevante ontwerpprincipes voor ADHD-vriendelijke toepassingen.
+
+  \item \textbf{Behoefteanalyse via interviews (probleemdomein):}  
+  Om de deelonderzoeksvragen binnen het probleemdomein verder te concretiseren, worden semigestructureerde interviews afgenomen bij 5–10 studenten met ADHD. Hierbij wordt gepeild naar hun huidige planningsgedrag, gebruikte tools, ervaren moeilijkheden en stressfactoren.  
+  De interviews worden thematisch geanalyseerd en beantwoorden de deelvragen rond specifieke planningsproblemen, gebruik van bestaande apps en ervaren tekortkomingen op het vlak van gebruiksvriendelijkheid en cognitieve belasting.
+
+  \item \textbf{Ontwerp van het prototype (oplossingsdomein):}  
+  Op basis van de resultaten uit de literatuurstudie en de behoefteanalyse worden ontwerpprincipes en functionele requirements opgesteld. Deze vormen de basis voor wireframes en interactieve mock-ups.  
+  Deze stap adresseert de deelonderzoeksvragen binnen het oplossingsdomein met betrekking tot UX/UI-principes, essentiële functionaliteiten, afleidingsarme interfaces en motiverende feedbackmechanismen.
+
+  \item \textbf{Implementatie van een proof-of-concept (oplossingsdomein):}  
+  Vervolgens wordt een functioneel prototype ontwikkeld met behulp van web- of mobiele technologieën (React of React Native) en een eenvoudige backend (Firebase of Supabase).  
+  In deze fase worden specifieke oplossingsgerichte deelvragen onderzocht, zoals de technische haalbaarheid van automatische taakopsplitsing, rustige notificaties en visuele feedback, evenals de geschiktheid van gekozen technologieën en frameworks.
+
+  \item \textbf{Evaluatie via gebruikerstesten (oplossingsdomein):}  
+  Het prototype wordt geëvalueerd aan de hand van gebruikerstesten met personen uit de doelgroep. Deelnemers voeren representatieve plannings- en taaktaken uit met het prototype en, indien mogelijk, met een bestaande planningsapp.  
+  Deze stap beantwoordt de deelvragen over de effectiviteit van UX-keuzes, de impact van afleidingsarme interfaces, automatische taakopsplitsing, notificaties en gamification op taakvoltooiing, stressbeleving en motivatie. De analyse gebeurt aan de hand van taakvoltooiingspercentages, zelfgerapporteerde stress- en motivatiescores en kwalitatieve feedback.
+
+  \item \textbf{Analyse en synthese:}  
+  De verzamelde kwalitatieve en kwantitatieve data worden geanalyseerd en samengebracht om conclusies te formuleren per deelonderzoeksvraag. Op basis hiervan worden ontwerpaanbevelingen geformuleerd en wordt gereflecteerd over beperkingen en mogelijke vervolgonderzoeken.
 \end{enumerate}
 
 \medskip
