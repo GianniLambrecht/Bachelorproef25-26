@@ -121,47 +121,6 @@
       \field{title}{Attention-deficit hyperactivity disorder: A handbook for diagnosis and treatment}
       \field{year}{2015}
     \endentry
-    \entry{Barkley2022}{book}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=addfa6adc2ac0b128c6eadf0beb7838c}{%
-           family={Barkley},
-           familyi={B\bibinitperiod},
-           given={Russell\bibnamedelima A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4481b4737790765971b904609a4c7f41}{%
-           family={Benton},
-           familyi={B\bibinitperiod},
-           given={Christine\bibnamedelima M.},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {The Guilford Press}%
-      }
-      \strng{namehash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{fullhash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{fullhashraw}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{bibnamehash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{authorbibnamehash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{authornamehash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{authorfullhash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{authorfullhashraw}{97faafb45e1a641f25c20af12e0440f3}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{isbn}{978-1-4625-4685-5}
-      \field{title}{Taking Charge of Adult {ADHD}: Proven Strategies to Succeed at Work, at Home, and in Relationships}
-      \field{year}{2022}
-    \endentry
     \entry{Cortese2023}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -437,65 +396,6 @@
       \verb 10.1186/s12888-025-06825-0
       \endverb
     \endentry
-    \entry{Hosseinnia2025}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=863daa566008b78a913254e070ab5df1}{%
-           family={Hosseinnia},
-           familyi={H\bibinitperiod},
-           given={Maede},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a4f9cfffd456958a0a28f3f57325e9be}{%
-           family={Pirzadeh},
-           familyi={P\bibinitperiod},
-           given={Asiyeh},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a616fb556e01883b0a93edddddf299af}{%
-           family={Nazari},
-           familyi={N\bibinitperiod},
-           given={Abouzar},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78132f21673a192c720997be774b5f90}{%
-           family={Heidari},
-           familyi={H\bibinitperiod},
-           given={Zahra},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{420c7c0b7f8558f40a6819ea12ab6847}
-      \strng{fullhash}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{fullhashraw}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{bibnamehash}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{authorbibnamehash}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{authornamehash}{420c7c0b7f8558f40a6819ea12ab6847}
-      \strng{authorfullhash}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{authorfullhashraw}{e3ccf3ee2674874f33241836ec0c5d79}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Frontiers in Public Health}
-      \field{month}{2}
-      \field{title}{Applications for the management of Attention Deficit Hyperactivity Disorder: a systematic review}
-      \field{volume}{13}
-      \field{year}{2025}
-      \field{pages}{1483923}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3389/fpubh.2025.1483923
-      \endverb
-      \verb{urlraw}
-      \verb https://pubmed.ncbi.nlm.nih.gov/40084214/
-      \endverb
-      \verb{url}
-      \verb https://pubmed.ncbi.nlm.nih.gov/40084214/
-      \endverb
-    \endentry
     \entry{Locke2002}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=97e3859df1ecc8949a114c08c92fa1b0}{%
@@ -685,77 +585,6 @@
       \field{journaltitle}{Educational Psychology Review}
       \field{title}{Cognitive load theory}
       \field{year}{2020}
-    \endentry
-    \entry{Schofield2026}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=176dc334b01b19162e5c87136043097a}{%
-           family={Schofield},
-           familyi={S\bibinitperiod},
-           given={Fin\bibnamedelima J.},
-           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=03ee5d72e8aae7701bd004820af46bf0}{%
-           family={Wilkie},
-           familyi={W\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78a9db1da0d323263396356e451f54ed}{%
-           family={Nielsen},
-           familyi={N\bibinitperiod},
-           given={Emily\bibnamedelima E.},
-           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8772dc97f36c5fee21e43c46be3d7c86}{%
-           family={Brigden},
-           familyi={B\bibinitperiod},
-           given={Amberly},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3010f5a0bbafd35b14d940a542659786}{%
-           family={Jones},
-           familyi={J\bibinitperiod},
-           given={Matt\bibnamedelima W.},
-           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=12eea6f2cd1edd3dec3a4adba4a7ae5d}{%
-           family={Isotalus},
-           familyi={I\bibinitperiod},
-           given={Hanna\bibnamedelima K.},
-           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6a697707314f9ff835b9f02b8b9a868f}
-      \strng{fullhash}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{fullhashraw}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{bibnamehash}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{authorbibnamehash}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{authornamehash}{6a697707314f9ff835b9f02b8b9a868f}
-      \strng{authorfullhash}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{authorfullhashraw}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Frontiers in Digital Health}
-      \field{month}{2}
-      \field{title}{Digital health technologies for adults with {ADHD}: a scoping review}
-      \field{volume}{8}
-      \field{year}{2026}
-      \field{pages}{1746732}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3389/fdgth.2026.1746732
-      \endverb
-      \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1746732/full
-      \endverb
-      \verb{url}
-      \verb https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1746732/full
-      \endverb
     \endentry
     \entry{Seeman2022}{article}{}{}
       \name{author}{2}{}{%
@@ -1021,47 +850,6 @@
       \field{title}{Attention-deficit hyperactivity disorder: A handbook for diagnosis and treatment}
       \field{year}{2015}
     \endentry
-    \entry{Barkley2022}{book}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=addfa6adc2ac0b128c6eadf0beb7838c}{%
-           family={Barkley},
-           familyi={B\bibinitperiod},
-           given={Russell\bibnamedelima A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4481b4737790765971b904609a4c7f41}{%
-           family={Benton},
-           familyi={B\bibinitperiod},
-           given={Christine\bibnamedelima M.},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {The Guilford Press}%
-      }
-      \strng{namehash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{fullhash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{fullhashraw}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{bibnamehash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{authorbibnamehash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{authornamehash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{authorfullhash}{97faafb45e1a641f25c20af12e0440f3}
-      \strng{authorfullhashraw}{97faafb45e1a641f25c20af12e0440f3}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{isbn}{978-1-4625-4685-5}
-      \field{title}{Taking Charge of Adult {ADHD}: Proven Strategies to Succeed at Work, at Home, and in Relationships}
-      \field{year}{2022}
-    \endentry
     \entry{Cortese2023}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1337,65 +1125,6 @@
       \verb 10.1186/s12888-025-06825-0
       \endverb
     \endentry
-    \entry{Hosseinnia2025}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=863daa566008b78a913254e070ab5df1}{%
-           family={Hosseinnia},
-           familyi={H\bibinitperiod},
-           given={Maede},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a4f9cfffd456958a0a28f3f57325e9be}{%
-           family={Pirzadeh},
-           familyi={P\bibinitperiod},
-           given={Asiyeh},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a616fb556e01883b0a93edddddf299af}{%
-           family={Nazari},
-           familyi={N\bibinitperiod},
-           given={Abouzar},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78132f21673a192c720997be774b5f90}{%
-           family={Heidari},
-           familyi={H\bibinitperiod},
-           given={Zahra},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{420c7c0b7f8558f40a6819ea12ab6847}
-      \strng{fullhash}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{fullhashraw}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{bibnamehash}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{authorbibnamehash}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{authornamehash}{420c7c0b7f8558f40a6819ea12ab6847}
-      \strng{authorfullhash}{e3ccf3ee2674874f33241836ec0c5d79}
-      \strng{authorfullhashraw}{e3ccf3ee2674874f33241836ec0c5d79}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Frontiers in Public Health}
-      \field{month}{2}
-      \field{title}{Applications for the management of Attention Deficit Hyperactivity Disorder: a systematic review}
-      \field{volume}{13}
-      \field{year}{2025}
-      \field{pages}{1483923}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3389/fpubh.2025.1483923
-      \endverb
-      \verb{urlraw}
-      \verb https://pubmed.ncbi.nlm.nih.gov/40084214/
-      \endverb
-      \verb{url}
-      \verb https://pubmed.ncbi.nlm.nih.gov/40084214/
-      \endverb
-    \endentry
     \entry{Locke2002}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=97e3859df1ecc8949a114c08c92fa1b0}{%
@@ -1586,77 +1315,6 @@
       \field{title}{Cognitive load theory}
       \field{year}{2020}
     \endentry
-    \entry{Schofield2026}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=176dc334b01b19162e5c87136043097a}{%
-           family={Schofield},
-           familyi={S\bibinitperiod},
-           given={Fin\bibnamedelima J.},
-           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=03ee5d72e8aae7701bd004820af46bf0}{%
-           family={Wilkie},
-           familyi={W\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78a9db1da0d323263396356e451f54ed}{%
-           family={Nielsen},
-           familyi={N\bibinitperiod},
-           given={Emily\bibnamedelima E.},
-           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8772dc97f36c5fee21e43c46be3d7c86}{%
-           family={Brigden},
-           familyi={B\bibinitperiod},
-           given={Amberly},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3010f5a0bbafd35b14d940a542659786}{%
-           family={Jones},
-           familyi={J\bibinitperiod},
-           given={Matt\bibnamedelima W.},
-           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=12eea6f2cd1edd3dec3a4adba4a7ae5d}{%
-           family={Isotalus},
-           familyi={I\bibinitperiod},
-           given={Hanna\bibnamedelima K.},
-           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6a697707314f9ff835b9f02b8b9a868f}
-      \strng{fullhash}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{fullhashraw}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{bibnamehash}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{authorbibnamehash}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{authornamehash}{6a697707314f9ff835b9f02b8b9a868f}
-      \strng{authorfullhash}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \strng{authorfullhashraw}{11f22e2da0b0a687fc61be09b4e2b0ef}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Frontiers in Digital Health}
-      \field{month}{2}
-      \field{title}{Digital health technologies for adults with {ADHD}: a scoping review}
-      \field{volume}{8}
-      \field{year}{2026}
-      \field{pages}{1746732}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3389/fdgth.2026.1746732
-      \endverb
-      \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1746732/full
-      \endverb
-      \verb{url}
-      \verb https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1746732/full
-      \endverb
-    \endentry
     \entry{Seeman2022}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=600ce442e58e467b2183baed7592579a}{%
@@ -1818,6 +1476,7 @@
       \field{year}{2016}
     \endentry
   \enddatalist
+  \missing{Barkley2022}
 \endrefsection
 \endinput
 

@@ -1,30 +1,106 @@
 \chapter{Conclusie}%
 \label{ch:conclusie}
 
-Deze bachelorproef onderzocht hoe een mobiele applicatie op maat van studenten met ADHD kan bijdragen
-aan beter taakbeheer en tijdsplanning, met minder stress en uitstelgedrag. De aanleiding voor dit onderzoek
-was het feit dat bestaande planningsapps vaak te complex zijn en onvoldoende rekening houden met de
-cognitieve beperkingen die gepaard gaan met ADHD, zoals problemen met executieve functies, tijdsperceptie
-en emotieregulatie.
+Deze bachelorproef onderzocht hoe een digitale planningsflow studenten met ADHD
+of ADHD-symptomen kan ondersteunen bij het omzetten van academische deadlines
+naar haalbare acties, met aandacht voor cognitieve belasting, taakinitatie en
+herplanning na een gemiste deadline.
 
-Op basis van een literatuurstudie werd vastgesteld dat vooral extrinsieke cognitieve belasting een belangrijke
-factor is bij het falen van klassieke planningstools voor deze doelgroep. Minimalistische interfaces, voorspelbare
-navigatie en een focus op kleine stappen kunnen deze belasting reduceren. Daarnaast wijzen studies op het
-belang van directe feedback en beloningsmechanismen om motivatie te ondersteunen.
+\section{Beantwoording van de centrale onderzoeksvraag}
 
-Om deze inzichten te vertalen naar een praktische oplossing werd een proof-of-concept ontwikkeld als een
-mobielgericht prototype. De applicatie laat gebruikers toe om taken in te voeren, een specifieke dag te selecteren
-voor planning, en voortgang te volgen via een reward systeem met punten en streaks. Daarnaast bevat het prototype
-een profielpagina en een instellingenpagina. De implementatie werd uitgevoerd met React, TypeScript en Tailwind CSS,
-zonder backend, waardoor de applicatie volledig client-side functioneert.
+De centrale onderzoeksvraag kan worden beantwoord op drie niveaus, die
+overeenkomen met de drie kernuitdagingen die in het onderzoek naar voren kwamen.
 
-De centrale onderzoeksvraag kan beantwoord worden door te stellen dat een applicatie op maat van studenten met ADHD
-vooral meerwaarde biedt wanneer ze structuur oplegt zonder complexiteit te introduceren. Het prototype toont aan dat een
-eenvoudige workflow en directe beloning gecombineerd kunnen worden in een digitale tool die ontworpen is met aandacht
-voor cognitieve toegankelijkheid.
+\textbf{Cognitieve belasting.}
+Een digitale planningsflow vermindert cognitieve belasting wanneer ze structuur
+aanbiedt ná de invoer in plaats van ervóór. Een lege pagina of een leeg formulier
+met verplichte velden verhoogt de drempel om te starten; een vrij tekstveld of
+een gestructureerde maar beknopte invoer waarbij de app de rest overneemt, verlaagt
+die drempel. De survey bevestigde dit kwantitatief: 68,8\% van de respondenten
+noemde hoge invoerdrempel als absolute dealbreaker, en 84,4\% van de AI-voorkeur
+ging naar logische stappen in plaats van vaste tijdsblokken. Cognitieve
+belasting wordt ook beperkt door een prikkelarme interface zonder overbodige
+opties, consistente navigatie en een dagweergave die slechts de taken van één
+dag toont.
 
-% nog toevoegen over gebruikerstesten (moeten nog gebeuren)
+\textbf{Taakinitatie.}
+Het meest kritieke moment in het planningsproces is niet het plannen zelf, maar
+het starten. 77,4\% van de surveyrespondenten identificeerde initiatie als het
+moeilijkste moment, wat de theorie van~\textcite{Barkley2022} over
+initiatieparalyse kwantitatief bevestigt. Een digitale planningsflow ondersteunt
+taakinitatie wanneer ze grote, vage taken automatisch opsplitst in concrete
+micro-stappen met tijdschattingen, en wanneer de eerste stap direct zichtbaar en
+bereikbaar is op de dagweergave. De interviews voegden hieraan toe dat autonomie
+over die stappen essentieel is: de app mag suggereren maar niet opleggen.
 
-Samenvattend kan gesteld worden dat deze bachelorproef een onderbouwde basis biedt voor verdere ontwikkeling van een
-ADHD-vriendelijke planningsapplicatie, en dat de combinatie van prikkelarm ontwerp en motiverende feedback een veelbelovende
-richting vormt voor digitale ondersteuning binnen het hoger onderwijs.
+\textbf{Herplanning na een gemiste deadline.}
+Dit is de meest onderschatte schakel in de planningsflow. 84,4\% van de
+respondenten vertoont een of andere vorm van vermijding na een gemiste deadline;
+slechts 9,4\% herplant meteen. Geen enkele van de zeven onderzochte
+planningsapps begeleidt dit moment actief. Een effectieve herplanningsflow
+toont geen rode tellers of cumulerende achterstanden, maar begroet de gebruiker
+de volgende ochtend met één neutrale melding en een beperkt aantal concrete
+opties: vandaag inplannen, heropdelen of later in de week. 62,5\% van de
+respondenten verkoos deze neutrale herstart boven een volledig overzicht van
+alles wat gemist werd. De afwezigheid van schuldtoewijzing is daarmee niet
+alleen een ontwerpkeuze maar een functionele vereiste.
+
+\section{Bevindingen per onderzoeksfase}
+
+De literatuurstudie situeerde het probleem neurobiologisch: ADHD gaat gepaard
+met beperkingen in executieve functies, tijdsperceptie en emotieregulatie die
+structureel interfereren met planningsgedrag. Bestaande planningsapps zijn
+vrijwel allemaal ontworpen voor een neurotypisch brein en houden geen rekening
+met deze beperkingen. De twee afgenomen interviews concretiseerden dit in
+ervaringsgerichte inzichten over initiatieparalyse, de snooze-spiraal, de
+autonomiebehoefte en de voorkeur voor passieve zichtbaarheid boven actieve
+notificaties. De vergelijkende analyse van zeven apps identificeerde de
+structurele lacune: het moment ná een gemiste deadline wordt nergens begeleid.
+
+De kwantitatieve survey bij 32 respondenten valideerde de interviewbevindingen
+op schaal en stuurde een aantal ontwerpkeuzes bij. Bestaande planningsapps
+ontvingen een gemiddelde score van 1,88 op 5 voor hun aansluiting bij de
+werking van het ADHD-brein — de meest uitgesproken score in de volledige survey.
+De dagweergave werd op basis van de surveyresultaten omgezet van een tijdlijn
+naar een prioriteitenlijst (65,6\% voorkeur), het kleurenpalet werd minder
+verzadigd op basis van open feedback, en de term \textit{heropdelen} verving
+\textit{kleiner maken} als neutralere benaming voor het opsplitsen van een
+vastgelopen taak.
+
+Het prototype \textit{Flow} doorliep drie iteraties en resulteerde in een
+standalone HTML-applicatie met negen volledig navigeerbare schermen: onboarding,
+dagweergave, takenoverzicht, taakdetail, taak toevoegen, gemiste deadline,
+heropdelen, weekoverzicht, patronen, profiel en instellingen. De
+prototype-evaluatie in de survey leverde scores van 2,83 tot 3,03 op 5, wat
+realistisch is voor een klikbaar prototype zonder echte AI-integratie of native
+app-omgeving. 51,7\% van de respondenten gaf aan het prototype te willen
+gebruiken als het beschikbaar was op hun telefoon.
+
+\section{Aanbevelingen voor verdere ontwikkeling}
+
+Op basis van de onderzoeksresultaten worden de volgende prioriteiten aanbevolen
+voor een volgende versie van de applicatie.
+
+\textbf{Widget-integratie.} 71,9\% van de respondenten verkiest passieve
+zichtbaarheid via een widget boven een pushmelding. Een startschermmwidget is
+niet realiseerbaar in een browseromgeving en vereist een native app. Dit is de
+meest impactvolle technische uitbreiding voor retentie.
+
+\textbf{Agenda-integratie.} De meest genoemde ontbrekende functionaliteit in de
+open surveyantwoorden is koppeling met een bestaande kalender. Een integratie
+met Google Calendar of iCal zou de invoerdrempel verder verlagen doordat
+afspraken automatisch zichtbaar zijn zonder manuele invoer.
+
+\textbf{Echte AI-integratie.} De taakverdeling in het prototype is gesimuleerd
+met vaste voorbeelddata. Een koppeling met een taalmodel zou de stappengeneratie
+dynamisch en contextgevoelig maken, wat de bruikbaarheid aanzienlijk verhoogt.
+
+
+\textbf{AI-coaching voor executive dysfunction.} Meerdere surveyrespondenten
+wezen erop dat planningsapps het kernprobleem van executive dysfunction niet
+oplossen: ze helpen bij het organiseren van taken, niet bij het doorbreken van
+de mentale blokkade die het starten verhindert. Een AI-chatbot die helpt de
+oorzaak van een blokkade te analyseren — onzekerheid, ontbrekende informatie,
+een openstaande sociale verplichting kan een volgende logische stap vormen voorbij
+het domein van de planningsapp.
+

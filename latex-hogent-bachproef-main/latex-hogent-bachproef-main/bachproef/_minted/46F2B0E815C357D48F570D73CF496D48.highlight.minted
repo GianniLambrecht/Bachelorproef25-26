@@ -1,0 +1,12 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{function}\PYG{+w}{ }\PYG{n+nx}{setMode}\PYG{p}{(}\PYG{n+nx}{mode}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}mode\PYGZhy{}struct\PYGZsq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n+nx}{classList}\PYG{p}{.}\PYG{n+nx}{toggle}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}on\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{mode}\PYG{+w}{ }\PYG{o}{===}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}struct\PYGZsq{}}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}mode\PYGZhy{}free\PYGZsq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{.}\PYG{n+nx}{classList}\PYG{p}{.}\PYG{n+nx}{toggle}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}on\PYGZsq{}}\PYG{p}{,}\PYG{+w}{  }\PYG{n+nx}{mode}\PYG{+w}{ }\PYG{o}{===}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}free\PYGZsq{}}\PYG{p}{);}
+\PYG{+w}{  }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}form\PYGZhy{}struct\PYGZsq{}}\PYG{p}{).}\PYG{n+nx}{style}\PYG{p}{.}\PYG{n+nx}{display}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{    }\PYG{n+nx}{mode}\PYG{+w}{ }\PYG{o}{===}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}struct\PYGZsq{}}\PYG{+w}{ }\PYG{o}{?}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}block\PYGZsq{}}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}none\PYGZsq{}}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}form\PYGZhy{}free\PYGZsq{}}\PYG{p}{).}\PYG{n+nx}{style}\PYG{p}{.}\PYG{n+nx}{display}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{    }\PYG{n+nx}{mode}\PYG{+w}{ }\PYG{o}{===}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}free\PYGZsq{}}\PYG{+w}{   }\PYG{o}{?}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}block\PYGZsq{}}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}none\PYGZsq{}}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

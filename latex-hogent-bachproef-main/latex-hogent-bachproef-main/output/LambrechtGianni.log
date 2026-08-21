@@ -1,7 +1,6 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.1)  4 MAY 2026 14:05
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.8.21)  21 AUG 2026 11:12
 entering extended mode
  \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **./LambrechtGianni.tex
 (LambrechtGianni.tex
@@ -2123,8 +2122,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 
-(C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-ba
-chproef-main/latex-hogent-bachproef-main/output\LambrechtGianni.aux
+(C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-ba
+chproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.aux
 Package babel Info: 'dutch' activates 'dutch' shorthands.
 (babel)             Reported on input line 10.
 )
@@ -2176,8 +2175,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'LambrechtGianni.bbl' found.
 
-(C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-ba
-chproef-main/latex-hogent-bachproef-main/output\LambrechtGianni.bbl)
+(C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-ba
+chproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.bbl)
 Package biblatex Info: Reference section=0 on input line 77.
 Package biblatex Info: Reference segment=0 on input line 77.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2222,10 +2221,10 @@ Package caption Info: End \AtBeginDocument code.
 
 Package hyperref Info: Link coloring ON on input line 77.
 
-(C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-ba
-chproef-main/latex-hogent-bachproef-main/output\LambrechtGianni.out)
-(C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-ba
-chproef-main/latex-hogent-bachproef-main/output\LambrechtGianni.out)
+(C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-ba
+chproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out)
+(C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-ba
+chproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.out)
 \@outlinefile=\write6
 \openout6 = `LambrechtGianni.out'.
 
@@ -2308,6 +2307,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
 Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
@@ -2336,65 +2340,60 @@ riendelijke planningsapp bood
 
 
 
-]
-Overfull \hbox (1.68793pt too wide) in paragraph at lines 47--50
-\TU/Montserrat(1)/m/n/10.95 lijkheden met planning, organisatie en tijdsbeheer.
- Deze bachelorproef onderzoekt
- []
+] [4
 
-) [4
+]) [5]
+(C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-ba
+chproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.toc [6
 
 ]
-(C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-ba
-chproef-main/latex-hogent-bachproef-main/output\LambrechtGianni.toc [5
+Package babel Info: 'dutch' activates 'dutch' shorthands.
+(babel)             Reported on input line 72.
 
-])
+[7])
 \tf@toc=\write7
 \openout7 = `LambrechtGianni.toc'.
 
-Package babel Info: 'dutch' activates 'dutch' shorthands.
-(babel)             Reported on input line 111.
-
-[6] [7]
-(C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-ba
-chproef-main/latex-hogent-bachproef-main/output\LambrechtGianni.lof
+ [8]
+(C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-ba
+chproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lof
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMathRegular' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 6.
+(Font)              scaled to size 10.95116pt on input line 7.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 7.88484pt on input line 6.
+(Font)              scaled to size 7.88484pt on input line 7.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.35167pt on input line 6.
+(Font)              scaled to size 6.35167pt on input line 7.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 6.
+(Font)              scaled to size 10.94882pt on input line 7.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 7.88315pt on input line 6.
+(Font)              scaled to size 7.88315pt on input line 7.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 6.35031pt on input line 6.
+(Font)              scaled to size 6.35031pt on input line 7.
 )
 \tf@lof=\write8
 \openout8 = `LambrechtGianni.lof'.
 
- [8
-
-]
-(C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-ba
-chproef-main/latex-hogent-bachproef-main/output\LambrechtGianni.lot)
-\tf@lot=\write9
-\openout9 = `LambrechtGianni.lot'.
-
  [9
 
 ]
-(C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-ba
-chproef-main/latex-hogent-bachproef-main/output\LambrechtGianni.lol)
+(C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-ba
+chproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lot)
+\tf@lot=\write9
+\openout9 = `LambrechtGianni.lot'.
+
+ [10
+
+]
+(C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-ba
+chproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.lol)
 \tf@lol=\write10
 \openout10 = `LambrechtGianni.lol'.
 
- [10
+ [11
 
 
 ]
@@ -2416,19 +2415,26 @@ eden leiden tot verhoogde stress,
 
 
 ]
+Overfull \hbox (37.48953pt too wide) in paragraph at lines 44--45
+[]\TU/Montserrat(1)/m/n/10.95 Hoe kan een digitale planningsflow studenten met 
+ADHD of ADHD-symptomen
+ []
+
+[2]
 Overfull \hbox (1.76947pt too wide) in paragraph at lines 51--52
 \TU/Montserrat(1)/m/n/10.95 heid, emotionele dysregulatie) hebben de grootste i
 mpact op studieplanning? 
  []
 
-[2]
 
-LaTeX Warning: Reference `ch:methodologie' on page 3 undefined on input line 91
-.
+Overfull \hbox (4.91426pt too wide) in paragraph at lines 89--93
+[]\TU/Montserrat(1)/m/n/10.95 In Hoofdstuk [][]2[][] wordt een overzicht gegeve
+n van de bestaande literatuur rond ADHD,
+ []
 
-) (standvanzaken.tex [3]
+[3]) (standvanzaken.tex [4]
 Hoofdstuk 2.
-[4
+[5
 
 ]
 Overfull \hbox (2.97127pt too wide) in paragraph at lines 13--14
@@ -2442,7 +2448,7 @@ Overfull \hbox (26.6975pt too wide) in paragraph at lines 27--28
  toekomstige voordelen ([]Sonuga-
  []
 
-[5]
+[6]
 Overfull \hbox (4.79263pt too wide) in paragraph at lines 38--39
 \TU/Montserrat(1)/m/n/10.95 Binnen Human-Computer Interaction groeit de aandach
 t voor neurodiversiteit. []See-
@@ -2460,7 +2466,7 @@ Overfull \hbox (11.62444pt too wide) in paragraph at lines 38--39
 atronen en beperkte keuze-opties.
  []
 
-[6]
+[7]
 Overfull \hbox (7.12766pt too wide) in paragraph at lines 47--48
 \TU/Montserrat(1)/m/n/10.95 Notificatiesystemen zijn ontworpen om aandacht te t
 rekken, maar kunnen bij ADHD
@@ -2472,28 +2478,139 @@ Overfull \hbox (35.3224pt too wide) in paragraph at lines 50--51
  spelelementen in niet-spelcontexten
  []
 
-[7]) (methodologie.tex [8]
-Overfull \hbox (0.64622pt too wide) in paragraph at lines 14--16
+[8]) (methodologie.tex [9]
+Hoofdstuk 3.
+
+Overfull \hbox (0.64622pt too wide) in paragraph at lines 30--38
 []\TU/Montserrat(2)/b/n/10.95 Methode. \TU/Montserrat(1)/m/n/10.95 Wetenschappe
 lijke artikels en relevante vakliteratuur werden verzameld
  []
 
+[10
 
-Overfull \hbox (9.54494pt too wide) in paragraph at lines 25--27
-\TU/Montserrat(2)/b/n/10.95 Doelstelling. \TU/Montserrat(1)/m/n/10.95 Het concr
-etiseren van de deelonderzoeksvragen binnen het probleem-
+]
+Overfull \hbox (37.27852pt too wide) in paragraph at lines 48--48
+|[][]\TU/Montserrat(0)/b/n/14.4 Fase 2: Behoefteanalyse via interviews en app-v
+ergelijking| 
  []
 
-[9] [10]) (requirements.tex [11]
-Hoofdstuk 3.
 
-Overfull \hbox (8.12628pt too wide) in paragraph at lines 30--32
+Overfull \hbox (12.26321pt too wide) in paragraph at lines 50--54
+\TU/Montserrat(1)/m/n/10.95 plementaire perspectieven: de ervaring van de doelg
+roep enerzijds, en het bestaande
+ []
+
+
+Overfull \hbox (24.4783pt too wide) in paragraph at lines 57--64
+\TU/Montserrat(1)/m/n/10.95 waren Google Calendar, Microsoft To Do, Todoist, No
+tion, Tiimo, Fabulous en Goblin.tools.
+ []
+
+[11]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraCode' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [12]
+Overfull \hbox (7.87445pt too wide) in paragraph at lines 177--185
+\TU/Montserrat(1)/m/n/10.95 De deelnemers kregen het prototype (\TU/FiraCode(0)
+/m/n/10.95 prototype_test.html\TU/Montserrat(1)/m/n/10.95 ) toegestuurd als dow
+n-
+ []
+
+[13]
+Overfull \hbox (1.50519pt too wide) in paragraph at lines 222--226
+\TU/Montserrat(1)/m/n/10.95 clusies en zorgt voor een onderbouwde beantwoording
+ van de centrale onderzoeks-
+ []
+
+[14]) (requirements.tex [15]
+Hoofdstuk 4.
+[16
+
+]
+Overfull \hbox (8.12628pt too wide) in paragraph at lines 53--56
 \TU/Montserrat(1)/m/n/10.95 De functionele requirements beschrijven welke funct
 ionaliteiten het prototype moet
  []
 
 
-Overfull \hbox (16.26039pt too wide) in paragraph at lines 35--54
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\TU/Montserrat(1)/m/n/10.95 Literatuur,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]|\TU/Montserrat(1)/m/n/10.95 App-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\TU/Montserrat(1)/m/n/10.95 analyse
+ []
+
+
+Overfull \hbox (5.95844pt too wide) in paragraph at lines 74--74
+[]|\TU/Montserrat(1)/m/n/10.95 Kernlacune
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/Montserrat(1)/m/n/10.95 app-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\TU/Montserrat(1)/m/n/10.95 R2 (tijds-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\TU/Montserrat(1)/m/n/10.95 R1, litera-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\TU/Montserrat(1)/m/n/10.95 Literatuur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+\TU/Montserrat(1)/m/n/10.95 (directe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+\TU/Montserrat(1)/m/n/10.95 feedback
+ []
+
+
+Overfull \hbox (32.31508pt too wide) in paragraph at lines 91--91
+[]|\TU/Montserrat(1)/m/n/10.95 Methodologisch| 
+ []
+
+
+Overfull \hbox (28.66037pt too wide) in paragraph at lines 59--98
  [][] 
  []
 
@@ -2501,110 +2618,296 @@ Overfull \hbox (16.26039pt too wide) in paragraph at lines 35--54
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 7649) in paragraph at lines 74--74
-[]|\TU/Montserrat(1)/m/n/10.95 De applicatie moet bruikbaar zijn op mobiele
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+[]|\TU/Montserrat(1)/m/n/10.95 Literatuur,
  []
 
 
-Overfull \hbox (16.97414pt too wide) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+[]|\TU/Montserrat(1)/m/n/10.95 App-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 122--123
+[]|\TU/Montserrat(1)/m/n/10.95 De applicatie is geoptimaliseerd voor mobiele
+ []
+
+
+Overfull \hbox (16.97414pt too wide) in paragraph at lines 123--123
 []|\TU/Montserrat(1)/m/n/10.95 Compatibility| 
  []
 
 
-Overfull \hbox (14.79507pt too wide) in paragraph at lines 76--77
+Overfull \hbox (1.22803pt too wide) in paragraph at lines 123--124
+[]|\TU/Montserrat(1)/m/n/10.95 Doelgroep| 
+ []
+
+
+Overfull \hbox (14.79507pt too wide) in paragraph at lines 126--126
 []|\TU/Montserrat(1)/m/n/10.95 Performance| 
  []
 
 
-Overfull \hbox (16.26039pt too wide) in paragraph at lines 66--81
+Overfull \hbox (1.22803pt too wide) in paragraph at lines 129--130
+[]|\TU/Montserrat(1)/m/n/10.95 Doelgroep| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Overfull \hbox (28.66037pt too wide) in paragraph at lines 110--137
  [][] 
  []
 
-[12
-
-]
-Overfull \hbox (3.04695pt too wide) in paragraph at lines 87--91
-\TU/Montserrat(1)/m/n/10.95 maakt het mogelijk om de focus te leggen op usabili
-ty, ontwerpkeuzes en motivatie-
- []
-
-[13]) (ontwerp.tex [14]
-Hoofdstuk 4.
-
-Overfull \hbox (1.78258pt too wide) in paragraph at lines 14--15
-\TU/Montserrat(1)/m/n/10.95 Op basis van de literatuurstudie werden de volgende
- ontwerpprincipes gehanteerd: 
- []
-
-[15
-
-]
-File: streaks.png Graphic file (type bmp)
-<streaks.png>
-) (implementatie.tex [16]
-Hoofdstuk 5.
-File: architectuur.png Graphic file (type bmp)
-<architectuur.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraCode' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-[17
+) (ontwerp.tex [17] [18] [19] [20]
+Hoofdstuk 5.
+[21
 
-] [18]
+] [22]
+File: introscherm.png Graphic file (type bmp)
+<introscherm.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: dagoverzicht.png Graphic file (type bmp)
+<dagoverzicht.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: gemistedeadline.png Graphic file (type bmp)
+<gemistedeadline.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: weekoverzicht.png Graphic file (type bmp)
+<weekoverzicht.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (23.4753pt too wide) in paragraph at lines 168--174
+\TU/Montserrat(1)/m/n/10.95 weergavetype, AI-stappen) en planning (vrije blokke
+n, patroonleren, agenda-integratie).
+ []
+
+File: instellingen.png Graphic file (type bmp)
+<instellingen.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (implementatie.tex [23] [24] [25] [26] [27]
+Hoofdstuk 6.
+
+Overfull \hbox (4.25288pt too wide) in paragraph at lines 38--44
+\TU/Montserrat(1)/m/n/10.95 Ten tweede de volledige offline werking: geen inter
+netverbinding, geen server, geen
+ []
+
+[28
+
+]
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 77.
+t line 55.
 \pydata@fh@0=\write11
 \openout11 = `_F4F902BB38B7AC23E6084D3F7A251C58.data.minted'.
 
-runsystem(latexminted config  --timestamp 20260504140514 F4F902BB38B7AC23E6084D
+runsystem(latexminted config  --timestamp 20260821111205 F4F902BB38B7AC23E6084D
 3F7A251C58)...executed.
 
  (_F4F902BB38B7AC23E6084D3F7A251C58.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20260504140514 F4F902BB38B7AC23E
+runsystem(latexminted cleanconfig  --timestamp 20260821111205 F4F902BB38B7AC23E
 6084D3F7A251C58)...executed.
 
 
 (_minted/solarized-light.style.minted)
-(_minted/D5109DA7E245B1E8C53BE5D5AC8219A0.highlight.minted))
-(functionaliteiten.tex [19]
-Hoofdstuk 6.
-File: tasks.png Graphic file (type bmp)
-<tasks.png>
+(_minted/E1A3FEEBE7F8CE3FEC236085DDAE4502.highlight.minted)
+Overfull \hbox (7.12523pt too wide) in paragraph at lines 95--100
+\TU/Montserrat(1)/m/n/10.95 Alle kleuren en afmetingen worden beheerd via CSS c
+ustom properties op het \TU/FiraCode(0)/m/n/10.95 :root\TU/Montserrat(1)/m/n/10
+.95 -
+ []
+
+(_minted/695C70C4C807E73977795C96C4070520.highlight.minted
+
+LaTeX Font Warning: Font shape `TU/FiraCode(0)/m/it' undefined
+(Font)              using `TU/FiraCode(0)/m/n' instead on input line 3.
+
+)
+Overfull \hbox (2.74251pt too wide) in paragraph at lines 121--126
+\TU/Montserrat(1)/m/n/10.95 reeks gekleurde elementen met willekeurige posities
+ en CSS-animatievertragingen. 
+ []
+
+[29] (_minted/5F27A94618399393B24A257CC8C813FE.highlight.minted
+Missing character: There is no 🎉 in font Fira Code Regular/OT:script=latn;langu
+age=dflt;+ss01;+ss03;mapping=tex-text;!
+Missing character: There is no 🎉 in font Fira Code Regular/OT:script=latn;langu
+age=dflt;+ss01;+ss03;mapping=tex-text;!
+) (_minted/46F2B0E815C357D48F570D73CF496D48.highlight.minted)
+(_minted/BB4A21D0685B8A3A784720E29F417E5A.highlight.minted)
+Overfull \hbox (1.96988pt too wide) in paragraph at lines 218--218
+[]|\TU/Montserrat(2)/b/n/10.95 Versie| 
+ []
+
+
+Overfull \hbox (7.27638pt too wide) in paragraph at lines 223--223
+[]|\TU/Montserrat(1)/m/n/10.95 Interviewresultaten| 
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 224--227
+[]|\TU/Montserrat(1)/m/n/10.95 Testpaneel toegevoegd, schermen
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 224--227
+\TU/Montserrat(1)/m/n/10.95 taakenlijst geïntegreerd voor asyn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]|\TU/Montserrat(1)/m/n/10.95 Surveyresultaten
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 228--231
+[]|\TU/Montserrat(1)/m/n/10.95 Dagweergave omgezet naar prio-
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 228--231
+\TU/Montserrat(1)/m/n/10.95 riteitenlijst; kleurpalet minder ver-
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 228--231
+\TU/Montserrat(1)/m/n/10.95 zadigd; “heropdelen” als term en
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 228--231
+\TU/Montserrat(1)/m/n/10.95 apart scherm; “sla over”-knop toe-
+ []
+
+[30]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: streaks.png Graphic file (type bmp)
-<streaks.png>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (0.11816pt too wide) in paragraph at lines 240--243
+\TU/Montserrat(1)/m/n/10.95 De keuze voor een standalone HTML-prototype brengt 
+inherente beperkingen mee
+ []
 
-File: profile.png Graphic file (type bmp)
-<profile.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: settings.png Graphic file (type bmp)
-<settings.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (evaluatie.tex [20
-
-] [21] [22] [23] [24]
+[31]) (functionaliteiten.tex [32] [33]
 Hoofdstuk 7.
-[25
+File: dagoverzicht.png Graphic file (type bmp)
+<dagoverzicht.png>
 
-] [26] [27]) (conclusie.tex [28]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34
+
+]
+File: taakdetails.png Graphic file (type bmp)
+<taakdetails.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: nieuwetaakmaken.png Graphic file (type bmp)
+<nieuwetaakmaken.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35]
+File: gemistedeadline.png Graphic file (type bmp)
+<gemistedeadline.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: patronenoverzicht.png Graphic file (type bmp)
+<patronenoverzicht.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: profieloverzicht.png Graphic file (type bmp)
+<profieloverzicht.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: instellingen.png Graphic file (type bmp)
+<instellingen.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (surveyanalyse.tex [36] [37] [38] [39] [40] [41] [42] [43] [44]
 Hoofdstuk 8.
-) [29
+[45
 
-] [30]
+] [46]
+Overfull \hbox (5.45084pt too wide) in paragraph at lines 126--132
+\TU/Montserrat(1)/m/n/10.95 keuze in het prototype om logische stappen te gener
+eren in plaats van tijdgestuurde
+ []
+
+[47]
+Overfull \hbox (8.5278pt too wide) in paragraph at lines 161--166
+\TU/Montserrat(1)/m/n/10.95 58,1% geeft de voorkeur aan verdere opsplitsing van
+ de huidige stap in micro-stappen
+ []
+
+
+Overfull \hbox (2.07945pt too wide) in paragraph at lines 161--166
+\TU/Montserrat(1)/m/n/10.95 krijgen. Het prototype implementeert de opsplitsing
+soptie correct. De relatief hoge
+ []
+
+[48]
+Overfull \hbox (1.70108pt too wide) in paragraph at lines 212--218
+\TU/Montserrat(1)/m/n/10.95 grootste drempel voor dagelijks gebruik. 24,1% mist
+ een echte mobiele app in plaats
+ []
+
+
+Overfull \hbox (7.1286pt too wide) in paragraph at lines 224--227
+[]\TU/Montserrat(2)/b/n/10.95 Agenda-integratie. \TU/Montserrat(1)/m/n/10.95 Me
+erdere respondenten vroegen om koppeling met bestaande
+ []
+
+[49]) (conclusie.tex [50] [51]
+Hoofdstuk 9.
+
+Overfull \hbox (11.96606pt too wide) in paragraph at lines 4--8
+\TU/Montserrat(1)/m/n/10.95 Deze bachelorproef onderzocht hoe een digitale plan
+ningsflow studenten met ADHD
+ []
+
+
+Overfull \hbox (2.36443pt too wide) in paragraph at lines 26--35
+\TU/Montserrat(1)/m/n/10.95 tatie wanneer ze grote, vage taken automatisch opsp
+litst in concrete micro-stappen
+ []
+
+[52
+
+]
+Overfull \hbox (2.6637pt too wide) in paragraph at lines 50--59
+\TU/Montserrat(1)/m/n/10.95 met beperkingen in executieve functies, tijdspercep
+tie en emotieregulatie die struc-
+ []
+
+[53]) [54]
 B\ij lage A.
-(../voorstel/voorstel-inhoud.tex [31
+(../voorstel/voorstel-inhoud.tex [55
 
 ]
 Overfull \hbox (0.14006pt too wide) in paragraph at lines 39--40
@@ -2612,13 +2915,13 @@ Overfull \hbox (0.14006pt too wide) in paragraph at lines 39--40
 nteel het meest gebruikt
  []
 
-[32]
+[56]
 Overfull \hbox (7.52283pt too wide) in paragraph at lines 62--63
 \TU/Montserrat(1)/m/n/10.95 Hier beschrijf je de state-of-the-art rondom je gek
 ozen onderzoeksdomein. Je steunt
  []
 
-[33]
+[57]
 Overfull \hbox (5.20993pt too wide) in paragraph at lines 90--93
 []\TU/Montserrat(2)/b/n/10.95 Behoefteanalyse via interviews (probleemdomein): 
 \TU/Montserrat(1)/m/n/10.95 Om de deelonderzoeks-
@@ -2630,7 +2933,7 @@ Overfull \hbox (3.18051pt too wide) in paragraph at lines 102--105
 rsonen uit de doelgroep.
  []
 
-[34]
+[58]
 Overfull \hbox (24.44295pt too wide) in paragraph at lines 114--115
 []\TU/Montserrat(1)/m/n/10.95 Implementatie: React (web) of React Native (mobie
 l); backend: Firebase/Supabase. 
@@ -2648,7 +2951,23 @@ Overfull \hbox (1.52342pt too wide) in paragraph at lines 137--138
 itief toegankelijke plannings-
  []
 
-[35]) [36]
+[59]) (vragenlijst.tex [60]
+B\ij lage B.
+[61
+
+]
+Overfull \hbox (4.35971pt too wide) in paragraph at lines 85--87
+[]\TU/Montserrat(1)/m/n/10.95 Gestructureerd formulier: titel, deadline en prio
+riteit tegelijk invullen. Voor-
+ []
+
+[62]
+Overfull \hbox (9.76016pt too wide) in paragraph at lines 137--137
+|\TU/Montserrat(0)/b/n/14.4 Blok 4: Prototype-evaluatie (Likertschaal 1–5, hele
+maal niet
+ []
+
+[63]) [64]
 Overfull \hbox (9.383pt too wide) in paragraph at lines 178--178
 \TU/Montserrat(1)/m/n/10.95 ons for school-age children with ADHD: A systematic
  review and meta-analysis.
@@ -2660,35 +2979,35 @@ Overfull \hbox (43.76854pt too wide) in paragraph at lines 178--178
 ns for attention-deficit/hyperactivity
  []
 
-[37
+[65
 
 
-] [38]
-(C:/Users/giann/OneDrive/Bureaublad/BAP25-26/Bachelorproef25-26/latex-hogent-ba
-chproef-main/latex-hogent-bachproef-main/output\LambrechtGianni.aux)
+] [66]
+(C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-26\latex-hogent-ba
+chproef-main\latex-hogent-bachproef-main\output\LambrechtGianni.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `LambrechtGianni.out' has not changed.
-(rerunfilecheck)             Checksum: F61FA69134EB20474BD3CD33C4A3107F;12331.
+(rerunfilecheck)             Checksum: 5810728824D92821819A677F85BF0FB0;18023.
 Package logreq Info: Writing requests to 'LambrechtGianni.run.xml'.
 \openout1 = `LambrechtGianni.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50545 strings out of 402983
- 1030133 string characters out of 5452830
- 2296754 words of memory out of 5000000
- 78504 multiletter control sequences out of 15000+600000
- 630717 words of font info for 104 fonts, out of 8000000 for 9000
+ 50680 strings out of 402983
+ 1034435 string characters out of 5452829
+ 2304698 words of memory out of 5000000
+ 78621 multiletter control sequences out of 15000+600000
+ 630709 words of font info for 103 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,12n,131p,1194b,5606s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,131p,1194b,6017s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on C:/Users\giann\OneDrive\Bureaublad\BAP25-26\Bachelorproef25-2
 6\latex-hogent-bachproef-main\latex-hogent-bachproef-main\output\LambrechtGiann
-i.xdv (48 pages, 756096 bytes).
+i.xdv (77 pages, 1396184 bytes).

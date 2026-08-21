@@ -5,99 +5,249 @@
 \chapter{Technische uitwerking}%
 \label{ch:implementatie}
 
-In dit hoofdstuk wordt de technische implementatie van het prototype besproken.
-De applicatie werd ontwikkeld als een client-side proof-of-concept, met als doel
-een mobielvriendelijke gebruikerservaring te bieden zonder afhankelijkheid van een backend.
+Dit hoofdstuk beschrijft de technische realisatie van het prototype \textit{Flow}, met als
+de centrale technische beslissing: het prototype als standalone HTML-bestand te
+bouwen in plaats van als React-applicatie. Dit werd ook ingegeven door de
+onderzoekscontext: een klikbaar testbestand dat zonder installatie, account of
+internetverbinding op elk toestel kan worden geopend, verlaagt de drempel voor
+gebruikerstesten aanzienlijk en sluit aan bij de functionele requirement FR8b. De app werdt ook mede gemaakt met de hulp van generatieve AI om het process te versnellen.
 
-\section{Technologiestack}
+\section{Technologiekeuze}
 
-Het prototype werd ontwikkeld met volgende technologieën:
+Het prototype werd gerealiseerd als één zelfstandig HTML-bestand met ingebedde
+CSS en JavaScript. Er werd bewust gekozen om geen extern framework, build tool
+of package manager te gebruiken.
 
-\begin{itemize}
-  \item \textbf{React} als front-end framework voor componentgebaseerde ontwikkeling;
-  \item \textbf{TypeScript} voor typeveiligheid en betere onderhoudbaarheid;
-  \item \textbf{Vite} als build tool voor snelle development en bundling;
-  \item \textbf{pnpm} als package manager voor dependencybeheer;
-  \item \textbf{Tailwind CSS} voor styling en consistente UI-componenten;
-  \item \textbf{Lucide React} voor iconografie.
-\end{itemize}
-
-Deze stack werd gekozen omdat ze snel prototyping mogelijk maakt en goed aansluit bij moderne
-webdevelopment-praktijken.
-
-\section{Architectuur}
-
-Aangezien de applicatie volledig client-side werkt, is de architectuur relatief eenvoudig.
-De kern bestaat uit React componenten die via state management en lokale opslag met elkaar communiceren.
-
-\begin{figure}[h]
+\begin{table}[h]
 \centering
-\includegraphics[width=0.8\linewidth]{architectuur.png}
-\caption[Architectuur van het prototype]{Globale architectuur van de applicatie. De applicatie draait volledig client-side en gebruikt lokale opslag voor het bewaren van taken en gebruikersvoortgang.}
-\label{fig:architectuur}
-\end{figure}
+\begin{tabular}{lll}
+\hline
+\textbf{Technologie} & \textbf{Toepassing} & \textbf{Motivatie} \\
+\hline
+HTML5               & Structuur en schermen   & Geen build stap vereist \\
+CSS (ingebouwd)     & Stijl en animaties      & Geen externe dependencies \\
+Vanilla JavaScript  & Navigatie en interactie & Werkt in elke browser \\
+CSS custom properties & Theming en kleuren    & Eenvoudig aanpasbaar \\
+\hline
+\end{tabular}
+\caption[Technologiestack van het prototype]{Overzicht van de gebruikte
+technologieën en hun motivatie.}
+\label{tab:techstack}
+\end{table}
 
-\textbf{[AANVULLEN: maak een eenvoudig blokdiagram en exporteer als architectuur.png]}
+Deze keuze werd ingegeven door drie vereisten die voortvloeien uit het onderzoek.
+Ten eerste de lage distributiedrempel: het bestand kan worden gedeeld via Google
+Drive, e-mail of een directe downloadlink en wordt geopend met een dubbelklik.
+Ten tweede de volledige offline werking: geen internetverbinding, geen server,
+geen account. Ten derde de eenvoudige inspectie: lectoren, begeleiders en
+testpersonen kunnen het bestand openen en bekijken zonder technische kennis.
 
-\section{Dataopslag}
+\section{Schermarchitectuur}
 
-Omdat het prototype geen backend bevat, wordt data lokaal opgeslagen.
-Hiervoor kan gebruik gemaakt worden van bijvoorbeeld \texttt{localStorage} of \texttt{IndexedDB}.
-Dit laat toe om taken en gebruikersvoortgang tijdelijk te bewaren zonder server.
-
-\subsection{Structuur van taakdata}
-
-Elke taak bevat minstens:
-\begin{itemize}
-  \item een unieke identifier;
-  \item een titel;
-  \item een datum (geplande dag);
-  \item een status (voltooid of niet);
-  \item optioneel een beschrijving.
-\end{itemize}
-
-\section{Navigatie en componentstructuur}
-
-De applicatie is opgebouwd uit verschillende pagina’s/schermen:
-\begin{itemize}
-  \item Dashboard of dagoverzicht;
-  \item Takenbeheer;
-  \item Reward/voortgangsoverzicht;
-  \item Profielpagina;
-  \item Instellingen.
-\end{itemize}
-
-Deze schermen zijn als afzonderlijke componenten geïmplementeerd en hergebruiken gedeelde UI-elementen.
-
-\section{Voorbeeld van codefragment}
-
-Onderstaand fragment toont een vereenvoudigd voorbeeld van hoe taken worden toegevoegd.
+Het prototype simuleert een single-page application via CSS-gebaseerde
+schermwisseling. Elk scherm is een \texttt{<div>} met de klasse
+\texttt{.screen}. Slechts één scherm is op elk moment zichtbaar via de klasse
+\texttt{.active}. Navigatie gebeurt via een centrale JavaScript-functie die
+alle schermen deactiveert en het doelscherm activeert.
 
 \begin{listing}[ht]
-\caption[Voorbeeld: toevoegen van een taak]{Vereenvoudigd voorbeeld van een functie die een taak toevoegt aan de lokale taaklijst.}
-\label{lst:add-task}
-\begin{minted}{typescript}
-const addTask = (title: string, date: string) => {
-  const newTask = {
-    id: crypto.randomUUID(),
-    title,
-    date,
-    completed: false
-  };
-
-  setTasks((prev) => [...prev, newTask]);
-};
+\caption[Navigatiefunctie]{De centrale navigatiefunctie die schermwisseling
+beheert in het prototype.}
+\label{lst:navigatie}
+\begin{minted}{javascript}
+function go(id) {
+  document.querySelectorAll('.screen')
+    .forEach(s => s.classList.remove('active'));
+  const el = document.getElementById(id);
+  if (el) {
+    el.classList.add('active');
+    const body = el.querySelector('.body');
+    if (body) body.scrollTop = 0;
+  }
+}
 \end{minted}
 \end{listing}
 
+Het prototype bevat zes schermen die samen de kerngebruikersreis dekken:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\hline
+\textbf{Scherm-ID} & \textbf{Naam} & \textbf{Functie} \\
+\hline
+\texttt{s-home}     & Dagweergave          & Prioriteitenlijst van de dag \\
+\texttt{s-verslag}  & Taakdetail           & Stappen, voortgang, vastloopopties \\
+\texttt{s-lezen}    & Taakdetail (lopend)  & Actieve taak met timer \\
+\texttt{s-add}      & Taak toevoegen       & Invoer, stappen, deadline \\
+\texttt{s-missed}   & Gemiste deadline     & Herplanningsflow \\
+\texttt{s-stuck}    & Heropdelen           & Micro-stappen bij vastlopen \\
+\texttt{s-patterns} & Patronen             & Statistieken en inzichten \\
+\hline
+\end{tabular}
+\caption[Schermoverzicht van het prototype]{Overzicht van alle schermen in het
+prototype met hun functie.}
+\label{tab:schermen}
+\end{table}
+
+\section{Themasysteem en kleurgebruik}
+
+Alle kleuren en afmetingen worden beheerd via CSS custom properties op het
+\texttt{:root}-element. Dit maakt het mogelijk om het volledige kleurenpalet
+aan te passen zonder individuele stijlregels te wijzigen. Dit is een bewuste keuze
+naar aanleiding van de surveyresultaten, waarbij meerdere respondenten het
+kleurgebruik als te intensief omschreven.
+
+\begin{listing}[ht]
+\caption[CSS custom properties]{Fragment van het themasysteem in Flow~v3. Alle
+kleuren zijn minder verzadigd dan in v2 op basis van de surveyresultaten.}
+\label{lst:thema}
+\begin{minted}{css}
+:root {
+  --bg:       #F4F3EE;  /* warmer off-white */
+  --surface:  #FAFAF7;
+  --border:   #DEDAD2;
+
+  /* Minder verzadigd dan v2 — survey: "kleurboek"-feedback */
+  --teal:     #2A8A6E;  /* was #1D9E75 in v2 */
+  --amber:    #A06820;  /* was #BA7517 in v2 */
+  --blue:     #2A5FA0;  /* was #1A5FAD in v2 */
+}
+\end{minted}
+\end{listing}
+
+\section{Taakvoltooiing en visuele feedback}
+
+Wanneer een gebruiker een taakstap afvinkt, wordt de voortgangsbalk bijgewerkt
+en de stap visueel gedempt. Bij voltooiing van alle stappen verschijnt een
+confetti-animatie als directe positieve bekrachtiging. De confetti-functie
+genereert een reeks gekleurde elementen met willekeurige posities en
+CSS-animatievertragingen.
+
+\begin{listing}[ht]
+\caption[Taakvoltooiing]{Functie die een taakstap afvinkt, de voortgangsbalk
+bijwerkt en bij volledige voltooiing confetti activeert.}
+\label{lst:voltooiing}
+\begin{minted}{javascript}
+function completeVerslag() {
+  const check = document.getElementById('vc');
+  if (check.classList.contains('done')) return;
+
+  // Stap markeren als gedaan
+  check.textContent = '✓';
+  check.classList.add('done');
+
+  // Voortgangsbalk naar 100%
+  document.getElementById('vp').style.cssText =
+    'width:100%;background:var(--teal)';
+  document.getElementById('vplbl').textContent =
+    'Alle stappen gedaan!';
+
+  // Visuele bevestiging
+  confetti();
+  setTimeout(() => {
+    toast('Alle stappen gedaan! 🎉');
+    setTimeout(() => go('s-home'), 900);
+  }, 500);
+}
+\end{minted}
+\end{listing}
+
+\section{Invoermodi}
+
+Op basis van de surveyresultaten (53,1\% voorkeur voor gestructureerde invoer)
+biedt het taaktoevoegscherm twee invoermodi die worden geschakeld via een
+toggle. De actieve modus wordt bijgehouden via CSS-klassen; het bijbehorende
+formulier wordt via \texttt{display} zichtbaar of verborgen.
+
+\begin{listing}[ht]
+\caption[Invoermodi]{Toggle-functie voor de twee invoermodi in het
+taaktoevoegscherm.}
+\label{lst:invoer}
+\begin{minted}{javascript}
+function setMode(mode) {
+  document.getElementById('mode-struct')
+    .classList.toggle('on', mode === 'struct');
+  document.getElementById('mode-free')
+    .classList.toggle('on',  mode === 'free');
+  document.getElementById('form-struct').style.display =
+    mode === 'struct' ? 'block' : 'none';
+  document.getElementById('form-free').style.display =
+    mode === 'free'   ? 'block' : 'none';
+}
+\end{minted}
+\end{listing}
+
+\section{Testpaneel}
+
+De testversie van het prototype bevat een zijpaneel met een geïntegreerde
+taakenlijst voor testpersonen. Elke testtaak kan worden afgevinkt door de
+testpersoon zelf, zonder dat de onderzoeker aanwezig hoeft te zijn. Dit maakt
+asynchrone gebruikerstesten mogelijk.
+
+\begin{listing}[ht]
+\caption[Testpaneel]{Functie die een testtaak in het zijpaneel afvinkt wanneer
+de bijbehorende actie in het prototype wordt uitgevoerd.}
+\label{lst:testpaneel}
+\begin{minted}{javascript}
+function checkT(n) {
+  const check = document.getElementById('t' + n);
+  const text  = document.getElementById('t' + n + 't');
+  if (!check || check.classList.contains('done')) return;
+  check.textContent = '✓';
+  check.classList.add('done');
+  if (text) text.classList.add('done');
+}
+\end{minted}
+\end{listing}
+
+De testpaneelfunctie wordt opgeroepen vanuit navigatie-events in het prototype
+zelf. Wanneer een testpersoon bijvoorbeeld op de kaart ``Verslag interview 3''
+tikt, wordt automatisch testtaak~2 afgevinkt. Dit koppelt de prototypenavigate
+aan de voortgang in het testpaneel zonder dat de testpersoon daar actief iets
+voor moet doen.
+
+\section{Iteraties}
+
+Het prototype werd in drie versies ontwikkeld, elk op basis van nieuwe inzichten.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1.2cm}p{3.5cm}p{7cm}}
+\hline
+\textbf{Versie} & \textbf{Basis} & \textbf{Voornaamste wijzigingen} \\
+\hline
+v1 & Literatuur en app-analyse &
+Eerste klikbaar prototype: dagweergave met tijdlijn, taak toevoegen,
+gemiste deadline, patronen. \\
+v2 & Interviewresultaten &
+Testpaneel toegevoegd, schermen vereenvoudigd van 7 naar 6, navigatie
+teruggebracht naar 3 tabbladen, taakenlijst geïntegreerd voor
+asynchrone testen. \\
+v3 & Surveyresultaten (n=32) &
+Dagweergave omgezet naar prioriteitenlijst; kleurpalet minder verzadigd;
+``heropdelen'' als term en apart scherm; ``sla over''-knop toegevoegd;
+gestructureerde invoer als standaard met vrij-typen-toggle. \\
+\hline
+\end{tabular}
+\caption[Iteraties van het prototype]{Overzicht van de drie
+prototypeversiees en de onderzoeksbasis van elke iteratie.}
+\label{tab:iteraties}
+\end{table}
+
 \section{Beperkingen van de implementatie}
 
-De keuze om geen backend te gebruiken zorgt ervoor dat:
-\begin{itemize}
-  \item data niet gesynchroniseerd wordt tussen toestellen;
-  \item er geen login-systeem is;
-  \item gegevens verloren kunnen gaan bij het wissen van browserdata.
-\end{itemize}
+De keuze voor een standalone HTML-prototype brengt inherente beperkingen mee
+die aanvaardbaar zijn binnen de scope van dit onderzoek maar relevant zijn voor
+een eventuele productieversie.
 
-Deze beperkingen zijn aanvaardbaar binnen de scope van een proof-of-concept, maar zouden in een productieomgeving
-moeten opgelost worden via een backend en een degelijk gebruikersbeheer.
+Data is niet persistent buiten de browsersessie. Er is geen login-systeem of
+gebruikersprofiel. De AI-taakverdeling is gesimuleerd met vaste voorbeelddata
+en bevat geen echte taalmodelintegratie. Widget-ondersteuning op het startscherm
+van een smartphone dat door 71,9\% van de surveyrespondenten als gewenste
+herinnervorm werd aangeduid, is niet realiseerbaar in een browseromgeving en vereist
+een native app. Agenda-integratie, de meest gevraagde ontbrekende functionaliteit
+in de open surveyantwoorden, is evenmin aanwezig, maar zou wel de bedoeling zijn bij een definitieve versie van de applicatie.
+
+Deze beperkingen zijn dus gedocumenteerd als aanbevelingen voor vervolgontwikkeling
+in het conclusiehoofdstuk.

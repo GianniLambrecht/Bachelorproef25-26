@@ -5,61 +5,189 @@
 \chapter{Functionaliteiten van het prototype}%
 \label{ch:functionaliteiten}
 
-Dit hoofdstuk beschrijft de belangrijkste functionaliteiten van het ontwikkelde prototype.
-De focus ligt op eenvoud en ondersteuning van planning, gecombineerd met motivatie-elementen.
+Dit hoofdstuk beschrijft de functionaliteiten van het klikbare HTML-prototype
+\textit{Flow}. Het prototype bestaat uit vijf volledig navigeerbare schermen die
+samen de kerngebruikersreis dekken: van het dagelijkse overzicht over taakbeheer
+en taaktoevoeging tot de herplanningsflow bij gemiste deadlines en de
+patroonherkenning. Alle schermen zijn bereikbaar via een vaste navigatiebalk
+onderaan het scherm.
 
+Het prototype werd gerealiseerd als een standalone HTML-bestand zonder backend,
+internetverbinding of installatie. Dit maakte het geschikt voor directe
+verspreiding aan testpersonen.
 
-\section{Dagselectie en planning}
+\section{Dagweergave}
 
-De applicatie laat toe om dagen te bekijken en een specifieke dag te selecteren om taken te plannen.
-Deze aanpak ondersteunt studenten met ADHD doordat de focus op één dag tegelijk ligt, in plaats van een
-overweldigend weekoverzicht.
+De dagweergave is het startscherm van de applicatie en toont een overzicht van de
+geplande taken voor de huidige dag. Bovenaan verschijnt een begroeting met de datum
+en het aantal taken dat die dag gepland staat. Een statistiekenbalk geeft in één
+oogopslag het aantal taken van vandaag, het aantal dat bijna te laat is, en het
+totaal voor de lopende week.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.55\linewidth]{tasks.png}
-\caption[Dagoverzicht]{Voorbeeld van een dagoverzicht waarin geplande taken worden weergegeven.}
-\label{fig:day-view}
-\end{figure}
+Taken worden weergegeven als kleurgecodeerde kaarten met een gekleurde linkeraccentlijn:
+groen voor een taak die op dat moment loopt, oranje voor een taak met een naderende
+deadline, en blauw voor een afspraak. De huidige tijd wordt aangeduid met een
+``nu''-badge. Taken die voorbij zijn, worden visueel gedempt maar niet verwijderd,
+zodat voortgang zichtbaar blijft.
 
-
-\section{Reward system: punten en streaks}
-
-Wanneer een taak wordt voltooid, ontvangt de gebruiker punten. Daarnaast wordt een streak opgebouwd
-wanneer de gebruiker meerdere dagen na elkaar actief taken voltooit. Dit biedt een directe beloning en
-stimuleert consistent gedrag.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.55\linewidth]{streaks.png}
-\caption[Streaks en punten]{Voorbeeld van de weergave van streaks en punten in het prototype.}
-\label{fig:streaks}
-\end{figure}
-
-
-\section{Profielpagina}
-
-Op de profielpagina kan de gebruiker een overzicht krijgen van behaalde punten, streaks en eventueel
-andere statistieken. Dit ondersteunt het gevoel van vooruitgang.
+De dagweergave toont bewust enkel de taken van de huidige dag. Dit beperkt de
+cognitieve belasting en voorkomt het overweldigende weekoverzicht dat in de
+interviews als drempel werd geïdentificeerd.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.55\linewidth]{profile.png}
-\caption[Profielpagina]{Voorbeeld van de profielpagina met overzicht van voortgang.}
-\label{fig:profile}
+\includegraphics[width=0.45\linewidth]{dagoverzicht.png}
+\caption[Dagweergave]{De dagweergave van Flow met kleurgecodeerde taakkaarten,
+statistiekenbalk en tijdsindicator.}
+\label{fig:dagweergave}
 \end{figure}
 
+\section{Taakdetail en stappenverdeling}
 
+Wanneer een gebruiker op een taakkaart tikt, opent de taakdetailpagina. Hier worden
+de stappen van de taak weergegeven met tijdschattingen per stap. Voltooide stappen
+worden visueel gemarkeerd en doorgestreept. De actieve stap is visueel benadrukt.
 
-\section{Instellingen}
+Een voortgangsbalk bovenaan toont hoeveel stappen al zijn afgerond. Wanneer alle
+stappen zijn afgevinkt, verschijnt een visuele bevestiging en keert de applicatie
+automatisch terug naar de dagweergave.
 
-De instellingenpagina biedt de mogelijkheid om persoonlijke voorkeuren te beheren. In dit prototype
-blijven de instellingen beperkt om de eenvoud te bewaren.
+De taakverdeling in logische stappen adresseert de initiatieparalyse die door beide
+interviewrespondenten en 77,4\% van de surveyrespondenten werd beschreven als het
+moeilijkste moment in een planningsproces. Door een grote taak op te splitsen in
+behapbare micro-stappen wordt de drempel om te beginnen verlaagd.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.55\linewidth]{settings.png}
-\caption[Instellingen]{Voorbeeld van het instellingenmenu.}
-\label{fig:settings}
+\includegraphics[width=0.45\linewidth]{taakdetails.png}
+\caption[Taakdetail]{Het taakdetailscherm met stappenverdeling, voortgangsbalk
+en voltooiingsbevestiging.}
+\label{fig:taakdetail}
 \end{figure}
 
+\section{Taak toevoegen}
+
+Via de centrale plusknop in de navigatiebalk opent het invoerscherm voor nieuwe
+taken. De gebruiker typt een taak in een vrij tekstveld, zo vaag of concreet als
+gewenst. Naast het tekstveld bevindt zich een microfoonknop voor spraakinvoer.
+
+Na de tekstinvoer kan de gebruiker de grootte van de taak aangeven via drie
+knoppen (klein, medium, groot) en een deadline en starttijdstip instellen. Op
+basis van de ingevoerde tekst en de geselecteerde grootte genereert de AI
+automatisch een set logische stappen met tijdschattingen. De gegenereerde stappen
+kunnen worden aangevuld of herschikt.
+
+Dit scherm implementeert de lage invoerdrempel die als eerste vereiste naar voren
+kwam uit de interviews en de survey: de gebruiker hoeft geen structuur op te leggen
+vóór de invoer, maar krijgt die aangeboden ná de invoer.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\linewidth]{nieuwetaakmaken.png}
+\caption[Taak toevoegen]{Het invoerscherm voor nieuwe taken met vrije tekstinvoer,
+grootteselectie en automatisch gegenereerde stappen.}
+\label{fig:toevoegen}
+\end{figure}
+
+\section{Herplanningsflow bij gemiste deadlines}
+
+Wanneer een taak de vorige dag niet werd afgerond, toont de applicatie de volgende
+ochtend op de dagweergave geen rode tellers of cumulerende achterstanden. In plaats
+daarvan verschijnt een neutrale melding: ``Één ding bleef gisteren liggen.''
+
+Via de patroonpagina is het herplanningsscherm ook rechtstreeks bereikbaar. Dit
+scherm biedt drie opties: de taak vandaag inplannen (met de eerste stap direct op
+de daglijst), de taak verder opsplitsen in kleinere stappen, of de taak later in
+de week inplannen op een zelf gekozen moment. Onderaan bevindt zich een optie om
+de melding te negeren: ``Laat voor nu — ik pak het zelf op.''
+
+Een contextuele hint onderaan het scherm toont een patroonobservatie op basis van
+eerder gedrag, bijvoorbeeld dat de gebruiker maandagmiddag taken vaker uitstelt.
+
+Dit scherm adresseert de kernlacune die in de app-analyse werd geïdentificeerd en
+door 84,4\% van de surveyrespondenten kwantitatief werd bevestigd: geen enkele
+bestaande app begeleidt het moment ná een gemiste deadline. De flow vermijdt
+bewust elke vorm van schuldtoewijzing of bestraffing, conform de voorkeur van
+62,5\% van de surveyrespondenten.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\linewidth]{gemistedeadline.png}
+\caption[Herplanningsscherm]{Het herplanningsscherm bij een gemiste deadline toont
+een neutrale melding en drie herplanopties zonder rode tellers of bestraffing.}
+\label{fig:gemist}
+\end{figure}
+
+\section{Patroonherkenning en inzichten}
+
+De patroonpagina is bereikbaar via het rechtse tabblad in de navigatiebalk. Het
+scherm toont statistieken over de afgelopen drie weken: het aantal voltooide taken,
+het aantal gemiste taken en een staafdiagram van de productiviteit per weekdag.
+
+Onder de statistieken verschijnen automatisch gegenereerde inzichtkaarten. Elke
+kaart beschrijft een gedragspatroon dat de applicatie heeft herkend en een
+automatische aanpassing die daarop is gebaseerd. Voorbeelden zijn: het niet meer
+inplannen van grote taken op maandagochtend wanneer die dag structureel minder
+productief is, of het automatisch reserveren van schrijftaken voor de
+dinsdagvoormiddag wanneer dat het meest productieve tijdslot blijkt te zijn.
+
+De inzichtkaarten zijn klikbaar: de gebruiker kan een automatische aanpassing
+bevestigen, aanpassen of uitschakelen. Autonomie over de planningssuggesties
+blijft daarmee bij de gebruiker, conform het principe dat de applicatie
+suggereert maar niet oplegt. Dit was ook een vereiste die door beide interviewrespondenten
+en 40,6\% van de surveyrespondenten als essentieel werd aangeduid.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\linewidth]{patronenoverzicht.png}
+\caption[Patroonherkenning]{De patroonpagina met weekstatistieken, productiviteitsdiagram
+en klikbare inzichtkaarten met automatische planningsaanbevelingen.}
+\label{fig:patronen}
+\end{figure}
+
+\section{Profiel en instellingen}
+
+Via het profielicoon rechtsboven op de dagweergave bereikt de gebruiker het
+profielscherm. Dit scherm toont een overzicht van het aantal voltooide,
+lopende en gemiste taken en biedt toegang tot de patroonpagina en een export
+van het weekrapport.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\linewidth]{profieloverzicht.png}
+\caption[Profielscherm]{Het profielscherm met een overzicht van voltooide,
+lopende en gemiste taken en toegang tot instellingen en patronen.}
+\label{fig:profiel}
+\end{figure}
+
+Vanuit het profielscherm bereikt de gebruiker de instellingen. Hier kunnen
+herinneringen (startscherm-widget, dagelijkse melding, vertrekherinnering),
+weergave-opties (thema, dagweergave, AI-stappen) en planningsvoorkeuren
+(vrije blokken, patroonleren, agenda-integratie) individueel worden
+aan- of uitgeschakeld. Dit sluit aan bij het ontwerpprincipe van autonomie
+boven directiviteit: de gebruiker bepaalt zelf welke automatische
+functionaliteit actief is.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\linewidth]{instellingen.png}
+\caption[Instellingenscherm]{Het instellingenscherm met herinneringen,
+weergave-opties en planningsvoorkeuren, elk individueel in of uit te
+schakelen.}
+\label{fig:instellingen}
+\end{figure}
+
+\section{Navigatie}
+
+De navigatie verloopt via een vaste balk onderaan het scherm met drie tabbladen:
+\textit{Vandaag} (dagweergave), de centrale plusknop (taak toevoegen) en
+\textit{Patronen} (patroonherkenning). De actieve tab is blauw gemarkeerd. De
+tabbalk is op elk scherm zichtbaar en consistent gepositioneerd, conform het
+niet-functionele vereiste van voorspelbare en consistente navigatie.
+
+De bewuste keuze voor drie tabbladen in plaats van vijf of meer sluit aan bij de
+bevinding uit de open surveyantwoorden dat minder keuzes de cognitieve belasting
+verlagen. Functionaliteiten zoals het weekoverzicht en het takenoverzicht, die
+aanwezig zijn in de volledige prototypeversi\-e, werden in de testversie
+weggelaten om de focus tijdens de gebruikerstesten te bewaren op de drie
+kernfuncties.

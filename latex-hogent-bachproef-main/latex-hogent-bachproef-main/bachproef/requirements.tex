@@ -3,92 +3,160 @@
 %%=============================================================================
 
 \chapter{Analyse en requirements}%
-\label{ch:requirements}
+\label{ch:requirementsanalyse}
 
-In dit hoofdstuk wordt beschreven welke noden en verwachtingen studenten met ADHD
-hebben met betrekking tot planning en taakbeheer. Op basis van de literatuurstudie
-uit Hoofdstuk~\ref{ch:stand-van-zaken} werden requirements opgesteld voor het
-prototype. Deze requirements vormen de basis voor het ontwerp en de implementatie
-van de mobiele applicatie.
+Dit hoofdstuk beschrijft de noden en verwachtingen van studenten met ADHD
+met betrekking tot planning en taakbeheer, en vertaalt deze naar concrete
+requirements voor het prototype. De requirements zijn gebaseerd op drie
+bronnen: de literatuurstudie uit Hoofdstuk~\ref{ch:stand-van-zaken}, de
+vergelijkende analyse van zeven planningsapps, en de bevindingen uit twee
+semigestructureerde interviews met studenten die ADHD-symptomen ervaren.
 
 \section{Probleemanalyse binnen de doelgroep}
 
-Studenten met ADHD ervaren in een academische context vooral problemen bij
-het structureren van opdrachten, het inschatten van tijd en het behouden van
-overzicht. Taken die voor andere studenten relatief eenvoudig te plannen zijn,
-worden door studenten met ADHD vaak als overweldigend ervaren. Dit leidt tot
-uitstelgedrag, frustratie en verhoogde stress.
+Studenten met ADHD ervaren in een academische context structurele moeilijkheden
+bij het structureren van opdrachten, het inschatten van tijd en het behouden van
+overzicht. Uit de literatuurstudie blijkt dat deze problemen neurobiologisch
+verankerd zijn in beperkingen van executieve functies zoals werkgeheugen,
+inhibitie en tijdsperceptie. Barkley (2022) omschrijft dit laatste als
+tijdsblindheid: het onvermogen om tijd intuïtief te voelen, waardoor toekomstige
+deadlines geen emotionele urgentie krijgen totdat ze onmiddellijk dreigend worden.
 
-Daarnaast spelen ook motivatie en beloning een belangrijke rol. Door de typische
-werking van het dopaminesysteem bij ADHD wordt onmiddellijke feedback vaak als
-motiverender ervaren dan uitgestelde beloningen zoals een goede score op een examen.
-Hierdoor kunnen gamification-elementen zoals punten of streaks een relevante bijdrage
-leveren.
+De interviews bevestigden en verdiepten dit beeld. Respondent 2 beschreef
+tijdsblindheid als een alledaagse realiteit: \textit{``ik kan letterlijk gewoon
+echt vergeten als ik iets twee weken geleden heb gepland''}. Respondent 1
+illustreerde de paradox van planning bij ADHD: zijn vertrouwen in zijn eigen
+last-minute capaciteit ondermijnt elke motivatie om vroeger te starten:
+\textit{``alles om er vroeger aan te beginnen voelt aan als: ik kan het ook
+gewoon later doen''}. Beiden beschreven ook wat Barkley de wall of awful noemt:
+een cumulerende laag van negatieve emoties rond taken die herhaaldelijk zijn
+uitgesteld, waardoor starten steeds moeilijker wordt.
+
+De vergelijkende analyse van zeven planningsapps bracht een structurele
+lacune bloot die in de literatuur onvoldoende benoemd wordt: geen enkele
+onderzochte app begeleidt actief het moment ná een gemiste deadline. Alle
+bestaande tools nemen aan dat de gebruiker zichzelf herpakt na een mislukking.
+Dit zijn vooral rode tellers, cumulerende achterstanden, of eenvoudigweg niets. Dat is
+precies het moment waarop de wall of awful zich verdiept, en het meest
+kritieke interventievenster onbenut blijft.
+
+Naast dit centrale probleem werden in de interviews twee bijkomende knelpunten
+geïdentificeerd. Ten eerste is de initiatiefdrempel van bestaande apps te hoog:
+respondent 1 omschreef het als een ongunstige verhouding tussen inspanning en
+resultaat: \textit{``heel veel van die apps zijn redelijk veel werk om de
+informatie in te geven, terwijl het niet veel return on investment geeft''}. Ten
+tweede werken notificaties onvoldoende: beide respondenten gaven aan dat
+meldingen reflexmatig worden weggeklikt, en dat zoiets als een widget veel beter zou werken.
 
 \section{Functionele requirements}
 
-De functionele requirements beschrijven welke functionaliteiten het prototype moet
-bevatten om het vooropgestelde doel te bereiken.
+De functionele requirements beschrijven welke functionaliteiten het prototype
+moet bevatten. Ze zijn geordend volgens de MoSCoW-methode en rechtstreeks
+afgeleid van de geïdentificeerde knelpunten.
 
 \begin{table}[h]
 \centering
-\begin{tabular}{|p{3cm}|p{10cm}|p{2cm}|}
+\begin{tabular}{|p{1.5cm}|p{9.5cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{ID} & \textbf{Requirement} & \textbf{Prioriteit} \\
+\textbf{ID} & \textbf{Requirement} & \textbf{Bron} & \textbf{Prioriteit} \\
 \hline
-FR1 & De gebruiker kan taken aanmaken met titel en beschrijving. & Must \\
+FR1 & De gebruiker kan een taak invoeren via vrije tekst, zonder verplichte
+structuur vooraf. & Interview R1, R2 & Must \\
 \hline
-FR2 & De gebruiker kan een dag selecteren om taken in te plannen. & Must \\
+FR2 & De applicatie splitst een ingevoerde taak automatisch op in behapbare
+stappen met tijdschattingen. & Literatuur, interviews & Must \\
 \hline
-FR3 & De gebruiker kan geplande taken bekijken per dag. & Must \\
+FR3 & De dagweergave toont enkel de taken van de huidige dag, opgedeeld in
+tijdslots. & App-analyse (Tiimo) & Must \\
 \hline
-FR4 & De applicatie kent punten toe bij het voltooien van taken. & Must \\
+FR4 & Wanneer een deadline gemist wordt, toont de applicatie een neutrale
+melding met herplanopties, zonder rode tellers of schuldtoewijzing. &
+Kernlacune app-analyse & Must \\
 \hline
-FR5 & De applicatie ondersteunt een streak-systeem op basis van opeenvolgende dagen activiteit. & Should \\
+FR5 & De gebruiker kan taken bekijken per week in een kalenderoverzicht. &
+Interview R2 (tijdsblindheid) & Must \\
 \hline
-FR6 & De gebruiker kan een profielpagina bekijken met voortgang en beloningen. & Should \\
+FR6 & De applicatie herkent over tijd welke taken en tijdstippen structureel
+tot vastlopen leiden, en past de planning automatisch aan. & Interview R1,
+literatuur & Should \\
 \hline
-FR7 & De gebruiker kan instellingen aanpassen zoals notificaties of visuele voorkeuren. & Could \\
+FR7 & De gebruiker kan de stappen van een taak aanpassen of uitbreiden. &
+Interview R1, R2 (autonomie) & Should \\
+\hline
+FR8a & De applicatie toont bij voltooiing van een taak of stap directe visuele
+bevestiging. & Literatuur (directe feedback bij ADHD) & Should \\
+\hline
+FR8b & Het prototype is uitvoerbaar als standalone HTML-bestand in een browser,
+zonder installatie, zodat het geschikt is voor gebruik tijdens gebruikerstesten
+met de doelgroep. & Methodologisch & Must \\
+\hline
+FR9 & De gebruiker kan een profielpagina en instellingenpagina raadplegen. &
+— & Could \\
 \hline
 \end{tabular}
-\caption[Functionele requirements]{Overzicht van de functionele requirements van het prototype.}
+\caption[Functionele requirements]{Overzicht van de functionele requirements
+van het prototype, met verwijzing naar de bron van elke requirement.}
 \label{tab:functionele-requirements}
 \end{table}
 
 \section{Niet-functionele requirements}
 
-Naast functionaliteiten zijn ook kwaliteitscriteria van belang. Aangezien studenten met
-ADHD gevoelig kunnen zijn voor overprikkeling, ligt de nadruk op eenvoud, rust en
-voorspelbaarheid.
+Naast functionaliteiten zijn ook kwaliteitscriteria van belang. Aangezien
+studenten met ADHD gevoelig zijn voor cognitieve overbelasting, ligt de nadruk
+op eenvoud, rust en voorspelbaarheid in de interface.
 
 \begin{table}[h]
 \centering
-\begin{tabular}{|p{3cm}|p{10cm}|p{2cm}|}
+\begin{tabular}{|p{1.5cm}|p{9.5cm}|p{2cm}|p{2cm}|}
 \hline
-\textbf{ID} & \textbf{Requirement} & \textbf{Type} \\
+\textbf{ID} & \textbf{Requirement} & \textbf{Type} & \textbf{Bron} \\
 \hline
-NFR1 & De interface moet minimalistisch zijn en geen overbodige visuele elementen bevatten. & Usability \\
+NFR1 & De interface bevat geen overbodige visuele elementen. Kleur wordt
+uitsluitend als informatiedrager ingezet, niet decoratief. & Usability &
+Literatuur, interviews \\
 \hline
-NFR2 & Navigatie moet consistent en voorspelbaar zijn over alle schermen heen. & Usability \\
+NFR2 & Navigatie is consistent en voorspelbaar over alle schermen: de
+tabbalk bevindt zich altijd onderaan op dezelfde positie. & Usability &
+App-analyse \\
 \hline
-NFR3 & De applicatie moet bruikbaar zijn op mobiele schermformaten. & Compatibility \\
+NFR3 & De applicatie is geoptimaliseerd voor mobiele schermformaten
+(390\,px breedte als referentie). & Compatibility & Doelgroep \\
 \hline
-NFR4 & De applicatie moet snel reageren zonder merkbare vertraging bij navigatie. & Performance \\
+NFR4 & De applicatie reageert zonder merkbare vertraging bij navigatie
+tussen schermen. & Performance & — \\
 \hline
-NFR5 & De applicatie moet offline bruikbaar zijn zolang de browser actief is. & Reliability \\
+NFR5 & De applicatie is bruikbaar zonder internetverbinding zolang de
+browser actief is. & Reliability & Doelgroep \\
+\hline
+NFR6 & De hoeveelheid keuzes die de gebruiker op elk moment moet maken,
+wordt actief beperkt. Op de dagweergave zijn maximaal drie taken tegelijk
+zichtbaar als prioriteit. & Usability & Interview R1, R2 \\
 \hline
 \end{tabular}
-\caption[Niet-functionele requirements]{Overzicht van niet-functionele requirements voor het prototype.}
+\caption[Niet-functionele requirements]{Overzicht van de niet-functionele
+requirements voor het prototype.}
 \label{tab:niet-functionele-requirements}
 \end{table}
 
 \section{Scope-afbakening}
 
-Aangezien dit onderzoek een proof-of-concept betreft, werd de scope bewust beperkt.
-Het prototype bevat geen server-side opslag, geen cloud synchronisatie en geen
-authenticatie. Alle data worden lokaal opgeslagen in de clientomgeving. Dit maakt het
-mogelijk om de focus te leggen op usability, ontwerpkeuzes en motivatie-elementen.
+Aangezien dit onderzoek een proof-of-concept betreft, werd de scope bewust
+afgebakend. Het prototype bevat geen server-side opslag, geen cloudsynchronisatie
+en geen authenticatie. Alle data bestaan enkel binnen de huidige browsersessie.
+Dit maakt het mogelijk om de focus te leggen op de gebruikerservaring,
+de herplanningsflow en de informatiestructuur mits dit de elementen zijn die uit het onderzoek
+als meest kritiek naar voren kwamen.
 
-In een toekomstige versie kan een backend toegevoegd worden zodat gebruikers hun
-taken kunnen synchroniseren over meerdere toestellen heen en zodat privacy en
-gegevensbeheer verder kunnen worden uitgewerkt.
+Het prototype is bewust ontworpen als een volledig klikbare, standalone HTML-applicatie
+die zonder installatie in een browser kan worden geopend. Dit verlaagt de drempel voor
+gebruikerstesten aanzienlijk: deelnemers kunnen het prototype op hun eigen toestel
+uitvoeren zonder technische voorbereiding. In een volgende fase van dit onderzoek worden
+gebruikerstesten uitgevoerd met studenten uit de doelgroep, waarbij de bruikbaarheid,
+begrijpelijkheid en ervaren meerwaarde van de kernfuncties worden geëvalueerd, met
+bijzondere aandacht voor de herplanningsflow bij gemiste deadlines en de AI-gestuurde
+taakverdeling.
+
+Elementen die bewust buiten de huidige scope vallen maar relevant zijn voor een
+productieversie, zijn: persistente gegevensopslag, synchronisatie over meerdere
+toestellen, integratie met bestaande kalenderplatformen, en een body
+doubling-functionaliteit zoals gesuggereerd door respondent 2.

@@ -1,73 +1,102 @@
 \babel@toc {dutch}{}\relax 
-\contentsline {chapter}{L\ij st van figuren}{viii}{chapter*.4}%
-\contentsline {chapter}{L\ij st van tabellen}{ix}{chapter*.5}%
-\contentsline {chapter}{Lijst van codefragmenten }{x}{section*.6}%
+\contentsline {chapter}{L\ij st van figuren}{ix}{chapter*.4}%
+\contentsline {chapter}{L\ij st van tabellen}{x}{chapter*.5}%
+\contentsline {chapter}{Lijst van codefragmenten }{xi}{section*.6}%
 \contentsline {chapter}{\numberline {1}Inleiding}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Probleemstelling}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Onderzoeksvraag}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{3}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{3}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Stand van zaken}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Inleiding}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}ADHD en executieve functies}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Theoretisch kader rond executieve functies}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Tijdperceptie en temporal discounting}{5}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Emotionele regulatie en stress}{6}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Cognitive Load Theory en digitale interfaces}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Ontwerpen voor cognitieve toegankelijkheid}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Digitale interventies bij ADHD}{7}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Automatische taakopsplitsing}{7}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Notificaties en stressregulatie}{7}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Gamification en motivatie}{7}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Lacunes in het huidige applicatielandschap}{8}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Conclusie}{8}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Fase 1: Literatuurstudie}{8}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Fase 2: Behoefteanalyse via interviews}{9}{section.2.12}%
-\contentsline {section}{\numberline {2.13}Fase 3: Ontwerp van het prototype}{9}{section.2.13}%
-\contentsline {section}{\numberline {2.14}Fase 4: Implementatie van een proof-of-concept}{10}{section.2.14}%
-\contentsline {section}{\numberline {2.15}Fase 5: Evaluatie via gebruikerstesten}{10}{section.2.15}%
-\contentsline {section}{\numberline {2.16}Fase 6: Analyse en synthese}{11}{section.2.16}%
-\contentsline {section}{\numberline {2.17}Globale tijdsplanning en deliverables}{11}{section.2.17}%
-\contentsline {chapter}{\numberline {3}Analyse en requirements}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Probleemanalyse binnen de doelgroep}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Functionele requirements}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Niet-functionele requirements}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Scope-afbakening}{13}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Ontwerp van de applicatie}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Ontwerpprincipes}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Visueel design}{15}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Beloningssysteem}{16}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Technische uitwerking}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Technologiestack}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Architectuur}{17}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Dataopslag}{18}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Structuur van taakdata}{18}{subsection.5.3.1}%
-\contentsline {section}{\numberline {5.4}Navigatie en componentstructuur}{18}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Voorbeeld van codefragment}{19}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Beperkingen van de implementatie}{19}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Functionaliteiten van het prototype}{20}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Dagselectie en planning}{20}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Reward system: punten en streaks}{20}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Profielpagina}{20}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Instellingen}{20}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Evaluatie}{25}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Doel van de evaluatie}{25}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Testopzet}{25}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Testcategorieën}{26}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Basisrendering}{26}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Taakbeheer}{26}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Datum- en navigatiefuncties}{26}{subsection.7.3.3}%
-\contentsline {subsection}{\numberline {7.3.4}Reward- en voortgangssysteem}{27}{subsection.7.3.4}%
-\contentsline {subsection}{\numberline {7.3.5}Profiel- en instellingenbeheer}{27}{subsection.7.3.5}%
-\contentsline {subsection}{\numberline {7.3.6}Data persistentie}{27}{subsection.7.3.6}%
-\contentsline {subsection}{\numberline {7.3.7}Subtask- en progressielogica}{27}{subsection.7.3.7}%
-\contentsline {section}{\numberline {7.4}Testresultaten}{28}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Vervolgwerk}{28}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Conclusie}{29}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{31}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Introductie}{31}{section.A.1}%
-\contentsline {section}{\numberline {A.2}State-of-the-art}{33}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Methodologie}{33}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{35}{section.A.4}%
-\contentsline {chapter}{Bibliografie}{37}{appendix*.16}%
+\contentsline {chapter}{\numberline {2}Stand van zaken}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Inleiding}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}ADHD en executieve functies}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Theoretisch kader rond executieve functies}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Tijdperceptie en temporal discounting}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Emotionele regulatie en stress}{7}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Cognitive Load Theory en digitale interfaces}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Ontwerpen voor cognitieve toegankelijkheid}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Digitale interventies bij ADHD}{8}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Automatische taakopsplitsing}{8}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Notificaties en stressregulatie}{8}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Gamification en motivatie}{8}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Lacunes in het huidige applicatielandschap}{9}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Conclusie}{9}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Methodologie}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Fase 1: Literatuurstudie}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Fase 2: Behoefteanalyse via interviews en app-vergelijking}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Deelfase 2a: Vergelijkende app-analyse}{11}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Deelfase 2b: Semigestructureerde interviews}{11}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Fase 3: Ontwerp en ontwikkeling van het prototype}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Deelfase 3a: Wireframes}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Deelfase 3b: Klikbaar prototype}{12}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Fase 4: Evaluatie via survey en gebruikerstesten}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Deelfase 4a: Survey}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Deelfase 4b: Gebruikerstesten}{13}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Fase 5: Analyse en synthese}{14}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Globale tijdsplanning en deliverables}{14}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Analyse en requirements}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Probleemanalyse binnen de doelgroep}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Functionele requirements}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Niet-functionele requirements}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Scope-afbakening}{17}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Ontwerp van de applicatie}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Ontwerpprincipes}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Visueel design}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Schermontwerpen}{23}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Technische uitwerking}{28}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Technologiekeuze}{28}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Schermarchitectuur}{29}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Themasysteem en kleurgebruik}{29}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Taakvoltooiing en visuele feedback}{30}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Invoermodi}{30}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Testpaneel}{30}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Iteraties}{31}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Beperkingen van de implementatie}{31}{section.6.8}%
+\contentsline {chapter}{\numberline {7}Functionaliteiten van het prototype}{34}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Dagweergave}{34}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Taakdetail en stappenverdeling}{35}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Taak toevoegen}{35}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Herplanningsflow bij gemiste deadlines}{35}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Patroonherkenning en inzichten}{36}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Profiel en instellingen}{36}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Navigatie}{36}{section.7.7}%
+\contentsline {chapter}{\numberline {8}Surveyonderzoek}{45}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Opzet en verspreiding}{45}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Profiel van de respondenten}{45}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}ADHD-status}{45}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Relatie met deadlines}{46}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Moeilijkste moment in het planningsproces}{46}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Reactie op een gemiste deadline}{46}{subsection.8.2.4}%
+\contentsline {section}{\numberline {8.3}Huidige planningstools}{46}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Bekendheid en gebruik}{46}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Retentie}{47}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Redenen van afhaken}{47}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}Perceptie van bestaand aanbod}{47}{subsection.8.3.4}%
+\contentsline {section}{\numberline {8.4}Designkeuzes}{47}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Taak invoeren}{47}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}AI-taakverdeling}{47}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}Reactie op een gemiste deadline}{48}{subsection.8.4.3}%
+\contentsline {subsection}{\numberline {8.4.4}Herinnering aan taken}{48}{subsection.8.4.4}%
+\contentsline {subsection}{\numberline {8.4.5}Dagweergave}{48}{subsection.8.4.5}%
+\contentsline {subsection}{\numberline {8.4.6}Reactie bij vastlopen}{48}{subsection.8.4.6}%
+\contentsline {subsection}{\numberline {8.4.7}Absolute dealbreakers}{48}{subsection.8.4.7}%
+\contentsline {section}{\numberline {8.5}Prototype-evaluatie}{49}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Gebruiksgemak}{49}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Rust en overzichtelijkheid}{49}{subsection.8.5.2}%
+\contentsline {subsection}{\numberline {8.5.3}Gepastheid van de herplanningsaanpak}{49}{subsection.8.5.3}%
+\contentsline {subsection}{\numberline {8.5.4}Intentie tot gebruik}{49}{subsection.8.5.4}%
+\contentsline {subsection}{\numberline {8.5.5}Grootste drempel voor dagelijks gebruik}{49}{subsection.8.5.5}%
+\contentsline {section}{\numberline {8.6}Open antwoorden}{49}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Besluit}{50}{section.8.7}%
+\contentsline {chapter}{\numberline {9}Conclusie}{52}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Beantwoording van de centrale onderzoeksvraag}{52}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Bevindingen per onderzoeksfase}{53}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Aanbevelingen voor verdere ontwikkeling}{53}{section.9.3}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{55}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introductie}{55}{section.A.1}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{57}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Methodologie}{57}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{59}{section.A.4}%
+\contentsline {chapter}{\numberline {B}Vragenlijst survey}{61}{appendix.B}%
+\contentsline {chapter}{Bibliografie}{65}{appendix*.25}%
 \contentsfinish 

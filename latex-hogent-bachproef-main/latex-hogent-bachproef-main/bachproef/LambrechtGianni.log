@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.1)  4 MAY 2026 14:11
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.8.21)  21 AUG 2026 11:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2126,7 +2126,10 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
 
-No file LambrechtGianni.aux.
+(LambrechtGianni.aux
+Package babel Info: 'dutch' activates 'dutch' shorthands.
+(babel)             Reported on input line 10.
+)
 \openout1 = `LambrechtGianni.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
@@ -2149,10 +2152,9 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
-Package babel Info: 'dutch' activates 'dutch' shorthands.
-(babel)             Reported on input line 77.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
+
 (C:\Users\giann\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\dutch-apa.lbx
 File: dutch-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
 Package biblatex Info: Trying to load language 'dutch'...
@@ -2219,11 +2221,10 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 77.
+(LambrechtGianni.out) (LambrechtGianni.out)
 \@outlinefile=\write6
 \openout6 = `LambrechtGianni.out'.
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 (C:\Users\giann\AppData\Roaming\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -2303,6 +2304,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
 Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
@@ -2332,10 +2338,811 @@ riendelijke planningsapp bood
 
 
 ]
-Overfull \hbox (0.92995pt too wide) in paragraph at lines 46--53
-\TU/Montserrat(1)/m/n/10.95 men met beperkingen in executieve functies zoals we
-rkgeheugen, inhibitie en tijds-
+
+LaTeX Warning: Citation 'Barkley2022' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 8.
+
+
+Overfull \hbox (34.79099pt too wide) in paragraph at lines 4--13
+\TU/Montserrat(1)/m/n/10.95 derwijs leidt dit tot uitstelgedrag, verhoogde stre
+ss en wat [][]
  []
 
-) [4
+[4
 
+]) [5] (LambrechtGianni.toc [6
+
+]
+Package babel Info: 'dutch' activates 'dutch' shorthands.
+(babel)             Reported on input line 72.
+ [7])
+\tf@toc=\write7
+\openout7 = `LambrechtGianni.toc'.
+
+ [8] (LambrechtGianni.lof
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraMathRegular' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 10.95116pt on input line 7.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 7.88484pt on input line 7.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 6.35167pt on input line 7.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 7.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 7.88315pt on input line 7.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 6.35031pt on input line 7.
+)
+\tf@lof=\write8
+\openout8 = `LambrechtGianni.lof'.
+
+ [9
+
+]
+(LambrechtGianni.lot)
+\tf@lot=\write9
+\openout9 = `LambrechtGianni.lot'.
+
+ [10
+
+] (LambrechtGianni.lol)
+\tf@lol=\write10
+\openout10 = `LambrechtGianni.lol'.
+
+ [11
+
+
+] (inleiding.tex
+Hoofdstuk 1.
+
+Overfull \hbox (8.18494pt too wide) in paragraph at lines 8--9
+\TU/Montserrat(1)/m/n/10.95 kenmerkt wordt door aandachtsproblemen, impulsivite
+it en/of hyperactiviteit. Naast
+ []
+
+
+Overfull \hbox (4.41568pt too wide) in paragraph at lines 8--9
+\TU/Montserrat(1)/m/n/10.95 concentratie essentieel zijn, kunnen deze moeilijkh
+eden leiden tot verhoogde stress,
+ []
+
+[1
+
+
+]
+Overfull \hbox (37.48953pt too wide) in paragraph at lines 44--45
+[]\TU/Montserrat(1)/m/n/10.95 Hoe kan een digitale planningsflow studenten met 
+ADHD of ADHD-symptomen
+ []
+
+[2]
+Overfull \hbox (1.76947pt too wide) in paragraph at lines 51--52
+\TU/Montserrat(1)/m/n/10.95 heid, emotionele dysregulatie) hebben de grootste i
+mpact op studieplanning? 
+ []
+
+
+Overfull \hbox (4.91426pt too wide) in paragraph at lines 89--93
+[]\TU/Montserrat(1)/m/n/10.95 In Hoofdstuk [][]2[][] wordt een overzicht gegeve
+n van de bestaande literatuur rond ADHD,
+ []
+
+[3]) (standvanzaken.tex [4]
+Hoofdstuk 2.
+
+LaTeX Warning: Citation 'AmericanPsychiatricAssociation2013' on page 5 undefine
+d on input line 7.
+
+[5
+
+]
+Overfull \hbox (2.97127pt too wide) in paragraph at lines 13--14
+\TU/Montserrat(1)/m/n/10.95 den voor het ontwerp van een ADHD-vriendelijke plan
+ningsapplicatie. Hierbij wordt
+ []
+
+
+LaTeX Warning: Citation 'Barkley2015' on page 6 undefined on input line 17.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Alloway2010' on page 6 undefined on input line 24.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'Diamond2013' on page 6 undefined on input line 24.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'Sonuga-Barke2010' on page 6 undefined on input line 27
+.
+
+
+Overfull \hbox (95.18971pt too wide) in paragraph at lines 27--28
+\TU/Montserrat(1)/m/n/10.95 waarbij onmiddellijke beloningen zwaarder wegen dan
+ toekomstige voordelen ([]).
+ []
+
+[6]
+
+LaTeX Warning: Citation 'Shaw2014' on page 7 undefined on input line 30.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 30.
+
+
+Overfull \hbox (97.1303pt too wide) in paragraph at lines 30--31
+\TU/Montserrat(1)/m/n/10.95 Naast cognitieve processen speelt emotionele regula
+tie een cruciale rol. [][]
+ []
+
+
+LaTeX Warning: Citation 'Sweller1988' on page 7 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'Paas2020' on page 7 undefined on input line 33.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 33.
+
+
+Overfull \hbox (6.96437pt too wide) in paragraph at lines 33--34
+\TU/Montserrat(1)/m/n/10.95 ties verhogen de cognitieve belasting onnodig. Volg
+ens [][]
+ []
+
+
+LaTeX Warning: Citation 'Seeman2022' on page 7 undefined on input line 38.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 38.
+
+
+LaTeX Warning: Citation 'Visser2016' on page 7 undefined on input line 38.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 38.
+
+
+Overfull \hbox (154.62144pt too wide) in paragraph at lines 38--39
+\TU/Montserrat(1)/m/n/10.95 Binnen Human-Computer Interaction groeit de aandach
+t voor neurodiversiteit. [][]
+ []
+
+
+LaTeX Warning: Citation 'Cortese2023' on page 7 undefined on input line 41.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 41.
+
+
+LaTeX Warning: Citation 'Hollis2025' on page 7 undefined on input line 41.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 41.
+
+
+Overfull \hbox (2.65858pt too wide) in paragraph at lines 41--42
+[][] \TU/Montserrat(1)/m/n/10.95 voerden een systematische review en meta-analy
+se
+ []
+
+
+Overfull \hbox (4.38136pt too wide) in paragraph at lines 41--42
+\TU/Montserrat(1)/m/n/10.95 uit naar technologie-gebaseerde interventies bij sc
+hoolgaande kinderen met ADHD.
+ []
+
+[7]
+
+LaTeX Warning: Citation 'Locke2002' on page 8 undefined on input line 44.
+
+
+LaTeX Warning: Citation '' on page 8 undefined on input line 44.
+
+
+Overfull \hbox (67.63466pt too wide) in paragraph at lines 44--45
+\TU/Montserrat(1)/m/n/10.95 uitvoerbare stappen kan de cognitieve drempel verla
+agd worden. [][]
+ []
+
+
+LaTeX Warning: Citation 'Mark2008' on page 8 undefined on input line 47.
+
+
+Overfull \hbox (7.12766pt too wide) in paragraph at lines 47--48
+\TU/Montserrat(1)/m/n/10.95 Notificatiesystemen zijn ontworpen om aandacht te t
+rekken, maar kunnen bij ADHD
+ []
+
+
+LaTeX Warning: Citation 'Deterding2011' on page 8 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'Mekler2021' on page 8 undefined on input line 50.
+
+
+LaTeX Warning: Citation '' on page 8 undefined on input line 50.
+
+
+Overfull \hbox (35.3224pt too wide) in paragraph at lines 50--51
+\TU/Montserrat(1)/m/n/10.95 Gamification wordt gedefinieerd als het gebruik van
+ spelelementen in niet-spelcontexten
+ []
+
+[8]) (methodologie.tex [9]
+Hoofdstuk 3.
+
+LaTeX Warning: Citation 'Schofield2026' on page 10 undefined on input line 35.
+
+
+LaTeX Warning: Citation 'Hosseinnia2025' on page 10 undefined on input line 35.
+
+
+
+Overfull \hbox (0.64622pt too wide) in paragraph at lines 30--38
+[]\TU/Montserrat(2)/b/n/10.95 Methode. \TU/Montserrat(1)/m/n/10.95 Wetenschappe
+lijke artikels en relevante vakliteratuur werden verzameld
+ []
+
+
+Overfull \hbox (1.72781pt too wide) in paragraph at lines 30--38
+\TU/Montserrat(1)/m/n/10.95 sche reviews en meta-analyses van digitale interven
+ties voor ADHD ([];
+ []
+
+[10
+
+]
+Overfull \hbox (37.27852pt too wide) in paragraph at lines 48--48
+|[][]\TU/Montserrat(0)/b/n/14.4 Fase 2: Behoefteanalyse via interviews en app-v
+ergelijking| 
+ []
+
+
+Overfull \hbox (12.26321pt too wide) in paragraph at lines 50--54
+\TU/Montserrat(1)/m/n/10.95 plementaire perspectieven: de ervaring van de doelg
+roep enerzijds, en het bestaande
+ []
+
+
+Overfull \hbox (24.4783pt too wide) in paragraph at lines 57--64
+\TU/Montserrat(1)/m/n/10.95 waren Google Calendar, Microsoft To Do, Todoist, No
+tion, Tiimo, Fabulous en Goblin.tools.
+ []
+
+[11]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraCode' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [12]
+Overfull \hbox (7.87445pt too wide) in paragraph at lines 177--185
+\TU/Montserrat(1)/m/n/10.95 De deelnemers kregen het prototype (\TU/FiraCode(0)
+/m/n/10.95 prototype_test.html\TU/Montserrat(1)/m/n/10.95 ) toegestuurd als dow
+n-
+ []
+
+[13]
+Overfull \hbox (1.50519pt too wide) in paragraph at lines 222--226
+\TU/Montserrat(1)/m/n/10.95 clusies en zorgt voor een onderbouwde beantwoording
+ van de centrale onderzoeks-
+ []
+
+[14]) (requirements.tex [15]
+Hoofdstuk 4.
+[16
+
+]
+Overfull \hbox (8.12628pt too wide) in paragraph at lines 53--56
+\TU/Montserrat(1)/m/n/10.95 De functionele requirements beschrijven welke funct
+ionaliteiten het prototype moet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\TU/Montserrat(1)/m/n/10.95 Literatuur,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]|\TU/Montserrat(1)/m/n/10.95 App-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\TU/Montserrat(1)/m/n/10.95 analyse
+ []
+
+
+Overfull \hbox (5.95844pt too wide) in paragraph at lines 74--74
+[]|\TU/Montserrat(1)/m/n/10.95 Kernlacune
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\TU/Montserrat(1)/m/n/10.95 app-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\TU/Montserrat(1)/m/n/10.95 R2 (tijds-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\TU/Montserrat(1)/m/n/10.95 R1, litera-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\TU/Montserrat(1)/m/n/10.95 Literatuur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+\TU/Montserrat(1)/m/n/10.95 (directe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+\TU/Montserrat(1)/m/n/10.95 feedback
+ []
+
+
+Overfull \hbox (32.31508pt too wide) in paragraph at lines 91--91
+[]|\TU/Montserrat(1)/m/n/10.95 Methodologisch| 
+ []
+
+
+Overfull \hbox (28.66037pt too wide) in paragraph at lines 59--98
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+[]|\TU/Montserrat(1)/m/n/10.95 Literatuur,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+[]|\TU/Montserrat(1)/m/n/10.95 App-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 122--123
+[]|\TU/Montserrat(1)/m/n/10.95 De applicatie is geoptimaliseerd voor mobiele
+ []
+
+
+Overfull \hbox (16.97414pt too wide) in paragraph at lines 123--123
+[]|\TU/Montserrat(1)/m/n/10.95 Compatibility| 
+ []
+
+
+Overfull \hbox (1.22803pt too wide) in paragraph at lines 123--124
+[]|\TU/Montserrat(1)/m/n/10.95 Doelgroep| 
+ []
+
+
+Overfull \hbox (14.79507pt too wide) in paragraph at lines 126--126
+[]|\TU/Montserrat(1)/m/n/10.95 Performance| 
+ []
+
+
+Overfull \hbox (1.22803pt too wide) in paragraph at lines 129--130
+[]|\TU/Montserrat(1)/m/n/10.95 Doelgroep| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+[]|\TU/Montserrat(1)/m/n/10.95 Interview
+ []
+
+
+Overfull \hbox (28.66037pt too wide) in paragraph at lines 110--137
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (ontwerp.tex [17] [18] [19] [20]
+Hoofdstuk 5.
+[21
+
+] [22]
+File: introscherm.png Graphic file (type bmp)
+<introscherm.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: dagoverzicht.png Graphic file (type bmp)
+<dagoverzicht.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: gemistedeadline.png Graphic file (type bmp)
+<gemistedeadline.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: weekoverzicht.png Graphic file (type bmp)
+<weekoverzicht.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (23.4753pt too wide) in paragraph at lines 168--174
+\TU/Montserrat(1)/m/n/10.95 weergavetype, AI-stappen) en planning (vrije blokke
+n, patroonleren, agenda-integratie).
+ []
+
+File: instellingen.png Graphic file (type bmp)
+<instellingen.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (implementatie.tex [23] [24] [25] [26] [27]
+Hoofdstuk 6.
+
+Overfull \hbox (4.25288pt too wide) in paragraph at lines 38--44
+\TU/Montserrat(1)/m/n/10.95 Ten tweede de volledige offline werking: geen inter
+netverbinding, geen server, geen
+ []
+
+[28
+
+]
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
+t line 55.
+\pydata@fh@0=\write11
+\openout11 = `_F4F902BB38B7AC23E6084D3F7A251C58.data.minted'.
+
+runsystem(latexminted config  --timestamp 20260821110659 F4F902BB38B7AC23E6084D
+3F7A251C58)...executed.
+
+ (_F4F902BB38B7AC23E6084D3F7A251C58.config.minted)
+runsystem(latexminted cleanconfig  --timestamp 20260821110659 F4F902BB38B7AC23E
+6084D3F7A251C58)...executed.
+
+
+(_minted/solarized-light.style.minted)
+(_minted/E1A3FEEBE7F8CE3FEC236085DDAE4502.highlight.minted)
+Overfull \hbox (7.12523pt too wide) in paragraph at lines 95--100
+\TU/Montserrat(1)/m/n/10.95 Alle kleuren en afmetingen worden beheerd via CSS c
+ustom properties op het \TU/FiraCode(0)/m/n/10.95 :root\TU/Montserrat(1)/m/n/10
+.95 -
+ []
+
+(_minted/695C70C4C807E73977795C96C4070520.highlight.minted
+
+LaTeX Font Warning: Font shape `TU/FiraCode(0)/m/it' undefined
+(Font)              using `TU/FiraCode(0)/m/n' instead on input line 3.
+
+)
+Overfull \hbox (2.74251pt too wide) in paragraph at lines 121--126
+\TU/Montserrat(1)/m/n/10.95 reeks gekleurde elementen met willekeurige posities
+ en CSS-animatievertragingen. 
+ []
+
+[29] (_minted/5F27A94618399393B24A257CC8C813FE.highlight.minted
+Missing character: There is no 🎉 in font Fira Code Regular/OT:script=latn;langu
+age=dflt;+ss01;+ss03;mapping=tex-text;!
+Missing character: There is no 🎉 in font Fira Code Regular/OT:script=latn;langu
+age=dflt;+ss01;+ss03;mapping=tex-text;!
+) (_minted/46F2B0E815C357D48F570D73CF496D48.highlight.minted)
+(_minted/BB4A21D0685B8A3A784720E29F417E5A.highlight.minted)
+Overfull \hbox (1.96988pt too wide) in paragraph at lines 218--218
+[]|\TU/Montserrat(2)/b/n/10.95 Versie| 
+ []
+
+
+Overfull \hbox (7.27638pt too wide) in paragraph at lines 223--223
+[]|\TU/Montserrat(1)/m/n/10.95 Interviewresultaten| 
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 224--227
+[]|\TU/Montserrat(1)/m/n/10.95 Testpaneel toegevoegd, schermen
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 224--227
+\TU/Montserrat(1)/m/n/10.95 taakenlijst geïntegreerd voor asyn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]|\TU/Montserrat(1)/m/n/10.95 Surveyresultaten
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 228--231
+[]|\TU/Montserrat(1)/m/n/10.95 Dagweergave omgezet naar prio-
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 228--231
+\TU/Montserrat(1)/m/n/10.95 riteitenlijst; kleurpalet minder ver-
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 228--231
+\TU/Montserrat(1)/m/n/10.95 zadigd; “heropdelen” als term en
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 228--231
+\TU/Montserrat(1)/m/n/10.95 apart scherm; “sla over”-knop toe-
+ []
+
+[30]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (0.11816pt too wide) in paragraph at lines 240--243
+\TU/Montserrat(1)/m/n/10.95 De keuze voor een standalone HTML-prototype brengt 
+inherente beperkingen mee
+ []
+
+[31]) (functionaliteiten.tex [32] [33]
+Hoofdstuk 7.
+File: dagoverzicht.png Graphic file (type bmp)
+<dagoverzicht.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34
+
+]
+File: taakdetails.png Graphic file (type bmp)
+<taakdetails.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: nieuwetaakmaken.png Graphic file (type bmp)
+<nieuwetaakmaken.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35]
+File: gemistedeadline.png Graphic file (type bmp)
+<gemistedeadline.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: patronenoverzicht.png Graphic file (type bmp)
+<patronenoverzicht.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: profieloverzicht.png Graphic file (type bmp)
+<profieloverzicht.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: instellingen.png Graphic file (type bmp)
+<instellingen.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (surveyanalyse.tex [36] [37] [38] [39] [40] [41] [42] [43] [44]
+Hoofdstuk 8.
+
+LaTeX Warning: Reference `bijl:surveyanalyse' on page 45 undefined on input lin
+e 20.
+
+[45
+
+]
+
+LaTeX Warning: Citation 'Barkley2022' on page 46 undefined on input line 53.
+
+[46]
+Overfull \hbox (5.45084pt too wide) in paragraph at lines 126--132
+\TU/Montserrat(1)/m/n/10.95 keuze in het prototype om logische stappen te gener
+eren in plaats van tijdgestuurde
+ []
+
+[47]
+Overfull \hbox (8.5278pt too wide) in paragraph at lines 161--166
+\TU/Montserrat(1)/m/n/10.95 58,1% geeft de voorkeur aan verdere opsplitsing van
+ de huidige stap in micro-stappen
+ []
+
+
+Overfull \hbox (2.07945pt too wide) in paragraph at lines 161--166
+\TU/Montserrat(1)/m/n/10.95 krijgen. Het prototype implementeert de opsplitsing
+soptie correct. De relatief hoge
+ []
+
+[48]
+Overfull \hbox (1.70108pt too wide) in paragraph at lines 212--218
+\TU/Montserrat(1)/m/n/10.95 grootste drempel voor dagelijks gebruik. 24,1% mist
+ een echte mobiele app in plaats
+ []
+
+
+Overfull \hbox (7.1286pt too wide) in paragraph at lines 224--227
+[]\TU/Montserrat(2)/b/n/10.95 Agenda-integratie. \TU/Montserrat(1)/m/n/10.95 Me
+erdere respondenten vroegen om koppeling met bestaande
+ []
+
+[49]) (conclusie.tex [50] [51]
+Hoofdstuk 9.
+
+Overfull \hbox (11.96606pt too wide) in paragraph at lines 4--8
+\TU/Montserrat(1)/m/n/10.95 Deze bachelorproef onderzocht hoe een digitale plan
+ningsflow studenten met ADHD
+ []
+
+
+LaTeX Warning: Citation 'Barkley2022' on page 52 undefined on input line 29.
+
+
+LaTeX Warning: Citation '' on page 52 undefined on input line 29.
+
+
+Overfull \hbox (4.51155pt too wide) in paragraph at lines 26--35
+\TU/Montserrat(1)/m/n/10.95 over initiatieparalyse kwantitatief bevestigt. Een 
+digitale planningsflow ondersteunt
+ []
+
+[52
+
+]
+Overfull \hbox (2.6637pt too wide) in paragraph at lines 50--59
+\TU/Montserrat(1)/m/n/10.95 met beperkingen in executieve functies, tijdspercep
+tie en emotieregulatie die struc-
+ []
+
+[53]) [54]
+B\ij lage A.
+(../voorstel/voorstel-inhoud.tex [55
+
+]
+Overfull \hbox (0.14006pt too wide) in paragraph at lines 39--40
+[]\TU/Montserrat(1)/m/n/10.95 Welke planningsapps en digitale tools worden mome
+nteel het meest gebruikt
+ []
+
+[56]
+Overfull \hbox (7.52283pt too wide) in paragraph at lines 62--63
+\TU/Montserrat(1)/m/n/10.95 Hier beschrijf je de state-of-the-art rondom je gek
+ozen onderzoeksdomein. Je steunt
+ []
+
+
+LaTeX Warning: Citation 'Alloway2010' on page 57 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Visser2016' on page 57 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Seeman2022' on page 57 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Gamification2021' on page 57 undefined on input line 6
+4.
+
+
+LaTeX Warning: Citation 'cortese2023adhd' on page 57 undefined on input line 73
+.
+
+
+LaTeX Warning: Citation 'bmc2025digitaladhd' on page 57 undefined on input line
+ 73.
+
+
+Overfull \hbox (68.75058pt too wide) in paragraph at lines 73--74
+\TU/Montserrat(1)/m/n/10.95 lijk is van gebruiksvriendelijkheid, personalisatie
+ en cognitieve belasting ([]). 
+ []
+
+[57]
+Overfull \hbox (5.20993pt too wide) in paragraph at lines 90--93
+[]\TU/Montserrat(2)/b/n/10.95 Behoefteanalyse via interviews (probleemdomein): 
+\TU/Montserrat(1)/m/n/10.95 Om de deelonderzoeks-
+ []
+
+
+Overfull \hbox (3.18051pt too wide) in paragraph at lines 102--105
+\TU/Montserrat(1)/m/n/10.95 geëvalueerd aan de hand van gebruikerstesten met pe
+rsonen uit de doelgroep.
+ []
+
+[58]
+Overfull \hbox (24.44295pt too wide) in paragraph at lines 114--115
+[]\TU/Montserrat(1)/m/n/10.95 Implementatie: React (web) of React Native (mobie
+l); backend: Firebase/Supabase. 
+ []
+
+
+Overfull \hbox (31.82013pt too wide) in paragraph at lines 115--116
+[]\TU/Montserrat(1)/m/n/10.95 Analyse: Python (pandas, scipy) of R voor eenvoud
+ige statistische tests; NVivo/Atlas.ti
+ []
+
+
+Overfull \hbox (1.52342pt too wide) in paragraph at lines 137--138
+[]\TU/Montserrat(1)/m/n/10.95 een set ontwerpprincipes en richtlijnen voor cogn
+itief toegankelijke plannings-
+ []
+
+) [59]
+
+LaTeX Warning: Empty bibliography on input line 178.
+
+(LambrechtGianni.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `LambrechtGianni.out' has not changed.
+(rerunfilecheck)             Checksum: 8EF9D56C8D40C970F043FA1773417C1F;17777.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                LambrechtGianni
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'LambrechtGianni.run.xml'.
+\openout1 = `LambrechtGianni.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 50494 strings out of 402983
+ 1027139 string characters out of 5452829
+ 2303650 words of memory out of 5000000
+ 78440 multiletter control sequences out of 15000+600000
+ 630709 words of font info for 103 fonts, out of 8000000 for 9000
+ 1349 hyphenation exceptions out of 8191
+ 110i,12n,131p,1321b,6017s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on LambrechtGianni.pdf (70 pages).

@@ -5,7 +5,7 @@
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}%
 \label{ch:inleiding}
 
-Aandachtstekortstoornis met hyperactiviteit, beter bekend als \textit{Attention Deficit Hyperactivity Disorder} (ADHD), is een neurobiologische ontwikkelingsstoornis die gekenmerkt wordt door aandachtsproblemen, impulsiviteit en/of hyperactiviteit. Naast deze kernsymptomen ervaren veel personen met ADHD moeilijkheden met executieve functies zoals planning, organisatie, tijdsinschatting en taakvoltooiing. Binnen een academische context, waar zelfstandige studieplanning en langdurige concentratie essentieel zijn, kunnen deze moeilijkheden leiden tot verhoogde stress, uitstelgedrag en verminderde studieprestaties.
+Aandachtstekortstoornis met hyperactiviteit, beter bekend als \textit{Attention Deficit Hyperactivity Disorder} (ADHD), is een neurobiologische ontwikkelingsstoornis die gekenmerkt wordt door aandachtsproblemen, impulsiviteit en/of hyperactiviteit. Naast deze kernsymptomen ervaren veel personen met ADHD moeilijkheden met executieve functies zoals planning, organisatie, tijdsinschatting en taakvoltooiing. Binnen een academische context, waar zelfstandige studieplanning en langdurige concentratie essentieel zijn, kunnen deze moeilijkheden leiden tot verhoogde stress, uitstelgedrag en verminderde studieprestaties. En dit is niet gelimiteerd tot enkel mensen met ADHD maar ook mensen met gelijkaardige symptomen.
 
 Digitale planningsapplicaties worden vaak gebruikt als hulpmiddel voor taakbeheer en tijdsplanning. Hoewel er een breed aanbod aan tools bestaat, richten deze zich doorgaans op een algemene gebruikersgroep. Hierdoor sluiten ze niet altijd aan bij de specifieke cognitieve en emotionele noden van personen met ADHD. Interfaces zijn vaak complex, vereisen veel eigen structuur en maken gebruik van notificaties die als prikkelend of stresserend kunnen worden ervaren. Dit wijst op een kloof tussen bestaande digitale oplossingen en de concrete noden van studenten met ADHD.
 
@@ -26,7 +26,7 @@ Deze bachelorproef situeert zich binnen het domein van softwareontwikkeling en u
 
 Hoewel er tal van planningsapps beschikbaar zijn, blijken deze voor veel studenten met ADHD te complex en onvoldoende afgestemd op hun specifieke noden. Ze ervaren problemen met het structureren van grote taken, het inschatten van benodigde tijd en het volhouden van motivatie. Bestaande tools bieden vaak uitgebreide functionaliteiten, maar houden weinig rekening met beperkte werkgeheugencapaciteit, gevoeligheid voor prikkels en neiging tot uitstelgedrag.
 
-De concrete doelgroep van dit onderzoek bestaat uit studenten met een (formeel gediagnosticeerde of zelfgerapporteerde) ADHD binnen Gent die digitale hulpmiddelen gebruiken voor studie- of werkgerelateerde taken. Het steekproefkader omvat studenten uit het hoger onderwijs (hogescholen en universiteiten) in Gent die bereid zijn deel te nemen aan bevragingen en gebruikerstesten.
+De concrete doelgroep van dit onderzoek bestaat uit studenten met een (formeel gediagnosticeerde of zelfgerapporteerde) ADHD of gelijkaardige symptomen binnen Gent die digitale hulpmiddelen gebruiken voor studie- of werkgerelateerde taken. Het steekproefkader omvat studenten uit het hoger onderwijs (hogescholen en universiteiten) in Gent die bereid zijn deel te nemen aan bevragingen en gebruikerstesten.
 
 De meerwaarde van dit onderzoek situeert zich op verschillende niveaus:
 \begin{itemize}
@@ -41,7 +41,7 @@ De meerwaarde van dit onderzoek situeert zich op verschillende niveaus:
 De centrale onderzoeksvraag van deze bachelorproef luidt als volgt:
 
 \begin{quote}
-Hoe kan een applicatie op maat van studenten met ADHD bijdragen aan beter taakbeheer en tijdsplanning, met minder stress en uitstelgedrag?
+Hoe kan een digitale planningsflow studenten met ADHD of ADHD-symptomen ondersteunen bij het omzetten van academische deadlines naar haalbare acties, met aandacht voor cognitieve belasting, taakinitatie en herplanning 
 \end{quote}
 
 Om deze vraag te beantwoorden, wordt ze opgesplitst in deelvragen binnen twee domeinen.
@@ -55,7 +55,7 @@ Om deze vraag te beantwoorden, wordt ze opgesplitst in deelvragen binnen twee do
 \subsection*{Deelvragen oplossingsdomein}
 \begin{itemize}
   \item Welke UX/UI-principes dragen bij aan cognitieve toegankelijkheid en verminderen cognitieve belasting bij neurodiverse gebruikers?
-  \item Hoe kunnen gamification-elementen zoals punten en streaks bijdragen aan motivatie bij studenten met ADHD?
+  \item Hoe ervaren studenten een bescheiden prototype  van zo'n planningflow?
   \item Welke minimale functionaliteiten zijn noodzakelijk in een prototype om effectief ondersteuning te bieden bij dagelijkse planning?
 \end{itemize}
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}%
@@ -86,10 +86,40 @@ De criteria voor succes zijn onder meer:
 
 De rest van deze bachelorproef is als volgt opgebouwd:
 
-In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
+In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de
+bestaande literatuur rond ADHD, executieve functies en digitale
+planningsondersteuning. Dit hoofdstuk kadert het probleem wetenschappelijk
+en formuleert de ontwerpprincipes die als basis dienden voor het prototype.
 
-In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
+In Hoofdstuk~\ref{ch:methodologie} wordt de gehanteerde onderzoeksaanpak
+toegelicht. Het onderzoek verliep in vijf fasen: een literatuurstudie,
+een vergelijkende app-analyse, semigestructureerde interviews, de
+ontwikkeling van een klikbaar prototype en een kwantitatieve survey.
 
-% TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
+In Hoofdstuk~\ref{ch:requirementsanalyse} worden de functionele en
+niet-functionele vereisten van de applicatie beschreven, afgeleid uit de
+interviewresultaten en de vergelijkende app-analyse.
 
-In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
+In Hoofdstuk~\ref{ch:ontwerp} wordt het ontwerpproces toegelicht: de
+keuze voor de visuele stijl, de wireframes en de kernprincipes die het
+ontwerp stuurden.
+
+In Hoofdstuk~\ref{ch:implementatie} wordt de technische uitwerking van
+het prototype beschreven. De applicatie werd gerealiseerd als een
+standalone HTML-bestand en doorliep drie iteraties op basis van
+opeenvolgende onderzoeksresultaten.
+
+In Hoofdstuk~\ref{ch:functionaliteiten} worden de vijf schermen van het
+prototype toegelicht: de dagweergave, het taakdetailscherm, het
+invoerscherm, de herplanningsflow bij gemiste deadlines en de
+patroonherkenningsmodule.
+
+In Hoofdstuk~\ref{ch:surveyanalyse} worden de resultaten van de kwantitatieve
+survey gerapporteerd en geïnterpreteerd. De survey werd ingevuld door 32
+respondenten en valideerde zowel de probleemstelling als de gemaakte
+ontwerpkeuzes.
+
+In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven
+en een antwoord geformuleerd op de centrale onderzoeksvraag. Daarbij
+worden ook aanbevelingen geformuleerd voor verdere ontwikkeling en
+toekomstig onderzoek binnen dit domein.

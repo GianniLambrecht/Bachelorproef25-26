@@ -1,0 +1,12 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{p}{:}\PYG{n+nd}{root}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{n+nv}{\PYGZhy{}\PYGZhy{}bg}\PYG{p}{:}\PYG{+w}{       }\PYG{l+m+mh}{\PYGZsh{}F4F3EE}\PYG{p}{;}\PYG{+w}{  }\PYG{c}{/* warmer off\PYGZhy{}white */}
+\PYG{+w}{  }\PYG{n+nv}{\PYGZhy{}\PYGZhy{}surface}\PYG{p}{:}\PYG{+w}{  }\PYG{l+m+mh}{\PYGZsh{}FAFAF7}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n+nv}{\PYGZhy{}\PYGZhy{}border}\PYG{p}{:}\PYG{+w}{   }\PYG{l+m+mh}{\PYGZsh{}DEDAD2}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{c}{/* Minder verzadigd dan v2 — survey: \PYGZdq{}kleurboek\PYGZdq{}\PYGZhy{}feedback */}
+\PYG{+w}{  }\PYG{n+nv}{\PYGZhy{}\PYGZhy{}teal}\PYG{p}{:}\PYG{+w}{     }\PYG{l+m+mh}{\PYGZsh{}2A8A6E}\PYG{p}{;}\PYG{+w}{  }\PYG{c}{/* was \PYGZsh{}1D9E75 in v2 */}
+\PYG{+w}{  }\PYG{n+nv}{\PYGZhy{}\PYGZhy{}amber}\PYG{p}{:}\PYG{+w}{    }\PYG{l+m+mh}{\PYGZsh{}A06820}\PYG{p}{;}\PYG{+w}{  }\PYG{c}{/* was \PYGZsh{}BA7517 in v2 */}
+\PYG{+w}{  }\PYG{n+nv}{\PYGZhy{}\PYGZhy{}blue}\PYG{p}{:}\PYG{+w}{     }\PYG{l+m+mh}{\PYGZsh{}2A5FA0}\PYG{p}{;}\PYG{+w}{  }\PYG{c}{/* was \PYGZsh{}1A5FAD in v2 */}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

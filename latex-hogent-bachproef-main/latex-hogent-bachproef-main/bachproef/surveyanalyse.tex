@@ -1,0 +1,277 @@
+%%=============================================================================
+%% Surveyonderzoek
+%%=============================================================================
+
+\chapter{Surveyonderzoek}%
+\label{ch:surveyanalyse}
+
+Dit hoofdstuk rapporteert de resultaten van het kwantitatief surveyonderzoek dat
+werd uitgevoerd ter aanvulling van de semigestructureerde interviews en de
+vergelijkende app-analyse. De survey had een tweeledige doelstelling: enerzijds
+het valideren van de kwalitatieve interviewbevindingen op een bredere steekproef,
+anderzijds het verzamelen van directe gebruikersvoorkeuren over concrete
+designkeuzes in het prototype.
+
+\section{Opzet en verspreiding}
+
+De survey werd opgesteld in Google Forms en bestond uit 23 vragen verdeeld over
+vijf blokken: profielvragen, vragen over huidige planningstools, designkeuzes via
+A/B-vergelijkingen, prototype-evaluatie op basis van Likert-schalen en een open
+eindvraag. De volledige vragenlijst is opgenomen als bijlage~\ref{bijl:surveyanalyse}.
+
+De survey werd verspreid via drie kanalen: de studentengemeenschap van HOGENT
+(via Toledo, studentenkring en studentenbegeleiding), Reddit (\textit{r/belgium}
+en \textit{r/ADHD}) en Discord. De oproep richtte zich uitdrukkelijk niet alleen
+tot studenten met een officiële diagnose, maar ook tot personen die zich herkennen
+in planningsproblemen of uitstelgedrag. In totaal namen \textbf{32 respondenten}
+deel aan de survey.
+
+\section{Profiel van de respondenten}
+
+\subsection{ADHD-status}
+
+Van de 32 respondenten had 56,3\% (n=18) een officiële ADHD-diagnose, 25,0\%
+(n=8) vermoedt sterk ADHD te hebben zonder formele diagnose, en 18,8\% (n=6)
+herkent zich in planningsproblemen zonder vermoeden van ADHD. Geen enkele
+respondent gaf aan geen enkele planningsproblematiek te ervaren. De steekproef
+is daarmee vrijwel volledig relevant voor het onderzoek.
+
+\subsection{Relatie met deadlines}
+
+Gevraagd naar hun relatie met deadlines, gaf 68,8\% (n=22) aan te weten dat ze
+moeten beginnen maar er niet aan toe te komen, en 62,5\% (n=20) geeft aan pas
+te starten als de deadline dichtbij is. Slechts 9,4\% (n=3) begint ruim op tijd
+en werkt gespreid. Deze verdeling bevestigt het beeld dat naar voren kwam in de
+interviews: het probleem ligt niet bij het kennen van de deadline, maar bij het
+initiëren van de taak.
+
+\subsection{Moeilijkste moment in het planningsproces}
+
+Op de vraag wat het moeilijkste moment is in een planningsproces, antwoordde
+77,4\% (n=24 van 31 respondenten) dat dit het starten is, ook als ze de wil
+hebben om te beginnen. Dit is de sterkste kwantitatieve bevestiging van de
+initiatieparalyse die in de literatuurstudie~\autocite{Barkley2022} en in beide
+interviews naar voren kwam. Tijdsinschatting werd door 16,1\% als moeilijkst
+aangeduid; verdergaan na een onderbreking en bijhouden wat er gedaan is, werden
+elk door minder dan 5\% vermeld.
+
+\subsection{Reactie op een gemiste deadline}
+
+Op de vraag hoe men reageert wanneer een deadline gemist wordt, antwoordde
+slechts 9,4\% (n=3) dat men meteen herplant en verdergaat. De overige 84,4\%
+vertoont een of andere vorm van vermijding: 46,9\% doet de taak op het
+allerlaatste moment alsnog, 37,5\% stelt herplannen uit door schaamte of stress,
+en 6,3\% geeft de taak helemaal op.
+
+Dit cijfer is de meest directe kwantitatieve onderbouwing van de kernlacune die
+in de app-analyse werd geïdentificeerd: het moment ná een gemiste deadline is
+het minst ondersteunde en tegelijk het meest kritieke interventievenster. Geen
+enkele onderzochte planningsapp begeleidt actief dit moment, en de surveydata
+toont aan dat 84,4\% van de gebruikers op dat moment ondersteuning nodig heeft.
+
+\section{Huidige planningstools}
+
+\subsection{Bekendheid en gebruik}
+
+Google Calendar en de papieren agenda zijn de meest gebruikte tools, beiden door
+75,0\% (n=24) van de respondenten. Microsoft To Do en Todoist werden elk door
+34,4\% (n=11) geprobeerd, Notion door 28,1\% (n=9). Opmerkelijk is dat de
+ADHD-specifieke apps Tiimo en Goblin.tools elk slechts door 3,1\% (n=1) van
+de respondenten werden geprobeerd. Dit suggereert dat het bestaande ADHD-specifieke
+aanbod de doelgroep niet of nauwelijks bereikt.
+
+\subsection{Retentie}
+
+50,0\% van de respondenten houdt een planningsapp minder dan vier weken vol:
+25,0\% stopt binnen de eerste week en 25,0\% binnen één tot vier weken. Slechts
+21,9\% volhoudt langer dan drie maanden. Dit retentieprobleem bevestigt de
+bevinding uit de interviews dat apps structureel worden verlaten, niet sporadisch.
+
+\subsection{Redenen van afhaken}
+
+De voornaamste reden om met een planningsapp te stoppen is dat de app niet helpt
+bij het daadwerkelijk starten van taken (35,5\%, n=11). Op de tweede plaats staat
+het stoppen na een gemiste dag of deadline (25,8\%, n=8), gevolgd door te veel
+moeite om informatie in te voeren (22,6\%, n=7) en notificaties die worden
+genegeerd (16,1\%, n=5). Gecombineerd gaat 61,3\% van het afhaken terug op
+vastlopen of op een gemiste deadline. Dit zijn twee situaties die het prototype expliciet
+adresseert.
+
+\subsection{Perceptie van bestaand aanbod}
+
+Op de vraag in hoeverre bestaande planningsapps rekening houden met hoe het
+brein van de respondent werkt (schaal 1--5), gaf 40,6\% een score van 1 en
+37,5\% een score van 2. Niemand gaf een score van 4. Eén respondent gaf een
+score van 5. Het gewogen gemiddelde bedraagt 1,88 op 5. Dit is de meest
+uitgesproken score in de volledige survey en vormt een sterke kwantitatieve
+aanwijzing dat het bestaande aanbod de doelgroep fundamenteel niet bereikt.
+
+\section{Designkeuzes}
+
+In het derde blok van de survey werden respondenten gevraagd te kiezen tussen
+twee concrete ontwerpopties per vraag. De resultaten geven directe sturing aan
+de ontwerpbeslissingen in het prototype.
+
+\subsection{Taak invoeren}
+
+Op de vraag hoe men een taak wil invoeren: via vrije tekstinvoer waarbij de app
+daarna pas details vraagt (optie A), of via een gestructureerd formulier met
+alle velden tegelijk (optie B) — koos 53,1\% voor optie B en 46,9\% voor optie
+A. Het verschil is nipt. De implicatie voor het ontwerp is dat een combinatie
+van beide benaderingen wenselijk is: een laagdrempelig tekstveldje als startpunt,
+gevolgd door een overzichtelijke structuur.
+
+\subsection{AI-taakverdeling}
+
+De voorkeur voor hoe de AI een taak opsplitst is veel uitgesproken: 84,4\%
+verkiest logische stappen op basis van wat samenhangt (bv. ``lezen'',
+``samenvatten'', ``schrijven''), tegenover 15,6\% dat vaste tijdsblokken
+verkiest. Dit bevestigt de ontwerpkeuze in het prototype om logische stappen
+te genereren in plaats van tijdgestuurde blokken. Vaste tijdsblokken werden
+als rigide en onrealistisch beschouwd.
+
+\subsection{Reactie op een gemiste deadline}
+
+62,5\% verkiest een neutrale herstart: de app toont de volgende ochtend één
+rustige melding zonder cumulerende achterstanden. 37,5\% geeft de voorkeur
+aan een volledig overzicht van alles wat gemist werd. Dit bevestigt de
+ontwerpkeuze in het prototype om geen rode tellers of opeenstapelende
+meldingen te tonen na een gemiste deadline.
+
+\subsection{Herinnering aan taken}
+
+71,9\% verkiest passieve zichtbaarheid via een widget op het startscherm boven
+een actieve dagelijkse pushmelding (28,1\%). Dit sluit aan bij de bevinding van
+respondent 2 in de interviews, die aangaf dat widgets beter werken dan
+notificaties omdat ze zichtbaar zijn zonder actieve interactie te vereisen.
+Voor een productieversie van de applicatie is widget-ondersteuning dan ook een
+prioriteit.
+
+\subsection{Dagweergave}
+
+65,6\% verkiest een prioriteitenlijst zonder vaste tijden boven een tijdlijn op
+basis van uur (34,4\%). Dit is een opmerkelijke bevinding: het huidige prototype
+implementeert een tijdlijnstructuur met tijdslots. Op basis van dit surveyresultaat
+wordt aanbevolen om in een volgende iteratie een hybride dagweergave te
+implementeren waarbij tijden optioneel zijn en de prioriteitsvolgorde centraal
+staat.
+
+\subsection{Reactie bij vastlopen}
+
+58,1\% geeft de voorkeur aan verdere opsplitsing van de huidige stap in
+micro-stappen wanneer men vastloopt, tegenover 41,9\% dat een alternatieve taak
+voorgesteld wil krijgen. Het prototype implementeert de opsplitsingsoptie correct.
+De relatief hoge score voor de alternatieve taak suggereert dat een
+``sla-deze-stap-over''-functie een waardevolle aanvulling zou zijn.
+
+\subsection{Absolute dealbreakers}
+
+Op de vraag wat een app absoluut niet mag doen, selecteerde 68,8\% (n=22) hoge
+invoerdrempel, 62,5\% (n=20) bestraffing voor gemiste taken (visueel of via
+tellers), en 40,6\% (n=13) directieve instructies die de gebruiker vertellen
+wat hij of zij nu moet doen. Slechts 3,1\% (n=1) gaf aan dat niets van
+bovenstaande hem stoort. Deze drie ontwerpverboden waren reeds verankerd in de
+vereisten van het prototype; de surveydata bevestigt dat ze correct
+geïdentificeerd werden.
+
+\section{Prototype-evaluatie}
+
+\subsection{Gebruiksgemak}
+
+30 respondenten testten het prototype. Op de uitspraak ``Ik vond het prototype
+makkelijk te gebruiken'' (schaal 1--5) antwoordde 43,3\% neutraal (score 3) en
+26,7\% positief (score 4). Het gewogen gemiddelde bedraagt 2,83 op 5. Dit is
+een matig resultaat, maar realistisch voor een klikbaar HTML-prototype zonder
+echte AI-integratie, mobiele optimalisatie of persistente dataopslag.
+
+\subsection{Rust en overzichtelijkheid}
+
+Op de uitspraak ``De interface voelde rustig en overzichtelijk aan'' scoorde de
+applicatie een gewogen gemiddelde van 3,03 op 5, met 33,3\% neutraal en 33,3\%
+positief. 16,7\% gaf een score van 1, wat aansluit bij de open antwoorden
+waarin meerdere respondenten het kleurgebruik als overweldigend omschreven.
+
+\subsection{Gepastheid van de herplanningsaanpak}
+
+De uitspraak ``De manier waarop de app reageert op een gemiste deadline voelt
+gepast aan voor mij'' behaalde eveneens een gemiddelde van 3,03 op 5. 33,3\%
+scoorde positief (score 4) en 33,3\% neutraal (score 3). Dit suggereert dat de
+niet-bestraffende herplanningsflow door een meerderheid als passend wordt
+ervaren, al is er ruimte voor verbetering.
+
+\subsection{Intentie tot gebruik}
+
+Op de uitspraak ``Ik zou deze app willen gebruiken als hij beschikbaar was op
+mijn telefoon'' antwoordde 51,7\% positief en 48,3\% negatief (n=29). De
+meest waardevolle functies waren de dagweergave met kleurgecodeerde taken (30,0\%)
+en het opsplitsen van taken in stappen via het taakdetailscherm (30,0\%),
+gevolgd door de patroonherkenning (20,0\%).
+
+\subsection{Grootste drempel voor dagelijks gebruik}
+
+44,8\% (n=13) geeft aan de gewoonte te zullen verliezen om de app te openen als
+grootste drempel voor dagelijks gebruik. 24,1\% mist een echte mobiele app in
+plaats van een browserbestand, en 13,8\% vindt de invoer nog te omslachtig.
+Dit retentieprobleem ligt niet bij de interface of de functies, maar bij de
+afwezigheid van passieve zichtbaarheid, wat opnieuw pleit voor
+widget-integratie als prioriteit in een productieversie.
+
+\section{Open antwoorden}
+
+14 respondenten vulden de open eindvraag in. De antwoorden werden thematisch
+gecodeerd en leverden vijf thema's op.
+
+\textbf{Agenda-integratie.} Meerdere respondenten vroegen om koppeling met
+bestaande kalenders zoals Google Calendar. Dit is de meest genoemde ontbrekende
+functionaliteit.
+
+\textbf{Kleurgebruik en woordkeuze.} Het kleurgebruik werd door meerdere
+respondenten als te intensief of als waardeoordeel ervaren. Eén respondent
+omschreef de eerste indruk als ``een kleurboek''. Een andere respondent merkte
+op dat de term ``kleiner maken'' kleinerend aanvoelt en stelde ``heropdelen''
+voor als neutraler alternatief. Dit zijn bruikbare aanwijzingen voor een volgende
+iteratie.
+
+\textbf{Keuzereductie.} Meerdere respondenten vroegen om minder keuzes en
+meer automatisering. Eén respondent beschreef het gewenste mechanisme expliciet:
+de gebruiker geeft aan wanneer hij vrij is, en de app bepaalt autonoom wanneer
+taken ingepland worden.
+
+\textbf{Gamificatie.} Eén respondent pleitte voor gamificatie als
+motivatiehefboom, met als argument dat mensen met ADHD vatbaar zijn voor
+positieve bekrachtigingsmechanismen. Dit gaat in tegen de bewuste ontwerpkeuze
+om punten en streaks te vermijden, en verdient verdere overweging in een
+volgende versie.
+
+\textbf{Grenzen van planningsapps.} Twee respondenten wezen erop dat
+planningsapps het kernprobleem van executive dysfunction niet oplossen. Eén
+respondent beschreef concrete triggers die een mentale blokkade veroorzaken —
+onzekerheid, ontbrekende informatie, openstaande sociale verplichtingen — en
+stelde een AI-chatbot voor die helpt de oorzaak van de blokkade te analyseren.
+Dit is een eerlijke begrenzing van wat een planningsapp kan bieden, en een
+richting voor toekomstig onderzoek.
+
+\section{Besluit}
+
+De surveyresultaten bevestigen en verdiepen de bevindingen uit de
+literatuurstudie, de app-analyse en de interviews op drie niveaus.
+
+Op het niveau van de \textbf{probleemstelling} wordt de kernlacune kwantitatief
+onderbouwd: 84,4\% van de respondenten vertoont vermijding na een gemiste
+deadline, slechts 9,4\% herplant meteen. 78,1\% scoort bestaande apps een 1
+of 2 op 5 voor hun aansluiting bij de werking van het ADHD-brein.
+
+Op het niveau van de \textbf{ontwerpvalidatie} bevestigen de A/B-resultaten de
+meeste gemaakte keuzes: logische stappen (84,4\%), neutrale herstart bij gemiste
+deadline (62,5\%), widget boven pushmelding (71,9\%) en geen bestraffing (62,5\%).
+Één keuze wordt bijgestuurd: de dagweergave dient in een volgende iteratie een
+prioriteitenlijst als primaire weergave te gebruiken in plaats van een tijdlijn,
+op basis van de voorkeur van 65,6\% van de respondenten.
+
+Op het niveau van de \textbf{prototypekwaliteit} liggen de gebruiksgemak- en
+overzichtelijkheidsscores rond 3 op 5, wat realistisch is voor een klikbaar
+HTML-prototype. De voornaamste verbeterpunten zijn het kleurgebruik, de
+invoerdrempel en de afwezigheid van widget-ondersteuning. 51,7\% van de
+respondenten geeft aan de app te willen gebruiken als hij beschikbaar was op
+hun telefoon, wat voldoende intentie aantoont om verdere ontwikkeling te
+rechtvaardigen.

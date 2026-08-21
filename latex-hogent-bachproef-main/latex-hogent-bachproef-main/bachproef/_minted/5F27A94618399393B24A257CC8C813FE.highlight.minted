@@ -1,0 +1,23 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{function}\PYG{+w}{ }\PYG{n+nx}{completeVerslag}\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{check}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}vc\PYGZsq{}}\PYG{p}{);}
+\PYG{+w}{  }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n+nx}{check}\PYG{p}{.}\PYG{n+nx}{classList}\PYG{p}{.}\PYG{n+nx}{contains}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}done\PYGZsq{}}\PYG{p}{))}\PYG{+w}{ }\PYG{k}{return}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{c+c1}{// Stap markeren als gedaan}
+\PYG{+w}{  }\PYG{n+nx}{check}\PYG{p}{.}\PYG{n+nx}{textContent}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}✓\PYGZsq{}}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n+nx}{check}\PYG{p}{.}\PYG{n+nx}{classList}\PYG{p}{.}\PYG{n+nx}{add}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}done\PYGZsq{}}\PYG{p}{);}
+
+\PYG{+w}{  }\PYG{c+c1}{// Voortgangsbalk naar 100\PYGZpc{}}
+\PYG{+w}{  }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}vp\PYGZsq{}}\PYG{p}{).}\PYG{n+nx}{style}\PYG{p}{.}\PYG{n+nx}{cssText}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{    }\PYG{l+s+s1}{\PYGZsq{}width:100\PYGZpc{};background:var(\PYGZhy{}\PYGZhy{}teal)\PYGZsq{}}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}vplbl\PYGZsq{}}\PYG{p}{).}\PYG{n+nx}{textContent}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{    }\PYG{l+s+s1}{\PYGZsq{}Alle stappen gedaan!\PYGZsq{}}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{c+c1}{// Visuele bevestiging}
+\PYG{+w}{  }\PYG{n+nx}{confetti}\PYG{p}{();}
+\PYG{+w}{  }\PYG{n+nx}{setTimeout}\PYG{p}{(()}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n+nx}{toast}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Alle stappen gedaan! 🎉\PYGZsq{}}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n+nx}{setTimeout}\PYG{p}{(()}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{n+nx}{go}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}s\PYGZhy{}home\PYGZsq{}}\PYG{p}{),}\PYG{+w}{ }\PYG{l+m+mf}{900}\PYG{p}{);}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{},}\PYG{+w}{ }\PYG{l+m+mf}{500}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}
